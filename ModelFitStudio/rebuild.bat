@@ -6,7 +6,7 @@ rem ===================================================================
 rem  ModelFit Studio - one-click rebuild
 rem
 rem  Double-click this file after editing anything in the project.
-rem  It publishes ModelFitStudio.exe (single file, self-contained),
+rem  It publishes "Models Fit Studio.exe" (single file, self-contained),
 rem  verifies llmfit + the UI really landed in the output folder,
 rem  and rebuilds the shareable zip.
 rem
@@ -33,24 +33,24 @@ if errorlevel 1 (
 )
 
 rem ---- 0. the app must be closed --------------------------------------
-rem A running app holds dist\ModelFitStudio.exe open. Windows then refuses to
+rem A running app holds its exe in dist open. Windows then refuses to
 rem delete dist, and the publish dies inside GenerateBundle with an MSB4018
 rem that never names the real cause. Say it plainly instead.
 set /a APPWAIT=0
 :waitapp
-tasklist /FI "IMAGENAME eq ModelFitStudio.exe" /NH 2>nul | find /I "ModelFitStudio.exe" >nul
+tasklist /FI "IMAGENAME eq Models Fit Studio.exe" /NH 2>nul | find /I "Models Fit Studio.exe" >nul
 if errorlevel 1 goto :appclosed
 set /a APPWAIT+=1
 if %APPWAIT% GEQ 4 (
     echo.
-    echo   [X] ModelFit Studio is still running. It holds dist\ModelFitStudio.exe
+    echo   [X] Models Fit Studio is still running. It holds "dist\Models Fit Studio.exe"
     echo       open, so the rebuild cannot replace it. Close its window and the
     echo       tray icon, then run this again - or run:
-    echo           taskkill /IM ModelFitStudio.exe /F /T
+    echo           taskkill /IM "Models Fit Studio.exe" /F /T
     goto :fail
 )
 echo.
-echo   [!] ModelFit Studio is running and holds dist\ModelFitStudio.exe open.
+echo   [!] Models Fit Studio is running and holds "dist\Models Fit Studio.exe" open.
 echo       Close its window (and the tray icon), then press any key...
 pause >nul
 echo.
@@ -88,7 +88,7 @@ rem ---- 3. verify ----------------------------------------------------
 echo.
 echo   [3/4] checking the output
 set "MISSING="
-for %%F in ("dist\ModelFitStudio.exe" "dist\llmfit.exe" "dist\engine\llama-server.exe" "dist\THIRD-PARTY-NOTICES.txt" "dist\Web\index.html" "dist\Web\app.js" "dist\Web\styles.css" "dist\Web\i18n.js" "dist\Web\lang\de.json") do (
+for %%F in ("dist\Models Fit Studio.exe" "dist\llmfit.exe" "dist\engine\llama-server.exe" "dist\THIRD-PARTY-NOTICES.txt" "dist\Web\index.html" "dist\Web\app.js" "dist\Web\styles.css" "dist\Web\i18n.js" "dist\Web\lang\de.json") do (
     if not exist "%%~F" set "MISSING=!MISSING!  %%~nxF"
     if exist "%%~F" echo         ok  %%~nxF
 )
@@ -101,8 +101,8 @@ if defined MISSING (
 
 rem ---- 4. zip -------------------------------------------------------
 echo.
-echo   [4/4] packaging ModelFitStudio-win-x64.zip
-if exist "ModelFitStudio-win-x64.zip" del /q "ModelFitStudio-win-x64.zip"
+echo   [4/4] packaging Models-Fit-Studio-^<version^>-win-x64.zip
+del /q "Models-Fit-Studio-*-win-x64.zip" 2>nul
 rem Deliberately not Compress-Archive: Windows PowerShell 5.1 stores nested
 rem entries with backslash separators ("Web\app.js"), so anything but Explorer
 rem unpacks a flat file whose name contains a backslash and the app finds no
@@ -116,10 +116,10 @@ echo.
 echo ============================================================
 echo   Done.  Ready to run:
 echo.
-for %%F in ("dist\ModelFitStudio.exe") do echo     exe : %%~fF  (%%~zF bytes)
-for %%F in ("ModelFitStudio-win-x64.zip") do echo     zip : %%~fF  (%%~zF bytes)
+for %%F in ("dist\Models Fit Studio.exe") do echo     exe : %%~fF  (%%~zF bytes)
+for %%F in ("Models-Fit-Studio-*-win-x64.zip") do echo     zip : %%~fF  (%%~zF bytes)
 echo.
-echo   Double-click dist\ModelFitStudio.exe to start it.
+echo   Double-click "dist\Models Fit Studio.exe" to start it.
 echo ============================================================
 echo.
 pause

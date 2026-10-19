@@ -12,7 +12,11 @@
     <AssemblyTitle>Models Fit Studio</AssemblyTitle>
     <Product>Models Fit Studio</Product>
     <Description>Check, benchmark and download local AI models.</Description>
-    <Version>3.16.1</Version>
+    <Version>1.0.0</Version>
+    <!-- the file people see: "Models Fit Studio.exe"; namespaces, folders and %LOCALAPPDATA%\ModelFitStudio keep the short name -->
+    <AssemblyName>Models Fit Studio</AssemblyName>
+    <RootNamespace>ModelFitStudio</RootNamespace>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
     <Authors>zer0ne</Authors>
     <Company>zer0ne</Company>
     <Copyright>Copyright (c) 2026 zer0ne. MIT licence.</Copyright>

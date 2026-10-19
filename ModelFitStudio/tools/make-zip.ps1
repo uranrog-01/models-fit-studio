@@ -1,6 +1,7 @@
 <#
-    Packages dist\ into ModelFitStudio-win-x64.zip, and refuses to leave behind a
-    zip that only Windows Explorer can unpack.
+    Packages dist\ into Models-Fit-Studio-<version>-win-x64.zip, everything inside one
+    "Models Fit Studio" folder, and refuses to leave behind a zip that only Windows
+    Explorer can unpack.
 
     Why not Compress-Archive, and not [ZipFile]::CreateFromDirectory either: both
     run on Windows PowerShell 5.1 (.NET Framework), and both store nested entries
@@ -15,7 +16,9 @@
 [CmdletBinding()]
 param(
     [string]$Source = 'dist',
-    [string]$Destination = 'ModelFitStudio-win-x64.zip'
+    [string]$Version = '',
+    [string]$Destination = '',
+    [string]$Folder = 'Models Fit Studio'
 )
 
 $ErrorActionPreference = 'Stop'
@@ -23,6 +26,13 @@ $ErrorActionPreference = 'Stop'
 # base ...Compression assembly, which a fresh -File session has not loaded yet.
 Add-Type -AssemblyName System.IO.Compression
 Add-Type -AssemblyName System.IO.Compression.FileSystem
+
+if (-not $Version) {
+    $proj = Join-Path (Split-Path -Parent $PSScriptRoot) 'ModelFitStudio.csproj'
+    $Version = ([xml](Get-Content -LiteralPath $proj -Raw)).Project.PropertyGroup.Version | Where-Object { $_ } | Select-Object -First 1
+}
+if (-not $Destination) { $Destination = "Models-Fit-Studio-$Version-win-x64.zip" }
+$exe = 'Models Fit Studio.exe'
 
 if (-not (Test-Path -LiteralPath $Source -PathType Container)) {
     Write-Host "        no $Source folder to package"
@@ -32,10 +42,14 @@ if (-not (Test-Path -LiteralPath $Source -PathType Container)) {
 $root    = (Resolve-Path -LiteralPath $Source).Path
 $cut     = $root.Length + 1
 $outPath = Join-Path (Get-Location).Path $Destination
-# Running the app creates a WebView2 user profile next to its executable.
-# It contains browser state and locked databases, not distributable app files.
+# Left out: a WebView2 user profile (an older build kept one next to the exe; browser
+# state and locked databases, not app files), debug symbols, the WebView2 SDK's API
+# docs, and the exe of the builds before it was renamed.
 $files   = @(Get-ChildItem -LiteralPath $root -Recurse -File | Where-Object {
-    $_.FullName.Substring($cut) -notmatch '(^|[\\/])[^\\/]*\.WebView2([\\/]|$)'
+    $rel = $_.FullName.Substring($cut)
+    $rel -notmatch '(^|[\\/])[^\\/]*\.WebView2([\\/]|$)' -and
+    $rel -notmatch '\.(pdb|xml)$' -and
+    $rel -ne 'ModelFitStudio.exe'
 })
 if ($files.Count -eq 0) {
     Write-Host "        $Source is empty"
@@ -48,7 +62,7 @@ $level  = [System.IO.Compression.CompressionLevel]::Optimal
 $portal = [System.IO.Compression.ZipFile]::Open($outPath, [System.IO.Compression.ZipArchiveMode]::Create)
 try {
     foreach ($f in $files) {
-        $name  = $f.FullName.Substring($cut).Replace('\', '/')
+        $name  = "$Folder/" + $f.FullName.Substring($cut).Replace('\', '/')
         $entry = $portal.CreateEntry($name, $level)
         $entry.LastWriteTime = $f.LastWriteTime
         $target = $entry.Open()
@@ -60,21 +74,23 @@ try {
 } finally { $portal.Dispose() }
 
 # Read it back the way a foreign unzip would see it: a backslash path here is a
-# broken release, and a missing Web/app.js means the app would start with no UI.
+# broken release, and a missing Web/app.js or exe means the app would not start.
 $check = [System.IO.Compression.ZipFile]::OpenRead($outPath)
 $bad = 0
 $web = 0
+$app = 0
 $profiles = 0
 foreach ($e in $check.Entries) {
     if ($e.FullName.Contains('\')) { $bad++ }
-    if ($e.FullName -eq 'Web/app.js') { $web++ }
+    if ($e.FullName -eq "$Folder/Web/app.js") { $web++ }
+    if ($e.FullName -eq "$Folder/$exe") { $app++ }
     if ($e.FullName -match '\.WebView2/') { $profiles++ }
 }
 $count = $check.Entries.Count
 $check.Dispose()
 
-Write-Host "        entries=$count Web/app.js=$web backslash-paths=$bad user-profiles=$profiles"
-if ($bad -gt 0 -or $web -ne 1 -or $profiles -gt 0) {
+Write-Host "        $Destination entries=$count exe=$app Web/app.js=$web backslash-paths=$bad user-profiles=$profiles"
+if ($bad -gt 0 -or $web -ne 1 -or $app -ne 1 -or $profiles -gt 0) {
     Write-Host '        the archive would not unpack into a runnable app'
     exit 2
 }

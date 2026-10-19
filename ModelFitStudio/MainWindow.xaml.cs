@@ -211,6 +211,27 @@ public partial class MainWindow : Window
         System.Windows.Application.Current?.Shutdown();
     }
 
+    // The page's own storage (the saved battle, choices it remembers) lives with the app's data.
+    // WebView2's default is a "<exe name>.WebView2" folder beside the exe, so a renamed or moved
+    // exe started empty, and a copy in Program Files could not write at all. The folder the exe
+    // had while it was called ModelFitStudio.exe is carried over once.
+    private static string BrowserDataFolder()
+    {
+        var dir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "ModelFitStudio", "WebView2");
+        var old = Path.Combine(AppContext.BaseDirectory, "ModelFitStudio.exe.WebView2");
+        if (!Directory.Exists(dir) && Directory.Exists(old)) CopyFolder(old, dir);
+        return dir;
+    }
+
+    private static void CopyFolder(string from, string to)
+    {
+        Directory.CreateDirectory(to);
+        foreach (var f in Directory.GetFiles(from))
+            try { File.Copy(f, Path.Combine(to, Path.GetFileName(f)), true); } catch { }
+        foreach (var d in Directory.GetDirectories(from))
+            CopyFolder(d, Path.Combine(to, Path.GetFileName(d)));
+    }
+
     private async void OnLoaded(object sender, RoutedEventArgs e)
     {
         try
@@ -219,7 +240,7 @@ public partial class MainWindow : Window
             if (!Directory.Exists(webRoot))
                 webRoot = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "Web"));
 
-            await Web.EnsureCoreWebView2Async();
+            await Web.EnsureCoreWebView2Async(await CoreWebView2Environment.CreateAsync(null, BrowserDataFolder()));
             // pick up downloads that were mid-flight when the app last closed
             RestoreQueue();
             Web.CoreWebView2.Settings.AreDefaultContextMenusEnabled = false;

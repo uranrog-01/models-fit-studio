@@ -106,9 +106,9 @@ The Agents tab has a **How to add it to an agent** section that writes the exact
 
 ## Install
 
-1. Download **`ModelFitStudio-win-x64.zip`** from the [latest release](https://github.com/uranrog-01/models-fit-studio/releases/latest).
+1. Download **`Models-Fit-Studio-1.0.0-win-x64.zip`** from the [latest release](https://github.com/uranrog-01/models-fit-studio/releases/latest).
 2. Unzip it anywhere (for example `C:\Apps\ModelFitStudio`).
-3. Run **`ModelFitStudio.exe`**.
+3. Open the **Models Fit Studio** folder and run **`Models Fit Studio.exe`**.
 
 That is all. It needs Windows 10 or 11 (64-bit) and the WebView2 runtime, which Windows already has.
 Your models and settings are kept in `%LOCALAPPDATA%\ModelFitStudio`.

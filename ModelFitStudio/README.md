@@ -6,7 +6,7 @@
 
 Made by **zer0ne**. Free, under the MIT licence. Windows 10 and 11, in 11 languages.
 
-The program file and its data folder keep the short name `ModelFitStudio`.
+The program is `Models Fit Studio.exe`. The project folder, the code and the data folder keep the short name `ModelFitStudio`.
 
 Paste a Hugging Face link (or a model name), and the app scans **your** machine —
 CPU, RAM, GPU and its real memory budget — then tells you:
@@ -128,8 +128,8 @@ them, ships inside the app, so all of that works with no extra download.
 
 ## Getting it running
 
-1. Unzip `ModelFitStudio-win-x64.zip` anywhere.
-2. Run `ModelFitStudio.exe`.
+1. Unzip `Models-Fit-Studio-<version>-win-x64.zip` anywhere.
+2. Open the `Models Fit Studio` folder and run `Models Fit Studio.exe`.
 3. That's it. The app needs:
    - **WebView2 runtime** (preinstalled on Windows 10/11; the app tells you if it is missing)
    - **llmfit.exe** (the fit scorer) and the **engine\** folder (llama.cpp) — both shipped
@@ -139,11 +139,11 @@ them, ships inside the app, so all of that works with no extra download.
 
 Double-click **`rebuild.bat`** in the project folder. It regenerates the icon, publishes
 a single-file win-x64 build into `dist\`, checks that `llmfit.exe`, the engine and the `Web\` UI really
-landed there, and rebuilds `ModelFitStudio-win-x64.zip`, then reads the zip back.
+landed there, and rebuilds `Models-Fit-Studio-<version>-win-x64.zip`, then reads the zip back.
 
 Two things it guards against, because both produce a build that looks fine and isn't:
 
-- **Close the app first.** A running `dist\ModelFitStudio.exe` cannot be replaced, so the
+- **Close the app first.** A running `dist\Models Fit Studio.exe` cannot be replaced, so the
   script asks you to close it (or names `taskkill`) instead of dying inside the publish
   with an `MSB4018`.
 - **The zip's paths are checked.** Windows PowerShell's own zipper stores nested entries as
@@ -260,7 +260,7 @@ ModelFitStudio/
 ├─ tools/lang/          the text of every language; tools/make-lang.py builds Web/lang/
 ├─ THIRD-PARTY-NOTICES.txt  the licence notices of the two programs the app ships
 ├─ rebuild.bat          one-click publish + zip
-└─ dist/                publish output (ModelFitStudio.exe, llmfit.exe, engine/, Web/)
+└─ dist/                publish output (Models Fit Studio.exe, llmfit.exe, engine/, Web/)
 ```
 
 ## Network behaviour
