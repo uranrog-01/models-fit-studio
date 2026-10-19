@@ -96,6 +96,24 @@
     const n = Number(v);
     return n >= 1e6 ? `${(n / 1e9).toFixed(d)}B` : `${n.toFixed(d)}B`;
   };
+  // A file that only helps a model (vision projector, draft head, importance matrix,
+  // vocabulary), the rule of Core/RepoFiles.IsHelper: a draft-named file is a helper only
+  // when it is smaller than any build of the model could be. Battles saved before that
+  // rule existed can still hold one.
+  const isHelperFile = (path, sizeGb, params) => {
+    const p = String(path || "").replace(/\\/g, "/");
+    if (!/mmproj|(^|\/)imatrix[^/]*$|(^|[-_./])(mtp|draft|eagle)([-_./]|$)|(^|\/)ggml-vocab[-_.]/i.test(p)) return false;
+    if (/mmproj|(^|\/)imatrix[^/]*$|(^|\/)ggml-vocab[-_.]/i.test(p)) return true;
+    let b = Number(params) || 0;
+    if (b >= 1e6) b /= 1e9;
+    if (b <= 0) {
+      const name = p.split("/").pop();
+      const moe = name.match(/(\d+)x(\d+(?:\.\d+)?)b\b/i);
+      const one = name.match(/(?:^|[-_.])(\d+(?:\.\d+)?)([bm])(?=$|[-_.])/i);
+      b = moe ? moe[1] * moe[2] : one ? (one[2].toLowerCase() === "b" ? +one[1] : one[1] / 1000) : 0;
+    }
+    return (Number(sizeGb) || 0) < (b > 0 ? b * 0.1 : 3);
+  };
   const ktoks = (v) => {
     if (v === null || v === undefined || Number.isNaN(v)) return "—";
     const n = Number(v);
@@ -2724,9 +2742,16 @@
         try {
           const res = await api("analyze", { input: old.repo });
           if (res.error) continue;
-          const q = res.quants.find((x) => x.file === old.file);
+          // a helper file that entered before the helper rule gives way to the model itself
+          const q = isHelperFile(old.file, old.sizeGb, old.params)
+            ? this.bestVersion(res)
+            : res.quants.find((x) => x.file === old.file);
           const at = this.items.findIndex((x) => x.id === old.id);
-          if (q && at >= 0) this.items[at] = this.entry(res, q);
+          if (q && at >= 0) {
+            const e = this.entry(res, q);
+            if (e.id !== old.id && this.items.some((x) => x.id === e.id)) this.items.splice(at, 1);
+            else this.items[at] = e;
+          }
         } catch {}
         this.save();
         this.render();
