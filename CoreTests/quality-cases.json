@@ -1,0 +1,404 @@
+{
+ "about": "One quality test for Models Fit Studio and zer0ne code: the same questions, the same marking. The two copies must be the same (CoreTests/quality-cases.json and zer0ne_code/engine/test/fixtures/quality-cases.json).",
+ "ending": "\n\nThink it through, then end with a short last line that begins with \"Final answer:\".",
+ "questions": [
+  {
+   "skill": "Reasoning",
+   "prompt": "Alice is older than Bob. Carol is younger than Bob. Dave is older than Alice. Who is the second oldest?",
+   "answer": "Alice",
+   "kind": "word"
+  },
+  {
+   "skill": "Reasoning",
+   "prompt": "All bloops are razzies. All razzies are lazzies. Is every bloop a lazzie? Yes or no.",
+   "answer": "yes",
+   "kind": "word"
+  },
+  {
+   "skill": "Reasoning",
+   "prompt": "A farm has chickens and cows. Together they have 10 heads and 28 legs. How many cows are there?",
+   "answer": "4",
+   "kind": "number"
+  },
+  {
+   "skill": "Reasoning",
+   "prompt": "What is the next number in the sequence: 2, 6, 12, 20, 30, ?",
+   "answer": "42",
+   "kind": "number"
+  },
+  {
+   "skill": "Reasoning",
+   "prompt": "Anna's mother has three daughters. Two of them are named April and May. What is the name of the third daughter?",
+   "answer": "Anna",
+   "kind": "word"
+  },
+  {
+   "skill": "Reasoning",
+   "prompt": "A clock shows 3:15. What is the angle in degrees between the hour hand and the minute hand?",
+   "answer": "7.5",
+   "kind": "number"
+  },
+  {
+   "skill": "Reasoning",
+   "prompt": "I have 3 boxes. Each box holds 4 bags. Each bag holds 5 marbles. I give away 2 bags. How many marbles do I have left?",
+   "answer": "50",
+   "kind": "number"
+  },
+  {
+   "skill": "Reasoning",
+   "prompt": "If yesterday was Thursday, what day is the day after tomorrow?",
+   "answer": "Sunday",
+   "kind": "word"
+  },
+  {
+   "skill": "Math",
+   "prompt": "What is 37 times 48?",
+   "answer": "1776",
+   "kind": "number"
+  },
+  {
+   "skill": "Math",
+   "prompt": "What is 17 squared minus 13 squared?",
+   "answer": "120",
+   "kind": "number"
+  },
+  {
+   "skill": "Math",
+   "prompt": "A recipe needs 3 eggs for 8 pancakes. How many eggs are needed for 40 pancakes?",
+   "answer": "15",
+   "kind": "number"
+  },
+  {
+   "skill": "Math",
+   "prompt": "What is the least common multiple of 12 and 18?",
+   "answer": "36",
+   "kind": "number"
+  },
+  {
+   "skill": "Math",
+   "prompt": "The average of five numbers is 12. Four of them are 10, 14, 9 and 15. What is the fifth number?",
+   "answer": "12",
+   "kind": "number"
+  },
+  {
+   "skill": "Math",
+   "prompt": "A price of 2000 rises by 10% and then falls by 10%. What is the final price?",
+   "answer": "1980",
+   "kind": "number"
+  },
+  {
+   "skill": "Math",
+   "prompt": "How many seconds are there in 2.5 hours?",
+   "answer": "9000",
+   "kind": "number"
+  },
+  {
+   "skill": "Math",
+   "prompt": "Solve for x: 2(x - 3) + 4 = 3x - 7.",
+   "answer": "5",
+   "kind": "number"
+  },
+  {
+   "skill": "Knowledge",
+   "prompt": "Which element has the atomic number 6?\nA) Oxygen\nB) Nitrogen\nC) Carbon\nD) Boron",
+   "answer": "C",
+   "kind": "choice"
+  },
+  {
+   "skill": "Knowledge",
+   "prompt": "Which of these is a prime number?\nA) 97\nB) 91\nC) 87\nD) 93",
+   "answer": "A",
+   "kind": "choice"
+  },
+  {
+   "skill": "Knowledge",
+   "prompt": "About how long does light take to travel from the Sun to the Earth?\nA) 8 seconds\nB) 8 minutes\nC) 8 hours\nD) 8 days",
+   "answer": "B",
+   "kind": "choice"
+  },
+  {
+   "skill": "Knowledge",
+   "prompt": "Which sorting algorithm has an average time complexity of O(n log n)?\nA) Bubble sort\nB) Insertion sort\nC) Selection sort\nD) Merge sort",
+   "answer": "D",
+   "kind": "choice"
+  },
+  {
+   "skill": "Knowledge",
+   "prompt": "In which organ of the human body is insulin produced?\nA) Liver\nB) Pancreas\nC) Kidney\nD) Spleen",
+   "answer": "B",
+   "kind": "choice"
+  },
+  {
+   "skill": "Knowledge",
+   "prompt": "Which treaty ended the First World War?\nA) Treaty of Versailles\nB) Treaty of Vienna\nC) Treaty of Paris\nD) Treaty of Tordesillas",
+   "answer": "A",
+   "kind": "choice"
+  },
+  {
+   "skill": "Knowledge",
+   "prompt": "What does the HTTP status code 404 mean?\nA) Server error\nB) Unauthorized\nC) Moved permanently\nD) Not found",
+   "answer": "D",
+   "kind": "choice"
+  },
+  {
+   "skill": "Knowledge",
+   "prompt": "What is the capital of Australia?\nA) Sydney\nB) Melbourne\nC) Canberra\nD) Perth",
+   "answer": "C",
+   "kind": "choice"
+  },
+  {
+   "skill": "Instructions",
+   "prompt": "Write the letters of the word \"stream\" in alphabetical order, as one word.",
+   "answer": "aemrst",
+   "kind": "exact"
+  },
+  {
+   "skill": "Instructions",
+   "prompt": "Write the word \"planet\" backwards.",
+   "answer": "tenalp",
+   "kind": "exact"
+  },
+  {
+   "skill": "Instructions",
+   "prompt": "How many letters are in the word \"elephant\"?",
+   "answer": "8",
+   "kind": "number"
+  },
+  {
+   "skill": "Instructions",
+   "prompt": "Sort these numbers from smallest to largest, separated by commas: 42, 7, 19, 3",
+   "answer": "3,7,19,42",
+   "kind": "list"
+  },
+  {
+   "skill": "Instructions",
+   "prompt": "Write this in capital letters: quiet river",
+   "answer": "QUIET RIVER",
+   "kind": "exactCase"
+  },
+  {
+   "skill": "Instructions",
+   "prompt": "What is the third word of this sentence: The quick brown fox jumps.",
+   "answer": "brown",
+   "kind": "exact"
+  },
+  {
+   "skill": "Instructions",
+   "prompt": "How many vowels (a, e, i, o, u) are in the word \"education\"?",
+   "answer": "5",
+   "kind": "number"
+  },
+  {
+   "skill": "Instructions",
+   "prompt": "Join the first letter of each word into one word: Big Red Apple Tree",
+   "answer": "BRAT",
+   "kind": "exact"
+  },
+  {
+   "skill": "Code",
+   "prompt": "What does this Python code print?\n\ndef f(n):\n    return n * f(n - 1) if n > 1 else 1\n\nprint(f(5))",
+   "answer": "120",
+   "kind": "number"
+  },
+  {
+   "skill": "Code",
+   "prompt": "What does this Python code print?\n\nd = {\"a\": 1, \"b\": 2}\nd[\"c\"] = d[\"a\"] + d[\"b\"]\nprint(len(d) + d[\"c\"])",
+   "answer": "6",
+   "kind": "number"
+  },
+  {
+   "skill": "Code",
+   "prompt": "What does this Python code print?\n\ncount = 0\nfor i in range(10):\n    if i % 3 == 0:\n        count += 1\nprint(count)",
+   "answer": "4",
+   "kind": "number"
+  },
+  {
+   "skill": "Code",
+   "prompt": "What does this Python code print?\n\nx = [3, 1, 2]\ny = x\ny.append(4)\nx.sort()\nprint(y[0] + len(x))",
+   "answer": "5",
+   "kind": "number"
+  },
+  {
+   "skill": "Code",
+   "prompt": "What does this Python code print?\n\ndef g(a, b=[]):\n    b.append(a)\n    return len(b)\n\nprint(g(1) + g(2))",
+   "answer": "3",
+   "kind": "number"
+  },
+  {
+   "skill": "Code",
+   "prompt": "What does this Python code print?\n\ns = \"hello world\"\nprint(s.split()[1][::-1][:3])",
+   "answer": "dlr",
+   "kind": "exact"
+  },
+  {
+   "skill": "Code",
+   "prompt": "What does this JavaScript code print?\n\nconsole.log([10, 9, 1].sort()[1]);",
+   "answer": "10",
+   "kind": "number"
+  },
+  {
+   "skill": "Code",
+   "prompt": "What does this Python code print?\n\nprint(sum(i * i for i in range(1, 5)))",
+   "answer": "30",
+   "kind": "number"
+  }
+ ],
+ "grading": [
+  {
+   "kind": "number",
+   "answer": "42",
+   "reply": "Let me think.\nThe differences grow by 2.\nFinal answer: 42",
+   "right": true
+  },
+  {
+   "kind": "number",
+   "answer": "42",
+   "reply": "Final answer: 41",
+   "right": false
+  },
+  {
+   "kind": "number",
+   "answer": "1776",
+   "reply": "37 x 48 = 1,776\n**Final answer:** 1,776",
+   "right": true
+  },
+  {
+   "kind": "number",
+   "answer": "7.5",
+   "reply": "The hour hand is at 97.5 degrees and the minute hand at 90.\nFinal answer: 7.5 degrees",
+   "right": true
+  },
+  {
+   "kind": "number",
+   "answer": "50",
+   "reply": "<think>3*4*5 = 60, minus 10</think>\nFinal answer: 50 marbles",
+   "right": true
+  },
+  {
+   "kind": "number",
+   "answer": "50",
+   "reply": "<think>3*4*5 = 60, so the final answer: 50",
+   "right": false
+  },
+  {
+   "kind": "number",
+   "answer": "5",
+   "reply": "The answer is 5.",
+   "right": true
+  },
+  {
+   "kind": "number",
+   "answer": "5",
+   "reply": "Final answer:\n5",
+   "right": true
+  },
+  {
+   "kind": "number",
+   "answer": "120",
+   "reply": "```python\nprint(f(5))\n```\nIt prints 120",
+   "right": true
+  },
+  {
+   "kind": "word",
+   "answer": "yes",
+   "reply": "Every bloop is a razzie, and every razzie a lazzie.\nFinal answer: Yes",
+   "right": true
+  },
+  {
+   "kind": "word",
+   "answer": "yes",
+   "reply": "Final answer: yes or no, it depends",
+   "right": false
+  },
+  {
+   "kind": "word",
+   "answer": "no",
+   "reply": "Final answer: No.",
+   "right": true
+  },
+  {
+   "kind": "word",
+   "answer": "Alice",
+   "reply": "Dave > Alice > Bob > Carol.\nFinal answer: Alice is the second oldest.",
+   "right": true
+  },
+  {
+   "kind": "word",
+   "answer": "Alice",
+   "reply": "Final answer: Bob",
+   "right": false
+  },
+  {
+   "kind": "choice",
+   "answer": "C",
+   "reply": "Carbon has six protons.\nFinal answer: C) Carbon",
+   "right": true
+  },
+  {
+   "kind": "choice",
+   "answer": "C",
+   "reply": "Final answer: **C**",
+   "right": true
+  },
+  {
+   "kind": "choice",
+   "answer": "C",
+   "reply": "Final answer: B",
+   "right": false
+  },
+  {
+   "kind": "choice",
+   "answer": "B",
+   "reply": "Final answer: b",
+   "right": true
+  },
+  {
+   "kind": "exact",
+   "answer": "BRAT",
+   "reply": "B, R, A, T.\nFinal answer: \"BRAT\"",
+   "right": true
+  },
+  {
+   "kind": "exact",
+   "answer": "BRAT",
+   "reply": "Final answer: The word is brat.",
+   "right": true
+  },
+  {
+   "kind": "exact",
+   "answer": "dlr",
+   "reply": "Final answer: dlrow",
+   "right": false
+  },
+  {
+   "kind": "exactCase",
+   "answer": "Hello",
+   "reply": "Final answer: Hello.",
+   "right": true
+  },
+  {
+   "kind": "exactCase",
+   "answer": "Hello",
+   "reply": "Final answer: hello",
+   "right": false
+  },
+  {
+   "kind": "list",
+   "answer": "1,2,3",
+   "reply": "Final answer: 1, 2, 3",
+   "right": true
+  },
+  {
+   "kind": "list",
+   "answer": "1,2,3",
+   "reply": "Final answer: 3, 2, 1",
+   "right": false
+  },
+  {
+   "kind": "number",
+   "answer": "9000",
+   "reply": "",
+   "right": false
+  }
+ ]
+}

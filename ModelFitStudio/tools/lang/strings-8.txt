@@ -1,0 +1,227 @@
+> Downloading the NVIDIA engine… {0}%
+zh 正在下载 NVIDIA 引擎… {0}%
+es Descargando el motor NVIDIA… {0}%
+pt Baixando o motor NVIDIA… {0}%
+ru Скачивается движок NVIDIA… {0}%
+de NVIDIA-Engine wird heruntergeladen… {0}%
+fr Téléchargement du moteur NVIDIA… {0}%
+ja NVIDIA エンジンをダウンロード中… {0}%
+ko NVIDIA 엔진 다운로드 중… {0}%
+tr NVIDIA motoru indiriliyor… %{0}
+it Download del motore NVIDIA… {0}%
+
+> NVIDIA card found. Downloading its faster engine…
+zh 检测到 NVIDIA 显卡。正在下载更快的专用引擎…
+es Tarjeta NVIDIA detectada. Descargando su motor más rápido…
+pt Placa NVIDIA encontrada. Baixando o motor mais rápido dela…
+ru Найдена видеокарта NVIDIA. Скачивается её более быстрый движок…
+de NVIDIA-Karte gefunden. Ihre schnellere Engine wird heruntergeladen…
+fr Carte NVIDIA détectée. Téléchargement de son moteur plus rapide…
+ja NVIDIA のGPUを検出しました。より高速な専用エンジンをダウンロードしています…
+ko NVIDIA 카드를 찾았습니다. 더 빠른 전용 엔진을 다운로드하는 중…
+tr NVIDIA kartı bulundu. Daha hızlı motoru indiriliyor…
+it Scheda NVIDIA rilevata. Download del suo motore più veloce…
+
+> Stopped. You can get the NVIDIA engine later in Settings.
+zh 已停止。之后可以在设置中获取 NVIDIA 引擎。
+es Detenido. Puedes obtener el motor NVIDIA más tarde en Ajustes.
+pt Parado. Você pode obter o motor NVIDIA depois em Configurações.
+ru Остановлено. Движок NVIDIA можно получить позже в настройках.
+de Gestoppt. Die NVIDIA-Engine können Sie später in den Einstellungen holen.
+fr Arrêté. Vous pourrez obtenir le moteur NVIDIA plus tard dans les Réglages.
+ja 停止しました。NVIDIA エンジンは後で設定から入手できます。
+ko 중지했습니다. NVIDIA 엔진은 나중에 설정에서 받을 수 있습니다.
+tr Durduruldu. NVIDIA motorunu daha sonra Ayarlar'dan edinebilirsiniz.
+it Fermato. Puoi ottenere il motore NVIDIA più tardi nelle Impostazioni.
+
+> Smaller fits
+zh 较小版本可用
+es Cabe una menor
+pt Cabe uma menor
+ru Меньшая подходит
+de Kleinere passt
+fr Une plus petite passe
+ja 小さい版なら可
+ko 작은 버전 가능
+tr Küçüğü sığar
+it Una più piccola entra
+
+> A smaller version fits: {0} of {1}
+zh 较小的版本可以运行：{0}，共 {1}
+es Cabe una versión más pequeña: {0} de {1}
+pt Uma versão menor cabe: {0} de {1}
+ru Меньшая версия подходит: {0} из {1}
+de Eine kleinere Version passt: {0} von {1}
+fr Une version plus petite passe : {0} sur {1}
+ja 小さい版なら収まります：{1} 中 {0}
+ko 더 작은 버전은 맞습니다: {1} 중 {0}
+tr Daha küçük bir sürüm sığar: {1} içinden {0}
+it Una versione più piccola entra: {0} di {1}
+
+> Helper file
+zh 辅助文件
+es Archivo auxiliar
+pt Arquivo auxiliar
+ru Вспомогательный файл
+de Hilfsdatei
+fr Fichier auxiliaire
+ja 補助ファイル
+ko 보조 파일
+tr Yardımcı dosya
+it File di supporto
+
+> A helper for another model (a draft or vision file), not a model to chat with.
+zh 这是另一个模型的辅助文件（草稿或视觉文件），不是可以对话的模型。
+es Un auxiliar de otro modelo (archivo de borrador o de visión), no un modelo para chatear.
+pt Um auxiliar de outro modelo (arquivo de rascunho ou de visão), não um modelo para conversar.
+ru Вспомогательный файл для другой модели (черновой или для зрения), а не модель для чата.
+de Eine Hilfsdatei für ein anderes Modell (Entwurfs- oder Bilddatei), kein Modell zum Chatten.
+fr Un auxiliaire pour un autre modèle (fichier de brouillon ou de vision), pas un modèle de discussion.
+ja 別のモデルを補助するファイル（ドラフト用または画像用）で、チャット用のモデルではありません。
+ko 다른 모델을 돕는 파일(초안 또는 비전 파일)이며, 대화용 모델이 아닙니다.
+tr Başka bir modelin yardımcısı (taslak veya görüntü dosyası); sohbet edilecek bir model değil.
+it Un file di supporto per un altro modello (bozza o visione), non un modello con cui chattare.
+
+> Runs slower
+zh 可运行但较慢
+es Va más lento
+pt Roda mais lento
+ru Работает медленнее
+de Läuft langsamer
+fr Tourne plus lentement
+ja 動作は遅め
+ko 느리게 실행
+tr Daha yavaş çalışır
+it Va più lento
+
+> Slower
+zh 较慢
+es Más lento
+pt Mais lento
+ru Медленнее
+de Langsamer
+fr Plus lent
+ja 遅め
+ko 더 느림
+tr Daha yavaş
+it Più lento
+
+> Runs, but slower
+zh 可以运行，但较慢
+es Funciona, pero más lento
+pt Roda, mas mais lento
+ru Работает, но медленнее
+de Läuft, aber langsamer
+fr Fonctionne, mais plus lentement
+ja 動きますが遅くなります
+ko 실행되지만 더 느립니다
+tr Çalışır, ama daha yavaş
+it Funziona, ma più lento
+
+> {0} — over the {1} budget: runs slower, partly from system memory
+zh {0} — 超出 {1} 的预算：会较慢，部分从系统内存运行
+es {0}: supera el presupuesto de {1}; va más lento, en parte desde la memoria del sistema
+pt {0} — acima do limite de {1}: roda mais lento, em parte da memória do sistema
+ru {0} — больше бюджета {1}: работает медленнее, частично из системной памяти
+de {0} — über dem Budget von {1}: läuft langsamer, teils aus dem Arbeitsspeicher
+fr {0} — au-delà du budget de {1} : tourne plus lentement, en partie depuis la mémoire système
+ja {0} — {1} の予算を超過：一部をシステムメモリで動かすため遅くなります
+ko {0} — {1} 예산 초과: 일부를 시스템 메모리에서 실행해 더 느립니다
+tr {0} — {1} bütçesinin üstünde: kısmen sistem belleğinden, daha yavaş çalışır
+it {0} — oltre il budget di {1}: va più lento, in parte dalla memoria di sistema
+
+> {0} needs {1}, more than the {2} budget.
+zh {0} 需要 {1}，超过 {2} 的预算。
+es {0} necesita {1}, más que el presupuesto de {2}.
+pt {0} precisa de {1}, mais que o limite de {2}.
+ru {0} требует {1} — больше бюджета {2}.
+de {0} braucht {1}, mehr als das Budget von {2}.
+fr {0} demande {1}, plus que le budget de {2}.
+ja {0} には {1} が必要で、{2} の予算を超えます。
+ko {0}에는 {1}가 필요하며 {2} 예산을 넘습니다.
+tr {0} için {1} gerekir; bu, {2} bütçesinden fazladır.
+it {0} richiede {1}, più del budget di {2}.
+
+> The rest runs from system memory, slower.
+zh 其余部分从系统内存运行，速度较慢。
+es El resto funciona desde la memoria del sistema, más lento.
+pt O restante roda da memória do sistema, mais lento.
+ru Остальное работает из системной памяти, медленнее.
+de Der Rest läuft aus dem Arbeitsspeicher, langsamer.
+fr Le reste tourne depuis la mémoire système, plus lentement.
+ja 残りはシステムメモリで動き、遅くなります。
+ko 나머지는 시스템 메모리에서 더 느리게 실행됩니다.
+tr Kalanı sistem belleğinden, daha yavaş çalışır.
+it Il resto va dalla memoria di sistema, più lento.
+
+> Runs slower on this PC
+zh 在这台电脑上运行较慢
+es Va más lento en este PC
+pt Roda mais lento neste PC
+ru На этом ПК работает медленнее
+de Läuft auf diesem PC langsamer
+fr Tourne plus lentement sur ce PC
+ja この PC では遅めに動きます
+ko 이 PC에서는 더 느리게 실행됩니다
+tr Bu bilgisayarda daha yavaş çalışır
+it Su questo PC va più lento
+
+> It is bigger than the memory budget, so part of it runs from system memory. A smaller version is faster.
+zh 它超过了内存预算，因此有一部分从系统内存运行。较小的版本更快。
+es Es mayor que el presupuesto de memoria, así que una parte funciona desde la memoria del sistema. Una versión más pequeña es más rápida.
+pt É maior que o limite de memória, então parte roda da memória do sistema. Uma versão menor é mais rápida.
+ru Она больше бюджета памяти, поэтому часть работает из системной памяти. Меньшая версия быстрее.
+de Es ist größer als das Speicherbudget, daher läuft ein Teil aus dem Arbeitsspeicher. Eine kleinere Version ist schneller.
+fr Il dépasse le budget mémoire, donc une partie tourne depuis la mémoire système. Une version plus petite est plus rapide.
+ja メモリ予算より大きいため、一部はシステムメモリで動きます。小さい版のほうが速くなります。
+ko 메모리 예산보다 커서 일부가 시스템 메모리에서 실행됩니다. 더 작은 버전이 더 빠릅니다.
+tr Bellek bütçesinden büyük olduğu için bir kısmı sistem belleğinden çalışır. Daha küçük bir sürüm daha hızlıdır.
+it È più grande del budget di memoria, quindi una parte va dalla memoria di sistema. Una versione più piccola è più veloce.
+
+> Runs slower, partly from system memory
+zh 运行较慢，部分从系统内存运行
+es Va más lento, en parte desde la memoria del sistema
+pt Roda mais lento, em parte da memória do sistema
+ru Работает медленнее, частично из системной памяти
+de Läuft langsamer, teils aus dem Arbeitsspeicher
+fr Tourne plus lentement, en partie depuis la mémoire système
+ja 一部をシステムメモリで動かすため遅め
+ko 일부를 시스템 메모리에서 실행해 더 느림
+tr Kısmen sistem belleğinden, daha yavaş çalışır
+it Va più lento, in parte dalla memoria di sistema
+
+> From zer0ne code
+zh 来自 zer0ne code
+es De zer0ne code
+pt Do zer0ne code
+ru Из zer0ne code
+de Aus zer0ne code
+fr De zer0ne code
+ja zer0ne code から
+ko zer0ne code에서
+tr zer0ne code'dan
+it Da zer0ne code
+
+> This file is in zer0ne code's models folder. It is used from there, not copied.
+zh 此文件位于 zer0ne code 的模型文件夹中，直接从那里使用，不会复制。
+es Este archivo está en la carpeta de modelos de zer0ne code. Se usa desde allí, sin copiarlo.
+pt Este arquivo está na pasta de modelos do zer0ne code. É usado de lá, sem cópia.
+ru Этот файл находится в папке моделей zer0ne code. Он используется оттуда, без копирования.
+de Diese Datei liegt im Modellordner von zer0ne code. Sie wird von dort genutzt, nicht kopiert.
+fr Ce fichier se trouve dans le dossier de modèles de zer0ne code. Il est utilisé depuis là, sans copie.
+ja このファイルは zer0ne code のモデルフォルダーにあります。コピーせず、そこから使います。
+ko 이 파일은 zer0ne code의 모델 폴더에 있습니다. 복사하지 않고 그곳에서 사용합니다.
+tr Bu dosya zer0ne code'un model klasöründe. Kopyalanmadan oradan kullanılır.
+it Questo file è nella cartella dei modelli di zer0ne code. Viene usato da lì, senza copiarlo.
+
+> Delete {0} from disk? It is in zer0ne code's folder, so zer0ne code loses it too.
+zh 要从磁盘删除 {0} 吗？它位于 zer0ne code 的文件夹中，因此 zer0ne code 也会失去它。
+es ¿Eliminar {0} del disco? Está en la carpeta de zer0ne code, así que zer0ne code también lo pierde.
+pt Excluir {0} do disco? Está na pasta do zer0ne code, então o zer0ne code também o perde.
+ru Удалить {0} с диска? Файл находится в папке zer0ne code, поэтому zer0ne code тоже его потеряет.
+de {0} von der Festplatte löschen? Die Datei liegt im Ordner von zer0ne code, also verliert zer0ne code sie auch.
+fr Supprimer {0} du disque ? Il se trouve dans le dossier de zer0ne code, donc zer0ne code le perd aussi.
+ja {0} をディスクから削除しますか？zer0ne code のフォルダーにあるため、zer0ne code からも失われます。
+ko {0}을(를) 디스크에서 삭제할까요? zer0ne code의 폴더에 있으므로 zer0ne code에서도 사라집니다.
+tr {0} diskten silinsin mi? zer0ne code'un klasöründe olduğu için zer0ne code da onu kaybeder.
+it Eliminare {0} dal disco? È nella cartella di zer0ne code, quindi anche zer0ne code lo perde.

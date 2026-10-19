@@ -1,0 +1,1001 @@
+> Suggest
+zh 推荐
+es Sugerir
+pt Sugerir
+ru Подсказать
+de Vorschlagen
+fr Suggérer
+ja おすすめ
+ko 추천
+tr Öner
+it Suggerisci
+
+> Show the best models for this PC
+zh 显示最适合这台电脑的模型
+es Muestra los mejores modelos para este PC
+pt Mostra os melhores modelos para este PC
+ru Показать лучшие модели для этого ПК
+de Die besten Modelle für diesen PC anzeigen
+fr Affiche les meilleurs modèles pour ce PC
+ja このPCに最適なモデルを表示
+ko 이 PC에 가장 좋은 모델 보기
+tr Bu bilgisayar için en iyi modelleri göster
+it Mostra i modelli migliori per questo PC
+
+> Best for this PC
+zh 最适合这台电脑
+es Lo mejor para este PC
+pt O melhor para este PC
+ru Лучшее для этого ПК
+de Am besten für diesen PC
+fr Le meilleur pour ce PC
+ja このPCに最適
+ko 이 PC에 최적
+tr Bu bilgisayar için en iyisi
+it Il meglio per questo PC
+
+> Close
+zh 关闭
+es Cerrar
+pt Fechar
+ru Закрыть
+de Schließen
+fr Fermer
+ja 閉じる
+ko 닫기
+tr Kapat
+it Chiudi
+
+> Looking through the models that fit…
+zh 正在筛选放得下的模型…
+es Revisando los modelos que caben…
+pt Examinando os modelos que cabem…
+ru Просмотр подходящих моделей…
+de Passende Modelle werden durchgesehen…
+fr Examen des modèles qui tiennent…
+ja 収まるモデルを調べています…
+ko 맞는 모델을 살펴보는 중…
+tr Sığan modeller inceleniyor…
+it Esame dei modelli compatibili…
+
+> Chosen from the models that fit, by quality and speed.
+zh 从放得下的模型中，按质量和速度挑选。
+es Elegidos entre los modelos que caben, por calidad y velocidad.
+pt Escolhidos entre os modelos que cabem, por qualidade e velocidade.
+ru Выбраны из подходящих моделей по качеству и скорости.
+de Aus den passenden Modellen gewählt, nach Qualität und Tempo.
+fr Choisis parmi les modèles qui tiennent, selon la qualité et la vitesse.
+ja 収まるモデルの中から、品質と速度で選びました。
+ko 맞는 모델 중에서 품질과 속도로 골랐습니다.
+tr Sığan modeller arasından kalite ve hıza göre seçildi.
+it Scelti tra i modelli compatibili, per qualità e velocità.
+
+> Best overall
+zh 综合最佳
+es Mejor en general
+pt Melhor no geral
+ru Лучшая в целом
+de Insgesamt am besten
+fr Meilleur choix
+ja 総合ベスト
+ko 종합 최고
+tr Genel olarak en iyi
+it Migliore in assoluto
+
+> Smartest
+zh 最聪明
+es El más inteligente
+pt O mais inteligente
+ru Самая умная
+de Am klügsten
+fr Le plus intelligent
+ja 最も賢い
+ko 가장 똑똑함
+tr En zeki
+it Il più intelligente
+
+> Fastest
+zh 最快
+es El más rápido
+pt O mais rápido
+ru Самая быстрая
+de Am schnellsten
+fr Le plus rapide
+ja 最速
+ko 가장 빠름
+tr En hızlı
+it Il più veloce
+
+> The highest quality that still feels quick on this PC.
+zh 在这台电脑上仍然流畅的最高质量。
+es La mayor calidad que aún se siente ágil en este PC.
+pt A maior qualidade que ainda parece ágil neste PC.
+ru Наивысшее качество, которое на этом ПК всё ещё работает быстро.
+de Die höchste Qualität, die sich auf diesem PC noch flott anfühlt.
+fr La meilleure qualité qui reste réactive sur ce PC.
+ja このPCで軽快さを保てる最高品質。
+ko 이 PC에서 여전히 빠르게 느껴지는 최고 품질.
+tr Bu bilgisayarda hâlâ hızlı hissettiren en yüksek kalite.
+it La qualità più alta che resta reattiva su questo PC.
+
+> The highest quality that still writes at reading pace.
+zh 仍能达到阅读速度的最高质量。
+es La mayor calidad que aún escribe a ritmo de lectura.
+pt A maior qualidade que ainda escreve em ritmo de leitura.
+ru Наивысшее качество, которое ещё пишет со скоростью чтения.
+de Die höchste Qualität, die noch im Lesetempo schreibt.
+fr La meilleure qualité qui écrit encore au rythme de lecture.
+ja 読む速さで書ける範囲での最高品質。
+ko 읽는 속도로 쓰는 범위에서 최고 품질.
+tr Hâlâ okuma hızında yazan en yüksek kalite.
+it La qualità più alta che scrive ancora a ritmo di lettura.
+
+> The quickest one that still answers well.
+zh 回答仍然不错的最快模型。
+es El más veloz que aún responde bien.
+pt O mais veloz que ainda responde bem.
+ru Самая быстрая из тех, что всё ещё отвечают хорошо.
+de Das schnellste, das noch gut antwortet.
+fr Le plus rapide qui répond encore bien.
+ja 十分な回答ができる中で最速。
+ko 답변이 여전히 좋은 것 중 가장 빠름.
+tr Hâlâ iyi yanıt veren en hızlısı.
+it Il più rapido che risponde ancora bene.
+
+> {0} of {1} GB memory
+zh 内存 {0} / {1} GB
+es {0} de {1} GB de memoria
+pt {0} de {1} GB de memória
+ru {0} из {1} ГБ памяти
+de {0} von {1} GB Speicher
+fr {0} sur {1} Go de mémoire
+ja メモリ {0} / {1} GB
+ko 메모리 {0} / {1} GB
+tr {1} GB belleğin {0} GB'ı
+it {0} di {1} GB di memoria
+
+> {0} GB memory
+zh 内存 {0} GB
+es {0} GB de memoria
+pt {0} GB de memória
+ru {0} ГБ памяти
+de {0} GB Speicher
+fr {0} Go de mémoire
+ja メモリ {0} GB
+ko 메모리 {0} GB
+tr {0} GB bellek
+it {0} GB di memoria
+
+> Reads images
+zh 可读图片
+es Lee imágenes
+pt Lê imagens
+ru Понимает изображения
+de Liest Bilder
+fr Lit les images
+ja 画像を読める
+ko 이미지 인식
+tr Görsel okur
+it Legge immagini
+
+> Add to battle
+zh 加入对战
+es Añadir a la batalla
+pt Adicionar à batalha
+ru Добавить в битву
+de Zum Duell hinzufügen
+fr Ajouter au duel
+ja バトルに追加
+ko 배틀에 추가
+tr Düelloya ekle
+it Aggiungi alla sfida
+
+> Added to Battle
+zh 已加入对战
+es Añadido a la batalla
+pt Adicionado à batalha
+ru Добавлено в битву
+de Zum Duell hinzugefügt
+fr Ajouté au duel
+ja バトルに追加しました
+ko 배틀에 추가됨
+tr Düelloya eklendi
+it Aggiunto alla sfida
+
+> No well-known chat model fits this PC comfortably. Try the search below with a small size, like 1B or 3B.
+zh 没有知名的对话模型能轻松放进这台电脑。请在下方搜索较小的规模，例如 1B 或 3B。
+es Ningún modelo de chat conocido cabe con holgura en este PC. Prueba la búsqueda de abajo con un tamaño pequeño, como 1B o 3B.
+pt Nenhum modelo de chat conhecido cabe com folga neste PC. Tente a busca abaixo com um tamanho pequeno, como 1B ou 3B.
+ru Ни одна известная чат-модель не помещается на этом ПК с запасом. Попробуйте поиск ниже с небольшим размером, например 1B или 3B.
+de Kein bekanntes Chat-Modell passt bequem auf diesen PC. Versuchen Sie die Suche unten mit einer kleinen Größe wie 1B oder 3B.
+fr Aucun modèle de chat connu ne tient à l'aise sur ce PC. Essayez la recherche ci-dessous avec une petite taille, comme 1B ou 3B.
+ja よく知られたチャットモデルで、このPCに余裕を持って収まるものがありません。下の検索で 1B や 3B など小さいサイズを試してください。
+ko 잘 알려진 채팅 모델 중 이 PC에 여유 있게 맞는 것이 없습니다. 아래 검색에서 1B나 3B 같은 작은 크기를 시도해 보세요.
+tr Tanınmış hiçbir sohbet modeli bu bilgisayara rahatça sığmıyor. Aşağıdaki aramayı 1B veya 3B gibi küçük bir boyutla deneyin.
+it Nessun modello di chat noto entra comodamente in questo PC. Prova la ricerca qui sotto con una taglia piccola, come 1B o 3B.
+
+> Search Hugging Face — qwen coder, vision, gemma, 7B…
+zh 搜索 Hugging Face：qwen coder、vision、gemma、7B…
+es Buscar en Hugging Face: qwen coder, vision, gemma, 7B…
+pt Buscar no Hugging Face: qwen coder, vision, gemma, 7B…
+ru Поиск на Hugging Face: qwen coder, vision, gemma, 7B…
+de Hugging Face durchsuchen: qwen coder, vision, gemma, 7B…
+fr Rechercher sur Hugging Face : qwen coder, vision, gemma, 7B…
+ja Hugging Face を検索：qwen coder、vision、gemma、7B…
+ko Hugging Face 검색: qwen coder, vision, gemma, 7B…
+tr Hugging Face'te ara: qwen coder, vision, gemma, 7B…
+it Cerca su Hugging Face: qwen coder, vision, gemma, 7B…
+
+> Fits this PC
+zh 这台电脑放得下
+es Cabe en este PC
+pt Cabe neste PC
+ru Подходит этому ПК
+de Passt auf diesen PC
+fr Tient sur ce PC
+ja このPCに収まる
+ko 이 PC에 맞음
+tr Bu bilgisayara sığar
+it Compatibile con questo PC
+
+> Show only models that fit this PC's memory
+zh 只显示这台电脑内存放得下的模型
+es Mostrar solo los modelos que caben en la memoria de este PC
+pt Mostrar só os modelos que cabem na memória deste PC
+ru Показывать только модели, помещающиеся в память этого ПК
+de Nur Modelle zeigen, die in den Speicher dieses PCs passen
+fr Afficher seulement les modèles qui tiennent dans la mémoire de ce PC
+ja このPCのメモリに収まるモデルだけを表示
+ko 이 PC 메모리에 맞는 모델만 표시
+tr Yalnızca bu bilgisayarın belleğine sığan modelleri göster
+it Mostra solo i modelli che entrano nella memoria di questo PC
+
+> Refresh
+zh 刷新
+es Actualizar
+pt Atualizar
+ru Обновить
+de Aktualisieren
+fr Actualiser
+ja 更新
+ko 새로고침
+tr Yenile
+it Aggiorna
+
+> Most downloads
+zh 下载最多
+es Más descargas
+pt Mais baixados
+ru Больше загрузок
+de Meiste Downloads
+fr Plus téléchargés
+ja ダウンロード数順
+ko 다운로드 많은 순
+tr En çok indirilen
+it Più scaricati
+
+> Most likes
+zh 点赞最多
+es Más «me gusta»
+pt Mais curtidos
+ru Больше лайков
+de Meiste Likes
+fr Plus aimés
+ja いいね数順
+ko 좋아요 많은 순
+tr En çok beğenilen
+it Più apprezzati
+
+> Recently updated
+zh 最近更新
+es Actualizados hace poco
+pt Atualizados recentemente
+ru Недавно обновлённые
+de Kürzlich aktualisiert
+fr Mis à jour récemment
+ja 更新が新しい順
+ko 최근 업데이트순
+tr Son güncellenen
+it Aggiornati di recente
+
+> GGUF and MLX
+zh GGUF 和 MLX
+es GGUF y MLX
+pt GGUF e MLX
+ru GGUF и MLX
+de GGUF und MLX
+fr GGUF et MLX
+ja GGUF と MLX
+ko GGUF 및 MLX
+tr GGUF ve MLX
+it GGUF e MLX
+
+> Models from Hugging Face, sized against this PC. The card is a quick estimate;
+zh 来自 Hugging Face 的模型，已按这台电脑估算。卡片只是粗略估计；
+es Modelos de Hugging Face, medidos frente a este PC. La tarjeta es una estimación rápida;
+pt Modelos do Hugging Face, dimensionados para este PC. O cartão é uma estimativa rápida;
+ru Модели с Hugging Face, оценённые для этого ПК. Карточка — быстрая оценка;
+de Modelle von Hugging Face, an diesem PC gemessen. Die Karte ist eine schnelle Schätzung;
+fr Modèles de Hugging Face, évalués pour ce PC. La carte est une estimation rapide ;
+ja Hugging Face のモデルを、このPCに合わせて見積もっています。カードは目安で、
+ko Hugging Face의 모델을 이 PC 기준으로 계산했습니다. 카드는 빠른 추정이며,
+tr Hugging Face modelleri, bu bilgisayara göre ölçülür. Kart hızlı bir tahmindir;
+it Modelli da Hugging Face, valutati per questo PC. La scheda è una stima rapida;
+
+> gives the exact answer.
+zh 可给出准确结果。
+es da la respuesta exacta.
+pt dá a resposta exata.
+ru даёт точный ответ.
+de liefert die genaue Antwort.
+fr donne la réponse exacte.
+ja で正確な結果がわかります。
+ko 을(를) 누르면 정확한 결과가 나옵니다.
+tr kesin yanıtı verir.
+it dà la risposta esatta.
+
+> searching huggingface.co…
+zh 正在搜索 huggingface.co…
+es buscando en huggingface.co…
+pt buscando em huggingface.co…
+ru поиск на huggingface.co…
+de huggingface.co wird durchsucht…
+fr recherche sur huggingface.co…
+ja huggingface.co を検索中…
+ko huggingface.co 검색 중…
+tr huggingface.co aranıyor…
+it ricerca su huggingface.co…
+
+> {0} that fit this PC
+zh {0} 个放得下
+es {0} que caben en este PC
+pt {0} que cabem neste PC
+ru Подходит этому ПК: {0}
+de {0} passen auf diesen PC
+fr {0} qui tiennent sur ce PC
+ja このPCに収まる {0} 件
+ko 이 PC에 맞는 모델 {0}개
+tr Bu bilgisayara sığan {0} model
+it {0} compatibili con questo PC
+
+> {0} models
+zh {0} 个模型
+es {0} modelos
+pt {0} modelos
+ru Моделей: {0}
+de {0} Modelle
+fr {0} modèles
+ja {0} 件のモデル
+ko 모델 {0}개
+tr {0} model
+it {0} modelli
+
+> nothing that fits matched — turn off “Fits this PC” to see everything
+zh 没有放得下的匹配结果，关闭“这台电脑放得下”可查看全部
+es nada que quepa coincide: desactiva «Cabe en este PC» para verlo todo
+pt nada que caiba corresponde: desative «Cabe neste PC» para ver tudo
+ru ничего подходящего не найдено — отключите «Подходит этому ПК», чтобы увидеть всё
+de nichts Passendes gefunden – „Passt auf diesen PC“ ausschalten, um alles zu sehen
+fr rien qui tienne ne correspond : désactivez « Tient sur ce PC » pour tout voir
+ja 収まる結果はありません。「このPCに収まる」をオフにするとすべて表示します
+ko 맞는 결과가 없습니다. 「이 PC에 맞음」을 끄면 전체가 보입니다
+tr sığan bir eşleşme yok — tümünü görmek için «Bu bilgisayara sığar» seçeneğini kapatın
+it nessun risultato compatibile: disattiva «Compatibile con questo PC» per vedere tutto
+
+> nothing matched — try a shorter query
+zh 没有匹配结果，试试更短的关键词
+es sin resultados: prueba una búsqueda más corta
+pt nenhum resultado: tente uma busca mais curta
+ru ничего не найдено — попробуйте запрос короче
+de nichts gefunden – kürzere Suche versuchen
+fr aucun résultat : essayez une recherche plus courte
+ja 一致なし。短いキーワードで試してください
+ko 일치하는 결과 없음. 더 짧게 검색해 보세요
+tr eşleşme yok — daha kısa bir arama deneyin
+it nessun risultato: prova una ricerca più breve
+
+> {0} of {1} memory
+zh 内存 {0} / {1}
+es {0} de {1} de memoria
+pt {0} de {1} de memória
+ru {0} из {1} памяти
+de {0} von {1} Speicher
+fr {0} sur {1} de mémoire
+ja メモリ {0} / {1}
+ko 메모리 {0} / {1}
+tr {1} belleğin {0} kadarı
+it {0} di {1} di memoria
+
+> {0} — more than the {1} this PC has
+zh {0}，超过这台电脑的 {1}
+es {0}: más que los {1} que tiene este PC
+pt {0}: mais que os {1} que este PC tem
+ru {0} — больше, чем {1} на этом ПК
+de {0} – mehr als die {1} dieses PCs
+fr {0} : plus que les {1} de ce PC
+ja {0}（このPCの {1} を超えます）
+ko {0} — 이 PC의 {1}보다 큼
+tr {0} — bu bilgisayardaki {1} değerinden fazla
+it {0}: più dei {1} di questo PC
+
+> tok/s est
+zh tok/s 估计
+es tok/s est.
+pt tok/s est.
+ru ток/с, оценка
+de tok/s geschätzt
+fr tok/s est.
+ja tok/s 推定
+ko tok/s 예상
+tr tok/s tahmini
+it tok/s stim.
+
+> params
+zh 参数
+es parámetros
+pt parâmetros
+ru параметры
+de Parameter
+fr paramètres
+ja パラメータ
+ko 파라미터
+tr parametre
+it parametri
+
+> downloads
+zh 下载量
+es descargas
+pt downloads
+ru загрузки
+de Downloads
+fr téléchargements
+ja ダウンロード
+ko 다운로드
+tr indirme
+it download
+
+> HF page
+zh HF 页面
+es Página de HF
+pt Página no HF
+ru Страница HF
+de HF-Seite
+fr Page HF
+ja HFページ
+ko HF 페이지
+tr HF sayfası
+it Pagina HF
+
+> size unknown — run a check
+zh 大小未知，请先检查
+es tamaño desconocido: haz una comprobación
+pt tamanho desconhecido: faça uma verificação
+ru размер неизвестен — запустите проверку
+de Größe unbekannt – bitte prüfen
+fr taille inconnue : lancez une vérification
+ja サイズ不明。チェックしてください
+ko 크기 알 수 없음. 확인을 실행하세요
+tr boyut bilinmiyor — kontrol çalıştırın
+it dimensione sconosciuta: esegui una verifica
+
+> Add a fighter — paste a Hugging Face link or name
+zh 添加选手：粘贴 Hugging Face 链接或名称
+es Añade un contendiente: pega un enlace o nombre de Hugging Face
+pt Adicione um competidor: cole um link ou nome do Hugging Face
+ru Добавьте бойца: вставьте ссылку или имя с Hugging Face
+de Kämpfer hinzufügen: Hugging-Face-Link oder Namen einfügen
+fr Ajoutez un combattant : collez un lien ou un nom Hugging Face
+ja ファイターを追加：Hugging Face のリンクか名前を貼り付け
+ko 선수 추가: Hugging Face 링크나 이름을 붙여넣으세요
+tr Dövüşçü ekle: bir Hugging Face bağlantısı veya adı yapıştırın
+it Aggiungi uno sfidante: incolla un link o un nome di Hugging Face
+
+> Add
+zh 添加
+es Añadir
+pt Adicionar
+ru Добавить
+de Hinzufügen
+fr Ajouter
+ja 追加
+ko 추가
+tr Ekle
+it Aggiungi
+
+> Choose models that fit
+zh 选择放得下的模型
+es Elegir modelos que caben
+pt Escolher modelos que cabem
+ru Выбрать подходящие модели
+de Passende Modelle wählen
+fr Choisir des modèles qui tiennent
+ja 収まるモデルを選ぶ
+ko 맞는 모델 고르기
+tr Sığan modelleri seç
+it Scegli modelli compatibili
+
+> Adding…
+zh 正在添加…
+es Añadiendo…
+pt Adicionando…
+ru Добавление…
+de Wird hinzugefügt…
+fr Ajout…
+ja 追加中…
+ko 추가 중…
+tr Ekleniyor…
+it Aggiunta…
+
+> Checking it against this PC
+zh 正在与这台电脑比对
+es Comprobándolo en este PC
+pt Verificando neste PC
+ru Проверка для этого ПК
+de Wird für diesen PC geprüft
+fr Vérification sur ce PC
+ja このPCでチェック中
+ko 이 PC 기준으로 확인 중
+tr Bu bilgisayar için kontrol ediliyor
+it Verifica su questo PC
+
+> No fighters yet.
+zh 还没有选手。
+es Aún no hay contendientes.
+pt Ainda não há competidores.
+ru Бойцов пока нет.
+de Noch keine Kämpfer.
+fr Aucun combattant pour l'instant.
+ja ファイターはまだいません。
+ko 아직 선수가 없습니다.
+tr Henüz dövüşçü yok.
+it Ancora nessuno sfidante.
+
+> Add two or more models. They are scored on this PC: quality, speed, memory and context. A model that does not fit is knocked out, not refused.
+zh 添加两个或更多模型。它们会在这台电脑上按质量、速度、内存和上下文打分。放不下的模型会被淘汰，而不是被拒绝。
+es Añade dos o más modelos. Se puntúan en este PC: calidad, velocidad, memoria y contexto. Un modelo que no cabe queda eliminado, no rechazado.
+pt Adicione dois ou mais modelos. Eles são pontuados neste PC: qualidade, velocidade, memória e contexto. Um modelo que não cabe é eliminado, não recusado.
+ru Добавьте две или больше моделей. Они оцениваются на этом ПК: качество, скорость, память и контекст. Модель, которая не помещается, выбывает, а не отклоняется.
+de Fügen Sie zwei oder mehr Modelle hinzu. Sie werden auf diesem PC bewertet: Qualität, Tempo, Speicher und Kontext. Ein Modell, das nicht passt, scheidet aus und wird nicht abgelehnt.
+fr Ajoutez deux modèles ou plus. Ils sont notés sur ce PC : qualité, vitesse, mémoire et contexte. Un modèle qui ne tient pas est éliminé, pas refusé.
+ja モデルを2つ以上追加してください。このPCで品質・速度・メモリ・コンテキストを採点します。収まらないモデルは拒否されず、ノックアウトになります。
+ko 모델을 두 개 이상 추가하세요. 이 PC에서 품질, 속도, 메모리, 컨텍스트로 점수를 매깁니다. 맞지 않는 모델은 거부되지 않고 탈락합니다.
+tr İki veya daha fazla model ekleyin. Bu bilgisayarda kalite, hız, bellek ve bağlama göre puanlanırlar. Sığmayan bir model reddedilmez, elenir.
+it Aggiungi due o più modelli. Vengono valutati su questo PC: qualità, velocità, memoria e contesto. Un modello che non ci sta viene eliminato, non rifiutato.
+
+> Winner
+zh 胜者
+es Ganador
+pt Vencedor
+ru Победитель
+de Sieger
+fr Vainqueur
+ja 勝者
+ko 승자
+tr Kazanan
+it Vincitore
+
+> points
+zh 分
+es puntos
+pt pontos
+ru очков
+de Punkte
+fr points
+ja ポイント
+ko 점
+tr puan
+it punti
+
+> {0} points
+zh {0} 分
+es {0} puntos
+pt {0} pontos
+ru {0} очков
+de {0} Punkte
+fr {0} points
+ja {0} ポイント
+ko {0}점
+tr {0} puan
+it {0} punti
+
+> Share picture
+zh 分享图片
+es Compartir imagen
+pt Compartilhar imagem
+ru Поделиться картинкой
+de Bild teilen
+fr Partager l'image
+ja 画像を共有
+ko 이미지 공유
+tr Görseli paylaş
+it Condividi immagine
+
+> Round {0} · {1}
+zh 第 {0} 回合 · {1}
+es Asalto {0} · {1}
+pt Round {0} · {1}
+ru Раунд {0} · {1}
+de Runde {0} · {1}
+fr Manche {0} · {1}
+ja 第{0}ラウンド · {1}
+ko {0}라운드 · {1}
+tr {0}. raunt · {1}
+it Round {0} · {1}
+
+> Speed
+zh 速度
+es Velocidad
+pt Velocidade
+ru Скорость
+de Tempo
+fr Vitesse
+ja 速度
+ko 속도
+tr Hız
+it Velocità
+
+> Memory
+zh 内存
+es Memoria
+pt Memória
+ru Память
+de Speicher
+fr Mémoire
+ja メモリ
+ko 메모리
+tr Bellek
+it Memoria
+
+> and
+zh 和
+es y
+pt e
+ru и
+de und
+fr et
+ja と
+ko 및
+tr ve
+it e
+
+> quality
+zh 质量
+es calidad
+pt qualidade
+ru качество
+de Qualität
+fr qualité
+ja 品質
+ko 품질
+tr kalite
+it qualità
+
+> speed
+zh 速度
+es velocidad
+pt velocidade
+ru скорость
+de Tempo
+fr vitesse
+ja 速度
+ko 속도
+tr hız
+it velocità
+
+> memory
+zh 内存
+es memoria
+pt memória
+ru память
+de Speicher
+fr mémoire
+ja メモリ
+ko 메모리
+tr bellek
+it memoria
+
+> estimate · test every fighter to use real scores
+zh 估计值 · 测试每位选手后改用真实得分
+es estimación · prueba a cada contendiente para usar puntuaciones reales
+pt estimativa · teste cada competidor para usar pontuações reais
+ru оценка · протестируйте каждого бойца, чтобы использовать реальные баллы
+de Schätzung · jeden Kämpfer testen, um echte Werte zu nutzen
+fr estimation · testez chaque combattant pour utiliser les vrais scores
+ja 推定値 · 全ファイターをテストすると実スコアを使用
+ko 추정치 · 모든 선수를 테스트하면 실제 점수 사용
+tr tahmin · gerçek puanlar için her dövüşçüyü test edin
+it stima · testa ogni sfidante per usare i punteggi reali
+
+> full points at 20 tok/s, 60% at reading pace (7)
+zh 20 tok/s 得满分，阅读速度（7）得 60%
+es puntuación completa a 20 tok/s, 60% a ritmo de lectura (7)
+pt pontuação máxima a 20 tok/s, 60% em ritmo de leitura (7)
+ru полный балл при 20 ток/с, 60% при скорости чтения (7)
+de volle Punkte bei 20 tok/s, 60% im Lesetempo (7)
+fr tous les points à 20 tok/s, 60% au rythme de lecture (7)
+ja 20 tok/s で満点、読む速さ（7）で 60%
+ko 20 tok/s에서 만점, 읽는 속도(7)에서 60%
+tr 20 tok/s'de tam puan, okuma hızında (7) %60
+it punteggio pieno a 20 tok/s, 60% a ritmo di lettura (7)
+
+> full points when it uses half of this PC's memory or less
+zh 占用这台电脑内存一半或更少时得满分
+es puntuación completa si usa la mitad de la memoria de este PC o menos
+pt pontuação máxima se usar metade da memória deste PC ou menos
+ru полный балл, если занимает половину памяти этого ПК или меньше
+de volle Punkte, wenn es höchstens die Hälfte des Speichers dieses PCs nutzt
+fr tous les points s'il utilise la moitié de la mémoire de ce PC ou moins
+ja このPCのメモリの半分以下なら満点
+ko 이 PC 메모리의 절반 이하를 쓰면 만점
+tr bu bilgisayarın belleğinin yarısını veya azını kullanırsa tam puan
+it punteggio pieno se usa metà della memoria di questo PC o meno
+
+> full points at 32K tokens usable here
+zh 此处可用上下文达 32K 得满分
+es puntuación completa con 32K tokens utilizables aquí
+pt pontuação máxima com 32K tokens utilizáveis aqui
+ru полный балл при 32K токенов, доступных здесь
+de volle Punkte bei 32K hier nutzbaren Tokens
+fr tous les points avec 32K tokens utilisables ici
+ja ここで 32K トークン使えれば満点
+ko 여기서 32K 토큰 사용 가능하면 만점
+tr burada 32K kullanılabilir token ile tam puan
+it punteggio pieno con 32K token utilizzabili qui
+
+> share of the 40-question quality test answered right, on this PC
+zh 在这台电脑上，40 题质量测试的正确率
+es parte de la prueba de calidad de 40 preguntas acertada, en este PC
+pt parte do teste de qualidade de 40 perguntas respondida certo, neste PC
+ru доля верных ответов в тесте качества из 40 вопросов, на этом ПК
+de Anteil richtiger Antworten im Qualitätstest mit 40 Fragen, auf diesem PC
+fr part de bonnes réponses au test de qualité de 40 questions, sur ce PC
+ja このPCでの40問品質テストの正答率
+ko 이 PC에서 40문항 품질 테스트 정답률
+tr bu bilgisayarda 40 soruluk kalite testinde doğru yanıt oranı
+it quota di risposte giuste al test di qualità da 40 domande, su questo PC
+
+> {0} of {1} · on this PC
+zh {0} / {1} · 这台电脑
+es {0} de {1} · en este PC
+pt {0} de {1} · neste PC
+ru {0} из {1} · на этом ПК
+de {0} von {1} · auf diesem PC
+fr {0} sur {1} · sur ce PC
+ja {0} / {1} · このPC
+ko {0} / {1} · 이 PC
+tr {0} / {1} · bu bilgisayarda
+it {0} di {1} · su questo PC
+
+> {0} · {1}
+
+> {0} · {1} · {2}
+
+> {0} · {1} · {2} · {3}
+
+> reading pace
+zh 阅读速度
+es ritmo de lectura
+pt ritmo de leitura
+ru скорость чтения
+de Lesetempo
+fr rythme de lecture
+ja 読む速さ
+ko 읽는 속도
+tr okuma hızı
+it ritmo di lettura
+
+> fast
+zh 快
+es rápido
+pt rápido
+ru быстро
+de schnell
+fr rapide
+ja 高速
+ko 빠름
+tr hızlı
+it veloce
+
+> slow
+zh 慢
+es lento
+pt lento
+ru медленно
+de langsam
+fr lent
+ja 低速
+ko 느림
+tr yavaş
+it lento
+
+> speed unknown
+zh 速度未知
+es velocidad desconocida
+pt velocidade desconhecida
+ru скорость неизвестна
+de Tempo unbekannt
+fr vitesse inconnue
+ja 速度不明
+ko 속도 알 수 없음
+tr hız bilinmiyor
+it velocità sconosciuta
+
+> {0} tok/s est.
+zh 约 {0} tok/s
+es {0} tok/s est.
+pt {0} tok/s est.
+ru ~{0} ток/с
+de ca. {0} tok/s
+fr {0} tok/s est.
+ja 推定 {0} tok/s
+ko 예상 {0} tok/s
+tr tahmini {0} tok/s
+it {0} tok/s stim.
+
+> {0} tok/s measured
+zh 实测 {0} tok/s
+es {0} tok/s medidos
+pt {0} tok/s medidos
+ru измерено {0} ток/с
+de {0} tok/s gemessen
+fr {0} tok/s mesurés
+ja 実測 {0} tok/s
+ko 측정 {0} tok/s
+tr ölçülen {0} tok/s
+it {0} tok/s misurati
+
+> {0} of 100 est.
+zh 估计 {0} / 100
+es {0} de 100 est.
+pt {0} de 100 est.
+ru оценка {0} из 100
+de ca. {0} von 100
+fr {0} sur 100 est.
+ja 推定 {0} / 100
+ko 예상 {0} / 100
+tr tahmini {0} / 100
+it {0} su 100 stim.
+
+> {0} of 100
+zh {0} / 100
+es {0} de 100
+pt {0} de 100
+ru {0} из 100
+de {0} von 100
+fr {0} sur 100
+ja {0} / 100
+ko {0} / 100
+tr {0} / 100
+it {0} su 100
+
+> {0}% tested
+zh 实测 {0}%
+es {0}% probado
+pt {0}% testado
+ru тест: {0}%
+de {0}% getestet
+fr {0}% testé
+ja テスト {0}%
+ko 테스트 {0}%
+tr test: %{0}
+it {0}% testato
+
+> quality {0}% tested
+zh 质量实测 {0}%
+es calidad {0}% probada
+pt qualidade {0}% testada
+ru качество по тесту: {0}%
+de Qualität {0}% getestet
+fr qualité {0}% testée
+ja 品質テスト {0}%
+ko 품질 테스트 {0}%
+tr kalite testi: %{0}
+it qualità {0}% testata
+
+> quality {0} of 100 est.
+zh 质量估计 {0} / 100
+es calidad {0} de 100 est.
+pt qualidade {0} de 100 est.
+ru качество: оценка {0} из 100
+de Qualität ca. {0} von 100
+fr qualité {0} sur 100 est.
+ja 品質 推定 {0} / 100
+ko 품질 예상 {0} / 100
+tr kalite tahmini {0} / 100
+it qualità {0} su 100 stim.
+
+> {0} → {1} of {2} points
+zh {0} → {1} / {2} 分
+es {0} → {1} de {2} puntos
+pt {0} → {1} de {2} pontos
+ru {0} → {1} из {2} очков
+de {0} → {1} von {2} Punkten
+fr {0} → {1} sur {2} points
+ja {0} → {1} / {2} ポイント
+ko {0} → {1} / {2}점
+tr {0} → {2} puandan {1}
+it {0} → {1} di {2} punti
+
+> Knocked out
+zh 被淘汰
+es Eliminado
+pt Eliminado
+ru Выбыла
+de Ausgeschieden
+fr Éliminé
+ja ノックアウト
+ko 탈락
+tr Elendi
+it Eliminato
+
+> Does not fit
+zh 放不下
+es No cabe
+pt Não cabe
+ru Не помещается
+de Passt nicht
+fr Ne tient pas
+ja 収まらない
+ko 맞지 않음
+tr Sığmıyor
+it Non ci sta
+
+> Does not fit: needs {0}, this PC has {1}.
+zh 放不下：需要 {0}，这台电脑只有 {1}。
+es No cabe: necesita {0}, este PC tiene {1}.
+pt Não cabe: precisa de {0}, este PC tem {1}.
+ru Не помещается: нужно {0}, на этом ПК {1}.
+de Passt nicht: braucht {0}, dieser PC hat {1}.
+fr Ne tient pas : il faut {0}, ce PC a {1}.
+ja 収まりません：必要 {0}、このPCは {1}。
+ko 맞지 않음: {0} 필요, 이 PC는 {1}.
+tr Sığmıyor: {0} gerekiyor, bu bilgisayarda {1} var.
+it Non ci sta: servono {0}, questo PC ha {1}.
+
+> Fits, but tight
+zh 放得下，但吃紧
+es Cabe, pero justo
+pt Cabe, mas apertado
+ru Помещается, но впритык
+de Passt, aber knapp
+fr Tient, mais c'est juste
+ja 収まるが、きつい
+ko 맞지만 빠듯함
+tr Sığar, ama dar
+it Ci sta, ma al limite
+
+> Too slow
+zh 太慢
+es Demasiado lento
+pt Lento demais
+ru Слишком медленно
+de Zu langsam
+fr Trop lent
+ja 遅すぎる
+ko 너무 느림
+tr Çok yavaş
+it Troppo lento
+
+> Too tight and too slow
+zh 太吃紧且太慢
+es Demasiado justo y demasiado lento
+pt Apertado e lento demais
+ru Слишком тесно и слишком медленно
+de Zu knapp und zu langsam
+fr Trop juste et trop lent
+ja きつすぎて遅すぎる
+ko 너무 빠듯하고 너무 느림
+tr Çok dar ve çok yavaş
+it Troppo stretto e troppo lento
+
+> Download · {0}
+zh 下载 · {0}
+es Descargar · {0}
+pt Baixar · {0}
+ru Скачать · {0}
+de Herunterladen · {0}
+fr Télécharger · {0}
+ja ダウンロード · {0}
+ko 다운로드 · {0}
+tr İndir · {0}
+it Scarica · {0}

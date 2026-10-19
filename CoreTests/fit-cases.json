@@ -1,0 +1,638 @@
+{
+ "about": "One fit rule for Models Fit Studio and zer0ne code. Both apps test against this file; the two copies must be the same (CoreTests/fit-cases.json and zer0ne_code/engine/test/fixtures/fit-cases.json).",
+ "constants": {
+  "perfect": 0.6,
+  "good": 0.85,
+  "tight": 0.98,
+  "ceiling": 0.92,
+  "runtimeGb": 0.35,
+  "lightKv": 0.53125,
+  "longestContext": 32768,
+  "floorGbPerB": 0.1,
+  "readingPace": 7,
+  "sharedSpill": 0.75,
+  "draftMaxGb": 3
+ },
+ "helpers": [
+  {
+   "path": "MTP/mtp-gemma-4-26B-A4B-it-Q8_0.gguf",
+   "helper": true
+  },
+  {
+   "path": "mtp-gemma-4-26B-A4B-it.gguf",
+   "helper": true
+  },
+  {
+   "path": "MTP_mtp-gemma-4-26B-A4B-it-Q8_0.gguf",
+   "helper": true
+  },
+  {
+   "path": "mmproj-BF16.gguf",
+   "helper": true
+  },
+  {
+   "path": "gemma-3-4b-it-mmproj-f16.gguf",
+   "helper": true
+  },
+  {
+   "path": "imatrix.gguf",
+   "helper": true
+  },
+  {
+   "path": "ggml-vocab-llama.gguf",
+   "helper": true
+  },
+  {
+   "path": "Qwen2.5-0.5B-draft-Q8_0.gguf",
+   "helper": true
+  },
+  {
+   "path": "model-eagle-Q8_0.gguf",
+   "helper": true
+  },
+  {
+   "path": "gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+   "helper": false
+  },
+  {
+   "path": "BF16/gemma-4-26B-A4B-it-BF16-00001-of-00002.gguf",
+   "helper": false
+  },
+  {
+   "path": "Qwen3-0.6B-Q4_K_M.gguf",
+   "helper": false
+  },
+  {
+   "path": "llama-3-8b.imatrix.Q4_K_M.gguf",
+   "helper": false
+  },
+  {
+   "path": "Smtp-Helper-7B-Q4_K_M.gguf",
+   "helper": false
+  },
+  {
+   "path": "Drafter-7B-Q4_K_M.gguf",
+   "helper": false
+  }
+ ],
+ "models": [
+  {
+   "name": "a 26B repository with draft heads and a projector",
+   "paramsB": 25.2,
+   "files": [
+    [
+     "MTP/mtp-gemma-4-26B-A4B-it-Q8_0.gguf",
+     0.462
+    ],
+    [
+     "mtp-gemma-4-26B-A4B-it.gguf",
+     0.462
+    ],
+    [
+     "mmproj-BF16.gguf",
+     1.195
+    ],
+    [
+     "gemma-4-26B-A4B-it-assistant-Q8_0.gguf",
+     0.46
+    ],
+    [
+     "gemma-4-26B-A4B-it-UD-IQ2_XXS.gguf",
+     9.922
+    ],
+    [
+     "gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+     16.948
+    ],
+    [
+     "gemma-4-26B-A4B-it-Q8_0.gguf",
+     26.86
+    ]
+   ],
+   "kept": [
+    "gemma-4-26B-A4B-it-UD-IQ2_XXS.gguf",
+    "gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+    "gemma-4-26B-A4B-it-Q8_0.gguf"
+   ]
+  },
+  {
+   "name": "no parameter count: only names decide",
+   "paramsB": 0,
+   "files": [
+    [
+     "MTP/mtp-gemma-4-26B-A4B-it-Q8_0.gguf",
+     0.462
+    ],
+    [
+     "mtp-gemma-4-26B-A4B-it.gguf",
+     0.462
+    ],
+    [
+     "mmproj-BF16.gguf",
+     1.195
+    ],
+    [
+     "gemma-4-26B-A4B-it-assistant-Q8_0.gguf",
+     0.46
+    ],
+    [
+     "gemma-4-26B-A4B-it-UD-IQ2_XXS.gguf",
+     9.922
+    ],
+    [
+     "gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+     16.948
+    ],
+    [
+     "gemma-4-26B-A4B-it-Q8_0.gguf",
+     26.86
+    ]
+   ],
+   "kept": [
+    "gemma-4-26B-A4B-it-assistant-Q8_0.gguf",
+    "gemma-4-26B-A4B-it-UD-IQ2_XXS.gguf",
+    "gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+    "gemma-4-26B-A4B-it-Q8_0.gguf"
+   ]
+  },
+  {
+   "name": "a small model keeps its small files",
+   "paramsB": 0.6,
+   "files": [
+    [
+     "Qwen3-0.6B-Q4_K_M.gguf",
+     0.378
+    ],
+    [
+     "Qwen3-0.6B-Q8_0.gguf",
+     0.64
+    ]
+   ],
+   "kept": [
+    "Qwen3-0.6B-Q4_K_M.gguf",
+    "Qwen3-0.6B-Q8_0.gguf"
+   ]
+  },
+  {
+   "name": "a count that would leave nothing is not used",
+   "paramsB": 70,
+   "files": [
+    [
+     "Qwen3-0.6B-Q4_K_M.gguf",
+     0.378
+    ],
+    [
+     "Qwen3-0.6B-Q8_0.gguf",
+     0.64
+    ]
+   ],
+   "kept": [
+    "Qwen3-0.6B-Q4_K_M.gguf",
+    "Qwen3-0.6B-Q8_0.gguf"
+   ]
+  },
+  {
+   "name": "a full build named MTP (draft layers inside) beside its projector",
+   "paramsB": 27,
+   "files": [
+    [
+     "Qwen3.8-27B-iMatrix-NVFP4-MTP.gguf",
+     17.125
+    ],
+    [
+     "mmproj-Qwen3.8-27B-F16.gguf",
+     0.928
+    ]
+   ],
+   "kept": [
+    "Qwen3.8-27B-iMatrix-NVFP4-MTP.gguf"
+   ]
+  },
+  {
+   "name": "a full build named MTP, no count: the count in its name decides",
+   "paramsB": 0,
+   "files": [
+    [
+     "Qwen3.8-27B-iMatrix-NVFP4-MTP.gguf",
+     17.125
+    ],
+    [
+     "mmproj-Qwen3.8-27B-F16.gguf",
+     0.928
+    ]
+   ],
+   "kept": [
+    "Qwen3.8-27B-iMatrix-NVFP4-MTP.gguf"
+   ]
+  },
+  {
+   "name": "a small MTP build is a build; a head without a count in its name stays a helper",
+   "paramsB": 0,
+   "files": [
+    [
+     "Qwen3.5-2B-MTP-Q4_K_M.gguf",
+     1.28
+    ],
+    [
+     "mtp-gemma-4-E4B-it.gguf",
+     0.1
+    ]
+   ],
+   "kept": [
+    "Qwen3.5-2B-MTP-Q4_K_M.gguf"
+   ]
+  }
+ ],
+ "memory": [
+  {
+   "name": "Gemma 26B IQ2_XXS, 16 GB shared",
+   "fileGb": 9.922,
+   "projectorGb": 1.193,
+   "kvBytesPerToken": 245760,
+   "maxContext": 32768,
+   "fastGb": 16,
+   "ceilingGb": 26.7,
+   "verdict": "good",
+   "context": 8192,
+   "needGb": 12.535
+  },
+  {
+   "name": "Gemma 26B IQ3_S, 16 GB shared",
+   "fileGb": 11.29,
+   "projectorGb": 1.193,
+   "kvBytesPerToken": 245760,
+   "maxContext": 32768,
+   "fastGb": 16,
+   "ceilingGb": 26.7,
+   "verdict": "good",
+   "context": 4096,
+   "needGb": 13.368
+  },
+  {
+   "name": "Gemma 26B Q3_K_M, 16 GB shared",
+   "fileGb": 12.728,
+   "projectorGb": 1.193,
+   "kvBytesPerToken": 245760,
+   "maxContext": 32768,
+   "fastGb": 16,
+   "ceilingGb": 26.7,
+   "verdict": "marginal",
+   "context": 4096,
+   "needGb": 14.806
+  },
+  {
+   "name": "Gemma 26B Q4_K_M, 16 GB shared",
+   "fileGb": 16.948,
+   "projectorGb": 1.193,
+   "kvBytesPerToken": 245760,
+   "maxContext": 32768,
+   "fastGb": 16,
+   "ceilingGb": 26.7,
+   "verdict": "slow",
+   "context": 4096,
+   "needGb": 19.026
+  },
+  {
+   "name": "Gemma 26B Q8_0, 16 GB shared",
+   "fileGb": 26.86,
+   "projectorGb": 1.193,
+   "kvBytesPerToken": 245760,
+   "maxContext": 32768,
+   "fastGb": 16,
+   "ceilingGb": 26.7,
+   "verdict": "no",
+   "context": 4096,
+   "needGb": 28.938
+  },
+  {
+   "name": "Qwen3 0.6B Q4_K_M, 16 GB shared",
+   "fileGb": 0.378,
+   "projectorGb": 0,
+   "kvBytesPerToken": 57344,
+   "maxContext": 32768,
+   "fastGb": 16,
+   "ceilingGb": 26.7,
+   "verdict": "perfect",
+   "context": 32768,
+   "needGb": 1.726
+  },
+  {
+   "name": "8B Q4_K_M, 8 GB card with 16 GB RAM",
+   "fileGb": 4.92,
+   "projectorGb": 0,
+   "kvBytesPerToken": 131072,
+   "maxContext": 32768,
+   "fastGb": 8,
+   "ceilingGb": 12.8,
+   "verdict": "good",
+   "context": 16384,
+   "needGb": 6.411
+  },
+  {
+   "name": "8B Q8_0, 8 GB card with 16 GB RAM",
+   "fileGb": 8.54,
+   "projectorGb": 0,
+   "kvBytesPerToken": 131072,
+   "maxContext": 32768,
+   "fastGb": 8,
+   "ceilingGb": 12.8,
+   "verdict": "slow",
+   "context": 4096,
+   "needGb": 9.175
+  },
+  {
+   "name": "30B Q4_K_M, 8 GB card with 16 GB RAM",
+   "fileGb": 18.6,
+   "projectorGb": 0,
+   "kvBytesPerToken": 196608,
+   "maxContext": 32768,
+   "fastGb": 8,
+   "ceilingGb": 12.8,
+   "verdict": "no",
+   "context": 4096,
+   "needGb": 19.378
+  },
+  {
+   "name": "14B Q4_K_M with a 128K context, 24 GB card with 64 GB RAM",
+   "fileGb": 8.99,
+   "projectorGb": 0,
+   "kvBytesPerToken": 163840,
+   "maxContext": 131072,
+   "fastGb": 24,
+   "ceilingGb": 51.2,
+   "verdict": "perfect",
+   "context": 32768,
+   "needGb": 12.192
+  },
+  {
+   "name": "70B Q4_K_M, 24 GB card with 64 GB RAM",
+   "fileGb": 42.5,
+   "projectorGb": 0,
+   "kvBytesPerToken": 327680,
+   "maxContext": 32768,
+   "fastGb": 24,
+   "ceilingGb": 51.2,
+   "verdict": "slow",
+   "context": 4096,
+   "needGb": 43.563
+  },
+  {
+   "name": "3B Q4_K_M with a 4K context, no graphics",
+   "fileGb": 1.93,
+   "projectorGb": 0,
+   "kvBytesPerToken": 98304,
+   "maxContext": 4096,
+   "fastGb": 7.68,
+   "ceilingGb": 12.8,
+   "verdict": "perfect",
+   "context": 4096,
+   "needGb": 2.494
+  }
+ ],
+ "cache": [
+  {
+   "paramsB": 25.2,
+   "activeB": 4,
+   "bytesPerToken": 103706
+  },
+  {
+   "paramsB": 8,
+   "activeB": 0,
+   "bytesPerToken": 86475
+  },
+  {
+   "paramsB": 0.6,
+   "activeB": 0,
+   "bytesPerToken": 10888
+  },
+  {
+   "paramsB": 30,
+   "activeB": 3,
+   "bytesPerToken": 99110
+  },
+  {
+   "paramsB": 0.2,
+   "activeB": 0,
+   "bytesPerToken": 9410
+  }
+ ],
+ "picks": [
+  {
+   "name": "the largest that fits and writes at reading pace",
+   "pace": 7,
+   "builds": [
+    [
+     "UD-IQ2_XXS",
+     9.92,
+     "good",
+     27,
+     12.5
+    ],
+    [
+     "UD-IQ3_XXS",
+     11.42,
+     "good",
+     24,
+     13.5
+    ],
+    [
+     "UD-Q3_K_M",
+     12.73,
+     "marginal",
+     21,
+     14.8
+    ],
+    [
+     "UD-Q4_K_M",
+     16.95,
+     "slow",
+     12,
+     19
+    ],
+    [
+     "Q8_0",
+     26.86,
+     "no",
+     0,
+     28.9
+    ]
+   ],
+   "pick": "UD-IQ3_XXS"
+  },
+  {
+   "name": "an agent asks for a quicker pace and gets a smaller build",
+   "pace": 25,
+   "builds": [
+    [
+     "UD-IQ2_XXS",
+     9.92,
+     "good",
+     27,
+     12.5
+    ],
+    [
+     "UD-IQ3_XXS",
+     11.42,
+     "good",
+     24,
+     13.5
+    ],
+    [
+     "UD-Q3_K_M",
+     12.73,
+     "marginal",
+     21,
+     14.8
+    ]
+   ],
+   "pick": "UD-IQ2_XXS"
+  },
+  {
+   "name": "an unquantised build is passed over for the Q8",
+   "pace": 7,
+   "builds": [
+    [
+     "Q4_K_M",
+     0.4,
+     "perfect",
+     90,
+     1.7
+    ],
+    [
+     "Q8_0",
+     0.64,
+     "perfect",
+     80,
+     2
+    ],
+    [
+     "BF16",
+     1.2,
+     "perfect",
+     45,
+     2.5
+    ]
+   ],
+   "pick": "Q8_0"
+  },
+  {
+   "name": "none reaches the pace: the usual best trade",
+   "pace": 7,
+   "builds": [
+    [
+     "Q8_0",
+     8.5,
+     "good",
+     4,
+     9.4
+    ],
+    [
+     "Q4_K_M",
+     4.9,
+     "good",
+     6,
+     5.8
+    ],
+    [
+     "Q3_K_M",
+     3.9,
+     "perfect",
+     6.5,
+     4.8
+    ]
+   ],
+   "pick": "Q4_K_M"
+  },
+  {
+   "name": "a publisher mix takes the place of the plain build",
+   "pace": 7,
+   "builds": [
+    [
+     "UD-Q5_K_M",
+     5.7,
+     "good",
+     5,
+     6.6
+    ],
+    [
+     "UD-Q4_K_XL",
+     5.1,
+     "good",
+     5.5,
+     6
+    ]
+   ],
+   "pick": "UD-Q4_K_XL"
+  },
+  {
+   "name": "nothing has room to spare: the least memory",
+   "pace": 7,
+   "builds": [
+    [
+     "Q4_K_M",
+     13.4,
+     "marginal",
+     12,
+     15.5
+    ],
+    [
+     "Q3_K_M",
+     12.7,
+     "marginal",
+     13,
+     14.8
+    ],
+    [
+     "Q5_K_M",
+     17,
+     "slow",
+     8,
+     19
+    ]
+   ],
+   "pick": "Q3_K_M"
+  },
+  {
+   "name": "only past fast memory: the least memory",
+   "pace": 7,
+   "builds": [
+    [
+     "Q4_K_M",
+     17,
+     "slow",
+     9,
+     19
+    ],
+    [
+     "Q5_K_M",
+     20,
+     "slow",
+     8,
+     22
+    ]
+   ],
+   "pick": "Q4_K_M"
+  },
+  {
+   "name": "nothing runs: nothing is recommended",
+   "pace": 7,
+   "builds": [
+    [
+     "Q4_K_M",
+     40,
+     "no",
+     0,
+     42
+    ],
+    [
+     "Q2_K",
+     28,
+     "no",
+     0,
+     30
+    ]
+   ],
+   "pick": null
+  }
+ ]
+}

@@ -1,0 +1,1031 @@
+> GGUF versions
+zh GGUF 版本
+es Versiones GGUF
+pt Versões GGUF
+ru Версии GGUF
+de GGUF-Versionen
+fr Versions GGUF
+ja GGUF バージョン
+ko GGUF 버전
+tr GGUF sürümleri
+it Versioni GGUF
+
+> One model comes as several files. Each stores a weight in fewer bits: a smaller file needs less memory and writes faster, and below about 4 bits the answers get worse quickly.
+zh 同一个模型有多个文件。每个文件用更少的位数存储权重：文件越小，占用内存越少、写得越快，但低于约 4 位后回答质量会迅速下降。
+es Un modelo viene en varios archivos. Cada uno guarda un peso en menos bits: un archivo más pequeño necesita menos memoria y escribe más rápido, y por debajo de unos 4 bits las respuestas empeoran rápido.
+pt Um modelo vem em vários arquivos. Cada um guarda um peso em menos bits: um arquivo menor precisa de menos memória e escreve mais rápido, e abaixo de cerca de 4 bits as respostas pioram rápido.
+ru Одна модель выпускается в виде нескольких файлов. Каждый хранит вес меньшим числом бит: файл меньше требует меньше памяти и пишет быстрее, а ниже примерно 4 бит ответы быстро ухудшаются.
+de Ein Modell gibt es als mehrere Dateien. Jede speichert ein Gewicht in weniger Bits: Eine kleinere Datei braucht weniger Speicher und schreibt schneller, und unter etwa 4 Bit werden die Antworten schnell schlechter.
+fr Un modèle existe en plusieurs fichiers. Chacun stocke un poids sur moins de bits : un fichier plus petit demande moins de mémoire et écrit plus vite, et sous 4 bits environ les réponses se dégradent vite.
+ja 1つのモデルは複数のファイルで提供されます。それぞれ重みをより少ないビットで保存します。小さいファイルほどメモリが少なくて済み、速く書けますが、約4ビットを下回ると回答の質が急に落ちます。
+ko 하나의 모델은 여러 파일로 제공됩니다. 각 파일은 가중치를 더 적은 비트로 저장합니다. 파일이 작을수록 메모리를 덜 쓰고 더 빨리 쓰지만, 약 4비트 아래에서는 답변 품질이 빠르게 나빠집니다.
+tr Bir model birkaç dosya hâlinde gelir. Her biri bir ağırlığı daha az bitte saklar: küçük dosya daha az bellek ister ve daha hızlı yazar; yaklaşık 4 bitin altında yanıtlar hızla kötüleşir.
+it Un modello è disponibile in più file. Ciascuno memorizza un peso in meno bit: un file più piccolo richiede meno memoria e scrive più veloce, e sotto circa 4 bit le risposte peggiorano in fretta.
+
+> Bits per weight
+zh 每权重位数
+es Bits por peso
+pt Bits por peso
+ru Бит на вес
+de Bits pro Gewicht
+fr Bits par poids
+ja 重みあたりのビット
+ko 가중치당 비트
+tr Ağırlık başına bit
+it Bit per peso
+
+> 8B model
+zh 8B 模型
+es Modelo 8B
+pt Modelo 8B
+ru Модель 8B
+de 8B-Modell
+fr Modèle 8B
+ja 8B モデル
+ko 8B 모델
+tr 8B model
+it Modello 8B
+
+> What to expect
+zh 效果预期
+es Qué esperar
+pt O que esperar
+ru Чего ожидать
+de Was zu erwarten ist
+fr À quoi s'attendre
+ja 期待できること
+ko 기대할 수 있는 것
+tr Ne beklenir
+it Cosa aspettarsi
+
+> {0} bits
+zh {0} 位
+es {0} bits
+pt {0} bits
+ru {0} бит
+de {0} Bit
+fr {0} bits
+ja {0} ビット
+ko {0}비트
+tr {0} bit
+it {0} bit
+
+> The original. Q8 answers the same.
+zh 原版。Q8 的回答与之相同。
+es El original. Q8 responde igual.
+pt O original. O Q8 responde igual.
+ru Оригинал. Q8 отвечает так же.
+de Das Original. Q8 antwortet gleich.
+fr L'original. Q8 répond pareil.
+ja オリジナル。Q8 でも回答は同じです。
+ko 원본. Q8도 똑같이 답합니다.
+tr Özgün hâli. Q8 aynı yanıtı verir.
+it L'originale. Q8 risponde allo stesso modo.
+
+> As good as the original.
+zh 与原版一样好。
+es Tan bueno como el original.
+pt Tão bom quanto o original.
+ru Так же хорошо, как оригинал.
+de So gut wie das Original.
+fr Aussi bon que l'original.
+ja オリジナルと同等。
+ko 원본만큼 좋음.
+tr Özgün hâli kadar iyi.
+it Buono quanto l'originale.
+
+> Very close to the original.
+zh 非常接近原版。
+es Muy cerca del original.
+pt Muito próximo do original.
+ru Очень близко к оригиналу.
+de Sehr nah am Original.
+fr Très proche de l'original.
+ja オリジナルに非常に近い。
+ko 원본에 매우 가까움.
+tr Özgün hâline çok yakın.
+it Molto vicino all'originale.
+
+> A small loss. A step up from Q4.
+zh 损失很小。比 Q4 好一档。
+es Una pérdida pequeña. Un paso por encima de Q4.
+pt Uma perda pequena. Um degrau acima do Q4.
+ru Небольшая потеря. На ступень выше Q4.
+de Ein kleiner Verlust. Eine Stufe über Q4.
+fr Une petite perte. Un cran au-dessus de Q4.
+ja わずかな劣化。Q4 より一段上。
+ko 작은 손실. Q4보다 한 단계 위.
+tr Küçük bir kayıp. Q4'ün bir üstü.
+it Una piccola perdita. Un gradino sopra Q4.
+
+> The usual pick: best balance.
+zh 常用之选：最佳平衡。
+es La elección habitual: el mejor equilibrio.
+pt A escolha habitual: melhor equilíbrio.
+ru Обычный выбор: лучший баланс.
+de Die übliche Wahl: beste Balance.
+fr Le choix habituel : le meilleur équilibre.
+ja 定番：最もバランスが良い。
+ko 일반적인 선택: 가장 좋은 균형.
+tr Olağan tercih: en iyi denge.
+it La scelta abituale: miglior equilibrio.
+
+> Like Q4, a little smaller.
+zh 类似 Q4，稍小一些。
+es Como Q4, un poco más pequeño.
+pt Como o Q4, um pouco menor.
+ru Как Q4, чуть меньше.
+de Wie Q4, etwas kleiner.
+fr Comme Q4, un peu plus petit.
+ja Q4 に近く、少し小さい。
+ko Q4와 비슷하고 조금 더 작음.
+tr Q4 gibi, biraz daha küçük.
+it Come Q4, un po' più piccolo.
+
+> A clear loss. When Q4 does not fit.
+zh 明显损失。在 Q4 放不下时使用。
+es Una pérdida clara. Para cuando Q4 no cabe.
+pt Uma perda clara. Para quando o Q4 não cabe.
+ru Заметная потеря. Когда Q4 не помещается.
+de Ein klarer Verlust. Wenn Q4 nicht passt.
+fr Une perte nette. Quand Q4 ne tient pas.
+ja はっきりした劣化。Q4 が収まらないとき用。
+ko 뚜렷한 손실. Q4가 맞지 않을 때.
+tr Belirgin bir kayıp. Q4 sığmadığında.
+it Una perdita evidente. Quando Q4 non ci sta.
+
+> Weak. For very large models only.
+zh 较弱。仅适用于非常大的模型。
+es Flojo. Solo para modelos muy grandes.
+pt Fraco. Só para modelos muito grandes.
+ru Слабо. Только для очень больших моделей.
+de Schwach. Nur für sehr große Modelle.
+fr Faible. Pour les très gros modèles seulement.
+ja 弱い。非常に大きなモデル専用。
+ko 약함. 아주 큰 모델에만.
+tr Zayıf. Yalnızca çok büyük modeller için.
+it Debole. Solo per modelli molto grandi.
+
+> Heavy loss. A last resort.
+zh 损失严重。最后的选择。
+es Pérdida fuerte. Último recurso.
+pt Perda pesada. Último recurso.
+ru Сильная потеря. Крайний случай.
+de Starker Verlust. Ein letzter Ausweg.
+fr Forte perte. En dernier recours.
+ja 大きな劣化。最後の手段。
+ko 큰 손실. 최후의 수단.
+tr Ağır kayıp. Son çare.
+it Perdita pesante. Ultima risorsa.
+
+> Mostly broken. Avoid.
+zh 基本不可用。请避免。
+es Casi inservible. Evítalo.
+pt Quase inutilizável. Evite.
+ru Почти не работает. Избегайте.
+de Meist unbrauchbar. Vermeiden.
+fr Presque inutilisable. À éviter.
+ja ほぼ使い物になりません。避けてください。
+ko 거의 못 씀. 피하세요.
+tr Çoğunlukla bozuk. Kaçının.
+it Quasi inutilizzabile. Da evitare.
+
+> Reading a name
+zh 如何读懂名称
+es Cómo leer un nombre
+pt Como ler um nome
+ru Как читать имя
+de Einen Namen lesen
+fr Lire un nom
+ja 名前の読み方
+ko 이름 읽는 법
+tr Bir adı okumak
+it Leggere un nome
+
+> about 4 bits per weight
+zh 每权重约 4 位
+es unos 4 bits por peso
+pt cerca de 4 bits por peso
+ru около 4 бит на вес
+de etwa 4 Bit pro Gewicht
+fr environ 4 bits par poids
+ja 重みあたり約4ビット
+ko 가중치당 약 4비트
+tr ağırlık başına yaklaşık 4 bit
+it circa 4 bit per peso
+
+> spends more bits where they matter
+zh 在关键处使用更多位
+es gasta más bits donde importan
+pt gasta mais bits onde importam
+ru тратит больше бит там, где это важно
+de nutzt mehr Bits, wo sie zählen
+fr dépense plus de bits là où ils comptent
+ja 重要な部分に多くのビットを使う
+ko 중요한 곳에 비트를 더 씀
+tr önemli yerlerde daha çok bit harcar
+it usa più bit dove contano
+
+> small, medium, large mix
+zh 小、中、大混合
+es mezcla pequeña, mediana, grande
+pt mistura pequena, média, grande
+ru малая, средняя, большая смесь
+de kleine, mittlere, große Mischung
+fr mélange petit, moyen, grand
+ja 小・中・大の配分
+ko 소, 중, 대 혼합
+tr küçük, orta, büyük karışım
+it mix piccolo, medio, grande
+
+> tuned with sample text: smaller at the same quality
+zh 用样本文本调校：同等质量下更小
+es ajustado con texto de muestra: más pequeño con la misma calidad
+pt ajustado com texto de amostra: menor com a mesma qualidade
+ru настроено на примерах текста: меньше при том же качестве
+de mit Beispieltext abgestimmt: kleiner bei gleicher Qualität
+fr réglé avec un texte d'exemple : plus petit à qualité égale
+ja サンプル文で調整：同じ品質でより小さい
+ko 예시 문장으로 조정: 같은 품질에 더 작음
+tr örnek metinle ayarlanmış: aynı kalitede daha küçük
+it tarato con testo di esempio: più piccolo a parità di qualità
+
+> Bigger model first.
+zh 优先选更大的模型。
+es Primero el modelo más grande.
+pt Primeiro o modelo maior.
+ru Сначала модель побольше.
+de Erst das größere Modell.
+fr D'abord le plus gros modèle.
+ja まず大きいモデルを。
+ko 더 큰 모델이 먼저.
+tr Önce daha büyük model.
+it Prima il modello più grande.
+
+> A larger model at Q4 usually answers better than a smaller one at Q8.
+zh 较大模型的 Q4 版本通常比较小模型的 Q8 版本回答更好。
+es Un modelo más grande en Q4 suele responder mejor que uno más pequeño en Q8.
+pt Um modelo maior em Q4 costuma responder melhor que um menor em Q8.
+ru Модель побольше в Q4 обычно отвечает лучше, чем модель поменьше в Q8.
+de Ein größeres Modell in Q4 antwortet meist besser als ein kleineres in Q8.
+fr Un modèle plus gros en Q4 répond en général mieux qu'un plus petit en Q8.
+ja 大きいモデルの Q4 は、たいてい小さいモデルの Q8 より良い回答をします。
+ko 큰 모델의 Q4가 대체로 작은 모델의 Q8보다 더 잘 답합니다.
+tr Q4'teki daha büyük bir model genellikle Q8'deki daha küçük bir modelden iyi yanıt verir.
+it Un modello più grande in Q4 di solito risponde meglio di uno più piccolo in Q8.
+
+> Leave room.
+zh 留出余量。
+es Deja margen.
+pt Deixe folga.
+ru Оставьте запас.
+de Platz lassen.
+fr Gardez de la marge.
+ja 余裕を残す。
+ko 여유를 두세요.
+tr Yer bırakın.
+it Lascia margine.
+
+> The file is not all the memory: the conversation needs 1–2 GB on top.
+zh 文件大小并不是全部内存：对话还需要额外 1–2 GB。
+es El archivo no es toda la memoria: la conversación necesita 1–2 GB más.
+pt O arquivo não é toda a memória: a conversa precisa de mais 1–2 GB.
+ru Файл — это не вся память: диалогу нужно ещё 1–2 ГБ.
+de Die Datei ist nicht der ganze Speicher: Das Gespräch braucht 1–2 GB zusätzlich.
+fr Le fichier n'est pas toute la mémoire : la conversation demande 1 à 2 Go de plus.
+ja ファイルサイズがメモリのすべてではありません。会話にさらに 1〜2 GB 必要です。
+ko 파일이 메모리의 전부가 아닙니다. 대화에 1~2 GB가 더 필요합니다.
+tr Dosya belleğin tamamı değildir: konuşma ayrıca 1–2 GB ister.
+it Il file non è tutta la memoria: la conversazione richiede 1–2 GB in più.
+
+> Below Q3, only big models.
+zh 低于 Q3，仅限大模型。
+es Por debajo de Q3, solo modelos grandes.
+pt Abaixo de Q3, só modelos grandes.
+ru Ниже Q3 — только большие модели.
+de Unter Q3 nur große Modelle.
+fr Sous Q3, seulement les gros modèles.
+ja Q3 未満は大きいモデルだけ。
+ko Q3 아래는 큰 모델만.
+tr Q3'ün altı, yalnızca büyük modeller.
+it Sotto Q3, solo modelli grandi.
+
+> Small models fall apart at 2 bits.
+zh 小模型在 2 位时会崩溃。
+es Los modelos pequeños se desmoronan a 2 bits.
+pt Modelos pequenos desmoronam com 2 bits.
+ru Маленькие модели разваливаются на 2 битах.
+de Kleine Modelle brechen bei 2 Bit zusammen.
+fr Les petits modèles s'effondrent à 2 bits.
+ja 小さいモデルは2ビットで破綻します。
+ko 작은 모델은 2비트에서 무너집니다.
+tr Küçük modeller 2 bitte dağılır.
+it I modelli piccoli crollano a 2 bit.
+
+> Got it
+zh 知道了
+es Entendido
+pt Entendi
+ru Понятно
+de Verstanden
+fr Compris
+ja わかりました
+ko 확인
+tr Anladım
+it Capito
+
+> Storage
+zh 存储
+es Almacenamiento
+pt Armazenamento
+ru Хранилище
+de Speicherort
+fr Stockage
+ja ストレージ
+ko 저장소
+tr Depolama
+it Archiviazione
+
+> Model folder
+zh 模型文件夹
+es Carpeta de modelos
+pt Pasta de modelos
+ru Папка моделей
+de Modellordner
+fr Dossier des modèles
+ja モデルのフォルダー
+ko 모델 폴더
+tr Model klasörü
+it Cartella dei modelli
+
+> Change…
+zh 更改…
+es Cambiar…
+pt Alterar…
+ru Изменить…
+de Ändern…
+fr Modifier…
+ja 変更…
+ko 변경…
+tr Değiştir…
+it Cambia…
+
+> Open in Explorer
+zh 在资源管理器中打开
+es Abrir en el Explorador
+pt Abrir no Explorador
+ru Открыть в Проводнике
+de Im Explorer öffnen
+fr Ouvrir dans l'Explorateur
+ja エクスプローラーで開く
+ko 탐색기에서 열기
+tr Gezgin'de aç
+it Apri in Esplora file
+
+> Where downloaded models are stored.
+zh 已下载模型的存放位置。
+es Dónde se guardan los modelos descargados.
+pt Onde os modelos baixados ficam guardados.
+ru Где хранятся скачанные модели.
+de Wo heruntergeladene Modelle gespeichert werden.
+fr Où sont stockés les modèles téléchargés.
+ja ダウンロードしたモデルの保存先。
+ko 다운로드한 모델이 저장되는 곳.
+tr İndirilen modellerin saklandığı yer.
+it Dove vengono salvati i modelli scaricati.
+
+> Hugging Face access token (optional)
+zh Hugging Face 访问令牌（可选）
+es Token de acceso de Hugging Face (opcional)
+pt Token de acesso do Hugging Face (opcional)
+ru Токен доступа Hugging Face (необязательно)
+de Hugging-Face-Zugriffstoken (optional)
+fr Jeton d'accès Hugging Face (facultatif)
+ja Hugging Face アクセストークン（任意）
+ko Hugging Face 액세스 토큰(선택)
+tr Hugging Face erişim belirteci (isteğe bağlı)
+it Token di accesso Hugging Face (facoltativo)
+
+> Show
+zh 显示
+es Mostrar
+pt Mostrar
+ru Показать
+de Anzeigen
+fr Afficher
+ja 表示
+ko 표시
+tr Göster
+it Mostra
+
+> Hide
+zh 隐藏
+es Ocultar
+pt Ocultar
+ru Скрыть
+de Verbergen
+fr Masquer
+ja 隠す
+ko 숨기기
+tr Gizle
+it Nascondi
+
+> Save
+zh 保存
+es Guardar
+pt Salvar
+ru Сохранить
+de Speichern
+fr Enregistrer
+ja 保存
+ko 저장
+tr Kaydet
+it Salva
+
+> Saved
+zh 已保存
+es Guardado
+pt Salvo
+ru Сохранено
+de Gespeichert
+fr Enregistré
+ja 保存しました
+ko 저장됨
+tr Kaydedildi
+it Salvato
+
+> Only required when downloading gated models that require user agreement on Hugging Face. Normal open models download with no token needed.
+zh 仅在下载需要在 Hugging Face 上同意协议的受限模型时才需要。普通开放模型无需令牌即可下载。
+es Solo hace falta para descargar modelos restringidos que exigen aceptar un acuerdo en Hugging Face. Los modelos abiertos normales se descargan sin token.
+pt Só é necessário para baixar modelos restritos que exigem aceitar um acordo no Hugging Face. Modelos abertos normais baixam sem token.
+ru Нужен только для скачивания закрытых моделей, требующих согласия на Hugging Face. Обычные открытые модели скачиваются без токена.
+de Nur nötig beim Herunterladen zugangsbeschränkter Modelle, die eine Zustimmung auf Hugging Face verlangen. Normale offene Modelle laden ohne Token.
+fr Nécessaire seulement pour télécharger des modèles à accès restreint qui demandent un accord sur Hugging Face. Les modèles ouverts se téléchargent sans jeton.
+ja Hugging Face で同意が必要な制限付きモデルをダウンロードするときだけ必要です。通常の公開モデルはトークン不要です。
+ko Hugging Face에서 동의가 필요한 제한 모델을 다운로드할 때만 필요합니다. 일반 공개 모델은 토큰 없이 받습니다.
+tr Yalnızca Hugging Face'te kullanıcı onayı isteyen kısıtlı modelleri indirirken gerekir. Normal açık modeller belirteçsiz iner.
+it Serve solo per scaricare modelli ad accesso limitato che richiedono di accettare un accordo su Hugging Face. I normali modelli aperti si scaricano senza token.
+
+> Downloaded models (
+zh 已下载的模型 (
+es Modelos descargados (
+pt Modelos baixados (
+ru Скачанные модели (
+de Heruntergeladene Modelle (
+fr Modèles téléchargés (
+ja ダウンロード済みモデル (
+ko 다운로드한 모델 (
+tr İndirilen modeller (
+it Modelli scaricati (
+
+> Unfinished downloads
+zh 未完成的下载
+es Descargas sin terminar
+pt Downloads inacabados
+ru Незавершённые загрузки
+de Unfertige Downloads
+fr Téléchargements inachevés
+ja 未完了のダウンロード
+ko 미완료 다운로드
+tr Bitmemiş indirmeler
+it Download non completati
+
+> Free disk space
+zh 可用磁盘空间
+es Espacio libre en disco
+pt Espaço livre em disco
+ru Свободно на диске
+de Freier Speicherplatz
+fr Espace disque libre
+ja ディスクの空き容量
+ko 남은 디스크 공간
+tr Boş disk alanı
+it Spazio libero su disco
+
+> Delete unfinished downloads
+zh 删除未完成的下载
+es Eliminar descargas sin terminar
+pt Excluir downloads inacabados
+ru Удалить незавершённые загрузки
+de Unfertige Downloads löschen
+fr Supprimer les téléchargements inachevés
+ja 未完了のダウンロードを削除
+ko 미완료 다운로드 삭제
+tr Bitmemiş indirmeleri sil
+it Elimina i download non completati
+
+> Nothing to delete
+zh 没有可删除的内容
+es Nada que eliminar
+pt Nada para excluir
+ru Нечего удалять
+de Nichts zu löschen
+fr Rien à supprimer
+ja 削除するものはありません
+ko 삭제할 것이 없습니다
+tr Silinecek bir şey yok
+it Niente da eliminare
+
+> {0} model ({1})
+zh {0} 个模型（{1}）
+es {0} modelo ({1})
+pt {0} modelo ({1})
+ru Моделей: {0} ({1})
+de {0} Modell ({1})
+fr {0} modèle ({1})
+ja {0} モデル（{1}）
+ko 모델 {0}개 ({1})
+tr {0} model ({1})
+it {0} modello ({1})
+
+> {0} models ({1})
+zh {0} 个模型（{1}）
+es {0} modelos ({1})
+pt {0} modelos ({1})
+ru Моделей: {0} ({1})
+de {0} Modelle ({1})
+fr {0} modèles ({1})
+ja {0} モデル（{1}）
+ko 모델 {0}개 ({1})
+tr {0} model ({1})
+it {0} modelli ({1})
+
+> App
+zh 应用
+es Aplicación
+pt Aplicativo
+ru Приложение
+de App
+fr Application
+ja アプリ
+ko 앱
+tr Uygulama
+it App
+
+> Keep running in the tray when the window is closed
+zh 关闭窗口后继续在托盘中运行
+es Seguir en la bandeja al cerrar la ventana
+pt Continuar na bandeja ao fechar a janela
+ru Оставаться в трее после закрытия окна
+de Beim Schließen des Fensters im Infobereich weiterlaufen
+fr Rester dans la zone de notification à la fermeture de la fenêtre
+ja ウィンドウを閉じてもトレイで実行を続ける
+ko 창을 닫아도 트레이에서 계속 실행
+tr Pencere kapatıldığında tepside çalışmayı sürdür
+it Resta nella barra di sistema quando la finestra è chiusa
+
+> Downloads continue in the background. When this is off, closing the window quits the app.
+zh 下载会在后台继续。关闭此项后，关闭窗口即退出应用。
+es Las descargas siguen en segundo plano. Si está desactivado, cerrar la ventana cierra la app.
+pt Os downloads continuam em segundo plano. Com isto desligado, fechar a janela encerra o app.
+ru Загрузки продолжаются в фоне. Если выключено, закрытие окна завершает приложение.
+de Downloads laufen im Hintergrund weiter. Ist dies aus, beendet das Schließen des Fensters die App.
+fr Les téléchargements continuent en arrière-plan. Si c'est désactivé, fermer la fenêtre quitte l'application.
+ja ダウンロードはバックグラウンドで続きます。オフの場合、ウィンドウを閉じるとアプリが終了します。
+ko 다운로드는 백그라운드에서 계속됩니다. 꺼져 있으면 창을 닫을 때 앱이 종료됩니다.
+tr İndirmeler arka planda sürer. Kapalıysa, pencereyi kapatmak uygulamadan çıkar.
+it I download continuano in background. Se è disattivato, chiudere la finestra chiude l'app.
+
+> Start with Windows
+zh 随 Windows 启动
+es Iniciar con Windows
+pt Iniciar com o Windows
+ru Запускать вместе с Windows
+de Mit Windows starten
+fr Démarrer avec Windows
+ja Windows と同時に起動
+ko Windows와 함께 시작
+tr Windows ile başlat
+it Avvia con Windows
+
+> Models Fit Studio starts in the tray when you sign in.
+zh 登录时 Models Fit Studio 会在托盘中启动。
+es Models Fit Studio se inicia en la bandeja al iniciar sesión.
+pt O Models Fit Studio inicia na bandeja quando você entra.
+ru Models Fit Studio запускается в трее при входе в систему.
+de Models Fit Studio startet bei der Anmeldung im Infobereich.
+fr Models Fit Studio démarre dans la zone de notification à l'ouverture de session.
+ja サインイン時に Models Fit Studio がトレイで起動します。
+ko 로그인하면 Models Fit Studio가 트레이에서 시작됩니다.
+tr Oturum açtığınızda Models Fit Studio tepside başlar.
+it Models Fit Studio si avvia nella barra di sistema all'accesso.
+
+> Language
+zh 语言
+es Idioma
+pt Idioma
+ru Язык
+de Sprache
+fr Langue
+ja 言語
+ko 언어
+tr Dil
+it Lingua
+
+> The words in the app. Model names and commands stay as they are.
+zh 应用中的文字。模型名称和命令保持原样。
+es Las palabras de la app. Los nombres de modelos y los comandos se quedan como están.
+pt As palavras do app. Nomes de modelos e comandos ficam como estão.
+ru Текст в приложении. Названия моделей и команды остаются как есть.
+de Die Texte der App. Modellnamen und Befehle bleiben, wie sie sind.
+fr Les mots de l'application. Les noms de modèles et les commandes restent tels quels.
+ja アプリ内の文言です。モデル名とコマンドはそのままです。
+ko 앱에 표시되는 말입니다. 모델 이름과 명령은 그대로 둡니다.
+tr Uygulamadaki sözcükler. Model adları ve komutlar olduğu gibi kalır.
+it Le parole dell'app. I nomi dei modelli e i comandi restano come sono.
+
+> Speed measurement
+zh 速度测量
+es Medición de velocidad
+pt Medição de velocidade
+ru Измерение скорости
+de Tempomessung
+fr Mesure de la vitesse
+ja 速度の計測
+ko 속도 측정
+tr Hız ölçümü
+it Misurazione della velocità
+
+> llama.cpp is the engine that runs a model. It ships with the app, so measuring and running need no download. It draws on any graphics card, or on the processor alone. Measuring a model keeps its real speed, and the estimates for other models on this PC are then corrected by it.
+zh llama.cpp 是运行模型的引擎。它随应用自带，因此测量和运行都无需下载。它可使用任意显卡，也可只用处理器。测量一个模型会保存其真实速度，这台电脑上其他模型的估计值也会据此校正。
+es llama.cpp es el motor que ejecuta un modelo. Viene con la app, así que medir y ejecutar no requieren descargas. Funciona con cualquier tarjeta gráfica o solo con el procesador. Medir un modelo guarda su velocidad real, y con ella se corrigen las estimaciones de los demás modelos en este PC.
+pt O llama.cpp é o motor que roda um modelo. Ele vem com o app, então medir e rodar não exigem download. Funciona com qualquer placa de vídeo ou só com o processador. Medir um modelo guarda a velocidade real dele, e as estimativas dos outros modelos neste PC são corrigidas por ela.
+ru llama.cpp — движок, который запускает модель. Он поставляется с приложением, поэтому для измерения и запуска ничего скачивать не нужно. Работает на любой видеокарте или только на процессоре. Измерение модели сохраняет её реальную скорость, и по ней корректируются оценки других моделей на этом ПК.
+de llama.cpp ist die Engine, die ein Modell ausführt. Sie wird mit der App geliefert, Messen und Ausführen brauchen also keinen Download. Sie nutzt jede Grafikkarte oder nur den Prozessor. Das Messen eines Modells speichert sein echtes Tempo, und die Schätzungen für andere Modelle auf diesem PC werden damit korrigiert.
+fr llama.cpp est le moteur qui exécute un modèle. Il est fourni avec l'application, donc mesurer et exécuter ne demandent aucun téléchargement. Il utilise n'importe quelle carte graphique, ou le processeur seul. Mesurer un modèle conserve sa vitesse réelle, et les estimations des autres modèles sur ce PC sont alors corrigées.
+ja llama.cpp はモデルを動かすエンジンです。アプリに同梱されているため、計測にも実行にもダウンロードは不要です。どのGPUでも、プロセッサだけでも動きます。モデルを計測すると実際の速度が保存され、このPCの他のモデルの推定もそれで補正されます。
+ko llama.cpp는 모델을 실행하는 엔진입니다. 앱에 포함되어 있어 측정과 실행에 다운로드가 필요 없습니다. 어떤 그래픽 카드로든, 또는 프로세서만으로도 동작합니다. 모델을 측정하면 실제 속도가 저장되고, 이 PC의 다른 모델 추정치도 그에 맞게 보정됩니다.
+tr llama.cpp, bir modeli çalıştıran motordur. Uygulamayla birlikte gelir; bu yüzden ölçmek ve çalıştırmak için indirme gerekmez. Her ekran kartını veya yalnızca işlemciyi kullanır. Bir modeli ölçmek gerçek hızını saklar ve bu bilgisayardaki diğer modellerin tahminleri buna göre düzeltilir.
+it llama.cpp è il motore che esegue un modello. È incluso nell'app, quindi misurare ed eseguire non richiedono download. Funziona con qualsiasi scheda grafica o con il solo processore. Misurare un modello ne conserva la velocità reale, e le stime degli altri modelli su questo PC vengono corrette di conseguenza.
+
+> llama.cpp {0} is built in.
+zh 已内置 llama.cpp {0}。
+es llama.cpp {0} viene integrado.
+pt O llama.cpp {0} vem integrado.
+ru llama.cpp {0} встроен.
+de llama.cpp {0} ist integriert.
+fr llama.cpp {0} est intégré.
+ja llama.cpp {0} を内蔵しています。
+ko llama.cpp {0}가 내장되어 있습니다.
+tr llama.cpp {0} yerleşik olarak gelir.
+it llama.cpp {0} è integrato.
+
+> The NVIDIA engine {0} is active.
+zh NVIDIA 引擎 {0} 已启用。
+es El motor NVIDIA {0} está activo.
+pt O motor NVIDIA {0} está ativo.
+ru Движок NVIDIA {0} активен.
+de Die NVIDIA-Engine {0} ist aktiv.
+fr Le moteur NVIDIA {0} est actif.
+ja NVIDIA エンジン {0} が有効です。
+ko NVIDIA 엔진 {0}가 활성화되어 있습니다.
+tr NVIDIA motoru {0} etkin.
+it Il motore NVIDIA {0} è attivo.
+
+> nothing measured yet
+zh 尚未测量
+es aún no se ha medido nada
+pt nada medido ainda
+ru пока ничего не измерено
+de noch nichts gemessen
+fr rien de mesuré pour l'instant
+ja まだ計測していません
+ko 아직 측정한 것이 없습니다
+tr henüz ölçüm yok
+it ancora nessuna misurazione
+
+> {0} model measured
+zh 已测量 {0} 个模型
+es {0} modelo medido
+pt {0} modelo medido
+ru Измерено моделей: {0}
+de {0} Modell gemessen
+fr {0} modèle mesuré
+ja {0} モデルを計測済み
+ko 모델 {0}개 측정됨
+tr {0} model ölçüldü
+it {0} modello misurato
+
+> {0} models measured
+zh 已测量 {0} 个模型
+es {0} modelos medidos
+pt {0} modelos medidos
+ru Измерено моделей: {0}
+de {0} Modelle gemessen
+fr {0} modèles mesurés
+ja {0} モデルを計測済み
+ko 모델 {0}개 측정됨
+tr {0} model ölçüldü
+it {0} modelli misurati
+
+> {0} model measured · estimates corrected
+zh 已测量 {0} 个模型 · 估计值已校正
+es {0} modelo medido · estimaciones corregidas
+pt {0} modelo medido · estimativas corrigidas
+ru Измерено моделей: {0} · оценки скорректированы
+de {0} Modell gemessen · Schätzungen korrigiert
+fr {0} modèle mesuré · estimations corrigées
+ja {0} モデルを計測済み · 推定を補正
+ko 모델 {0}개 측정됨 · 추정치 보정됨
+tr {0} model ölçüldü · tahminler düzeltildi
+it {0} modello misurato · stime corrette
+
+> {0} models measured · estimates corrected
+zh 已测量 {0} 个模型 · 估计值已校正
+es {0} modelos medidos · estimaciones corregidas
+pt {0} modelos medidos · estimativas corrigidas
+ru Измерено моделей: {0} · оценки скорректированы
+de {0} Modelle gemessen · Schätzungen korrigiert
+fr {0} modèles mesurés · estimations corrigées
+ja {0} モデルを計測済み · 推定を補正
+ko 모델 {0}개 측정됨 · 추정치 보정됨
+tr {0} model ölçüldü · tahminler düzeltildi
+it {0} modelli misurati · stime corrette
+
+> NVIDIA's own engine is faster on NVIDIA cards. Once it is on this PC the app uses it by itself, and goes back to the built-in one if a model will not load with it.
+zh NVIDIA 的专用引擎在 NVIDIA 显卡上更快。它一旦装在这台电脑上，应用就会自动使用；如果某个模型无法用它加载，则回退到内置引擎。
+es El motor propio de NVIDIA es más rápido en tarjetas NVIDIA. Una vez que está en este PC, la app lo usa sola y vuelve al integrado si un modelo no carga con él.
+pt O motor próprio da NVIDIA é mais rápido em placas NVIDIA. Quando ele está neste PC, o app o usa sozinho e volta ao integrado se um modelo não carregar com ele.
+ru Собственный движок NVIDIA быстрее на видеокартах NVIDIA. Когда он есть на этом ПК, приложение использует его само и возвращается к встроенному, если модель с ним не загружается.
+de NVIDIAs eigene Engine ist auf NVIDIA-Karten schneller. Sobald sie auf diesem PC ist, nutzt die App sie von selbst und kehrt zur integrierten zurück, wenn ein Modell damit nicht lädt.
+fr Le moteur propre à NVIDIA est plus rapide sur les cartes NVIDIA. Une fois sur ce PC, l'application l'utilise d'elle-même et revient au moteur intégré si un modèle ne se charge pas avec.
+ja NVIDIA 専用エンジンは NVIDIA のGPUでより高速です。このPCに入れば、アプリが自動で使い、モデルを読み込めない場合は内蔵エンジンに戻ります。
+ko NVIDIA 전용 엔진은 NVIDIA 카드에서 더 빠릅니다. 이 PC에 있으면 앱이 알아서 사용하고, 모델이 그 엔진으로 불러와지지 않으면 내장 엔진으로 돌아갑니다.
+tr NVIDIA'nın kendi motoru NVIDIA kartlarında daha hızlıdır. Bu bilgisayara yüklendiğinde uygulama onu kendiliğinden kullanır; bir model onunla yüklenmezse yerleşik motora döner.
+it Il motore proprio di NVIDIA è più veloce sulle schede NVIDIA. Una volta su questo PC, l'app lo usa da sola e torna a quello integrato se un modello non si carica.
+
+> NVIDIA card found. The NVIDIA engine is active.
+zh 检测到 NVIDIA 显卡。NVIDIA 引擎已启用。
+es Tarjeta NVIDIA detectada. El motor NVIDIA está activo.
+pt Placa NVIDIA encontrada. O motor NVIDIA está ativo.
+ru Найдена видеокарта NVIDIA. Движок NVIDIA активен.
+de NVIDIA-Karte gefunden. Die NVIDIA-Engine ist aktiv.
+fr Carte NVIDIA détectée. Le moteur NVIDIA est actif.
+ja NVIDIA のGPUを検出しました。NVIDIA エンジンが有効です。
+ko NVIDIA 카드를 찾았습니다. NVIDIA 엔진이 활성화되어 있습니다.
+tr NVIDIA kartı bulundu. NVIDIA motoru etkin.
+it Scheda NVIDIA rilevata. Il motore NVIDIA è attivo.
+
+> NVIDIA card found. It runs on the built-in engine now; the NVIDIA engine is faster.
+zh 检测到 NVIDIA 显卡。目前使用内置引擎；NVIDIA 引擎更快。
+es Tarjeta NVIDIA detectada. Ahora funciona con el motor integrado; el motor NVIDIA es más rápido.
+pt Placa NVIDIA encontrada. Agora roda com o motor integrado; o motor NVIDIA é mais rápido.
+ru Найдена видеокарта NVIDIA. Сейчас используется встроенный движок; движок NVIDIA быстрее.
+de NVIDIA-Karte gefunden. Sie läuft derzeit mit der integrierten Engine; die NVIDIA-Engine ist schneller.
+fr Carte NVIDIA détectée. Elle tourne pour l'instant avec le moteur intégré ; le moteur NVIDIA est plus rapide.
+ja NVIDIA のGPUを検出しました。現在は内蔵エンジンで動作中です。NVIDIA エンジンのほうが高速です。
+ko NVIDIA 카드를 찾았습니다. 지금은 내장 엔진으로 실행되며, NVIDIA 엔진이 더 빠릅니다.
+tr NVIDIA kartı bulundu. Şu an yerleşik motorla çalışıyor; NVIDIA motoru daha hızlı.
+it Scheda NVIDIA rilevata. Ora funziona con il motore integrato; il motore NVIDIA è più veloce.
+
+> Get the NVIDIA engine
+zh 获取 NVIDIA 引擎
+es Obtener el motor NVIDIA
+pt Obter o motor NVIDIA
+ru Получить движок NVIDIA
+de NVIDIA-Engine holen
+fr Obtenir le moteur NVIDIA
+ja NVIDIA エンジンを入手
+ko NVIDIA 엔진 받기
+tr NVIDIA motorunu edin
+it Ottieni il motore NVIDIA
+
+> Remove the NVIDIA engine
+zh 移除 NVIDIA 引擎
+es Quitar el motor NVIDIA
+pt Remover o motor NVIDIA
+ru Удалить движок NVIDIA
+de NVIDIA-Engine entfernen
+fr Retirer le moteur NVIDIA
+ja NVIDIA エンジンを削除
+ko NVIDIA 엔진 제거
+tr NVIDIA motorunu kaldır
+it Rimuovi il motore NVIDIA
+
+> Downloading the NVIDIA engine…
+zh 正在下载 NVIDIA 引擎…
+es Descargando el motor NVIDIA…
+pt Baixando o motor NVIDIA…
+ru Скачивается движок NVIDIA…
+de NVIDIA-Engine wird heruntergeladen…
+fr Téléchargement du moteur NVIDIA…
+ja NVIDIA エンジンをダウンロード中…
+ko NVIDIA 엔진 다운로드 중…
+tr NVIDIA motoru indiriliyor…
+it Download del motore NVIDIA…
+
+> The NVIDIA engine is active
+zh NVIDIA 引擎已启用
+es El motor NVIDIA está activo
+pt O motor NVIDIA está ativo
+ru Движок NVIDIA активен
+de Die NVIDIA-Engine ist aktiv
+fr Le moteur NVIDIA est actif
+ja NVIDIA エンジンが有効になりました
+ko NVIDIA 엔진이 활성화되었습니다
+tr NVIDIA motoru etkin
+it Il motore NVIDIA è attivo
+
+> Forget measured speeds
+zh 清除已测速度
+es Olvidar las velocidades medidas
+pt Esquecer as velocidades medidas
+ru Забыть измеренные скорости
+de Gemessene Tempi vergessen
+fr Oublier les vitesses mesurées
+ja 計測した速度を消去
+ko 측정한 속도 지우기
+tr Ölçülen hızları unut
+it Dimentica le velocità misurate
+
+> Share my speeds…
+zh 分享我的速度…
+es Compartir mis velocidades…
+pt Compartilhar minhas velocidades…
+ru Поделиться моими скоростями…
+de Meine Tempi teilen…
+fr Partager mes vitesses…
+ja 自分の速度を共有…
+ko 내 속도 공유…
+tr Hızlarımı paylaş…
+it Condividi le mie velocità…
+
+> About
+zh 关于
+es Acerca de
+pt Sobre
+ru О программе
+de Über
+fr À propos
+ja このアプリについて
+ko 정보
+tr Hakkında
+it Informazioni
+
+> Version {0}
+zh 版本 {0}
+es Versión {0}
+pt Versão {0}
+ru Версия {0}
+de Version {0}
+fr Version {0}
+ja バージョン {0}
+ko 버전 {0}
+tr Sürüm {0}
+it Versione {0}
+
+> Models Fit Studio is made by
+zh Models Fit Studio 的作者是
+es Models Fit Studio es obra de
+pt O Models Fit Studio é feito por
+ru Models Fit Studio создан автором
+de Models Fit Studio stammt von
+fr Models Fit Studio est créé par
+ja Models Fit Studio の作者：
+ko Models Fit Studio 제작:
+tr Models Fit Studio'yu yapan:
+it Models Fit Studio è realizzato da
+
+> . It is free to use, under the MIT licence.
+zh 。可免费使用，采用 MIT 许可。
+es . Es de uso gratuito, bajo la licencia MIT.
+pt . É gratuito, sob a licença MIT.
+ru . Им можно пользоваться бесплатно, по лицензии MIT.
+de . Die Nutzung ist kostenlos, unter der MIT-Lizenz.
+fr . Son utilisation est gratuite, sous licence MIT.
+ja 。MIT ライセンスで無料で使えます。
+ko . MIT 라이선스로 무료로 사용할 수 있습니다.
+tr . MIT lisansıyla ücretsiz kullanılabilir.
+it . È gratuito, sotto licenza MIT.
+
+> Theme
+zh 主题
+es Tema
+pt Tema
+ru Тема
+de Design
+fr Thème
+ja テーマ
+ko 테마
+tr Tema
+it Tema
+
+> Choose a theme
+zh 选择主题
+es Elegir un tema
+pt Escolher um tema
+ru Выбрать тему
+de Design wählen
+fr Choisir un thème
+ja テーマを選ぶ
+ko 테마 선택
+tr Tema seç
+it Scegli un tema
+
+> Default
+zh 默认
+es Predeterminado
+pt Padrão
+ru По умолчанию
+de Standard
+fr Par défaut
+ja デフォルト
+ko 기본
+tr Varsayılan
+it Predefinito
+
+> Dark, lime accent
+zh 深色，青柠点缀
+es Oscuro, acento lima
+pt Escuro, destaque lima
+ru Тёмная, лаймовый акцент
+de Dunkel, Limetten-Akzent
+fr Sombre, accent citron vert
+ja ダーク、ライムのアクセント
+ko 어두움, 라임 포인트
+tr Koyu, misket limonu vurgu
+it Scuro, accento lime
+
+> Near-black, copper
+zh 近黑色，铜色点缀
+es Casi negro, cobre
+pt Quase preto, cobre
+ru Почти чёрная, медь
+de Fast schwarz, Kupfer
+fr Presque noir, cuivre
+ja ほぼ黒、銅色
+ko 거의 검정, 구리색
+tr Neredeyse siyah, bakır
+it Quasi nero, rame
+
+> Light page, charcoal cards
+zh 浅色页面，炭灰卡片
+es Página clara, tarjetas carbón
+pt Página clara, cartões grafite
+ru Светлая страница, угольные карточки
+de Helle Seite, anthrazitfarbene Karten
+fr Page claire, cartes anthracite
+ja 明るい背景、チャコールのカード
+ko 밝은 배경, 차콜 카드
+tr Açık sayfa, kömür rengi kartlar
+it Pagina chiara, schede antracite
+
+> Frosted panels, yellow accent
+zh 磨砂面板，黄色点缀
+es Paneles esmerilados, acento amarillo
+pt Painéis foscos, destaque amarelo
+ru Матовые панели, жёлтый акцент
+de Milchglas-Flächen, gelber Akzent
+fr Panneaux givrés, accent jaune
+ja すりガラスのパネル、黄色のアクセント
+ko 반투명 패널, 노란 포인트
+tr Buzlu paneller, sarı vurgu
+it Pannelli satinati, accento giallo
+
+> Clipboard is empty
+zh 剪贴板为空
+es El portapapeles está vacío
+pt A área de transferência está vazia
+ru Буфер обмена пуст
+de Die Zwischenablage ist leer
+fr Le presse-papiers est vide
+ja クリップボードは空です
+ko 클립보드가 비어 있습니다
+tr Pano boş
+it Gli appunti sono vuoti
+
+> Re-scanning hardware…
+zh 正在重新检测硬件…
+es Volviendo a detectar el hardware…
+pt Detectando o hardware de novo…
+ru Повторное сканирование оборудования…
+de Hardware wird neu erkannt…
+fr Nouvelle analyse du matériel…
+ja ハードウェアを再スキャン中…
+ko 하드웨어 다시 검사 중…
+tr Donanım yeniden taranıyor…
+it Nuovo rilevamento dell'hardware…
+
+> Paste a Hugging Face link first
+zh 请先粘贴 Hugging Face 链接
+es Primero pega un enlace de Hugging Face
+pt Primeiro cole um link do Hugging Face
+ru Сначала вставьте ссылку Hugging Face
+de Zuerst einen Hugging-Face-Link einfügen
+fr Collez d'abord un lien Hugging Face
+ja 先に Hugging Face のリンクを貼り付けてください
+ko 먼저 Hugging Face 링크를 붙여넣으세요
+tr Önce bir Hugging Face bağlantısı yapıştırın
+it Incolla prima un link Hugging Face
+
+> Could not analyse that
+zh 无法分析该模型
+es No se pudo analizar
+pt Não foi possível analisar
+ru Не удалось проанализировать
+de Das ließ sich nicht analysieren
+fr Analyse impossible
+ja 解析できませんでした
+ko 분석하지 못했습니다
+tr Bu çözümlenemedi
+it Impossibile analizzarlo

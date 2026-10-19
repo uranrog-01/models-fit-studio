@@ -1,0 +1,287 @@
+> Fits on the GPU — no Turbo needed
+zh 可完全放进 GPU，无需 Turbo
+es Cabe en la GPU: no hace falta Turbo
+pt Cabe na GPU: não precisa de Turbo
+ru Помещается в видеопамять — Turbo не нужен
+de Passt auf die GPU – kein Turbo nötig
+fr Tient sur le GPU : pas besoin de Turbo
+ja GPUに収まります。Turbo は不要
+ko GPU에 맞음 — Turbo 필요 없음
+tr GPU'ya sığar — Turbo gerekmez
+it Entra nella GPU: non serve Turbo
+
+> {0} context
+zh 上下文 {0}
+es contexto de {0}
+pt contexto de {0}
+ru контекст {0}
+de {0} Kontext
+fr contexte de {0}
+ja コンテキスト {0}
+ko 컨텍스트 {0}
+tr {0} bağlam
+it contesto {0}
+
+> {0} / month
+zh {0} / 月
+es {0} / mes
+pt {0} / mês
+ru {0} / мес.
+de {0} / Monat
+fr {0} / mois
+ja {0} / 月
+ko {0} / 월
+tr {0} / ay
+it {0} / mese
+
+> Hide the side panel
+zh 隐藏侧边栏
+es Ocultar el panel lateral
+pt Ocultar o painel lateral
+ru Скрыть боковую панель
+de Seitenleiste ausblenden
+fr Masquer le panneau latéral
+ja サイドパネルを隠す
+ko 사이드 패널 숨기기
+tr Yan paneli gizle
+it Nascondi il pannello laterale
+
+> Re-detect hardware
+zh 重新检测硬件
+es Volver a detectar el hardware
+pt Detectar o hardware de novo
+ru Определить оборудование заново
+de Hardware neu erkennen
+fr Détecter à nouveau le matériel
+ja ハードウェアを再検出
+ko 하드웨어 다시 감지
+tr Donanımı yeniden algıla
+it Rileva di nuovo l'hardware
+
+> Paste from clipboard
+zh 从剪贴板粘贴
+es Pegar del portapapeles
+pt Colar da área de transferência
+ru Вставить из буфера обмена
+de Aus der Zwischenablage einfügen
+fr Coller depuis le presse-papiers
+ja クリップボードから貼り付け
+ko 클립보드에서 붙여넣기
+tr Panodan yapıştır
+it Incolla dagli appunti
+
+> Back to the model list
+zh 返回模型列表
+es Volver a la lista de modelos
+pt Voltar à lista de modelos
+ru Назад к списку моделей
+de Zurück zur Modellliste
+fr Retour à la liste des modèles
+ja モデル一覧に戻る
+ko 모델 목록으로 돌아가기
+tr Model listesine dön
+it Torna all'elenco dei modelli
+
+> A preview of the estimated writing speed on this PC. No model runs.
+zh 预览这台电脑上的估计写作速度。不会运行任何模型。
+es Una vista previa de la velocidad de escritura estimada en este PC. No se ejecuta ningún modelo.
+pt Uma prévia da velocidade de escrita estimada neste PC. Nenhum modelo é executado.
+ru Предпросмотр расчётной скорости письма на этом ПК. Модель не запускается.
+de Eine Vorschau des geschätzten Schreibtempos auf diesem PC. Es läuft kein Modell.
+fr Un aperçu de la vitesse d'écriture estimée sur ce PC. Aucun modèle n'est lancé.
+ja このPCでの推定書き出し速度のプレビューです。モデルは実行されません。
+ko 이 PC에서의 예상 쓰기 속도 미리보기입니다. 모델은 실행되지 않습니다.
+tr Bu bilgisayardaki tahmini yazma hızının önizlemesi. Hiçbir model çalışmaz.
+it Un'anteprima della velocità di scrittura stimata su questo PC. Nessun modello viene eseguito.
+
+> Send this model into a battle against others, on this PC
+zh 让此模型在这台电脑上与其他模型对战
+es Enviar este modelo a una batalla contra otros, en este PC
+pt Enviar este modelo para uma batalha contra outros, neste PC
+ru Отправить эту модель в битву с другими на этом ПК
+de Dieses Modell auf diesem PC gegen andere antreten lassen
+fr Envoyer ce modèle dans un duel contre d'autres, sur ce PC
+ja このモデルをこのPCで他のモデルと対戦させる
+ko 이 모델을 이 PC에서 다른 모델과 겨루게 하기
+tr Bu modeli bu bilgisayarda diğerleriyle düelloya gönder
+it Manda questo modello in sfida contro altri, su questo PC
+
+> Skip the cache and pull the list from huggingface.co right now
+zh 跳过缓存，立即从 huggingface.co 拉取列表
+es Saltar la caché y traer la lista de huggingface.co ahora mismo
+pt Ignorar o cache e buscar a lista em huggingface.co agora
+ru Пропустить кэш и загрузить список с huggingface.co прямо сейчас
+de Cache überspringen und die Liste jetzt von huggingface.co holen
+fr Ignorer le cache et récupérer la liste sur huggingface.co maintenant
+ja キャッシュを使わず、今すぐ huggingface.co から一覧を取得
+ko 캐시를 건너뛰고 지금 huggingface.co에서 목록 가져오기
+tr Önbelleği atla ve listeyi hemen huggingface.co'dan çek
+it Salta la cache e scarica subito l'elenco da huggingface.co
+
+> Sort results
+zh 结果排序
+es Ordenar resultados
+pt Ordenar resultados
+ru Сортировка результатов
+de Ergebnisse sortieren
+fr Trier les résultats
+ja 結果を並べ替え
+ko 결과 정렬
+tr Sonuçları sırala
+it Ordina i risultati
+
+> Filter by model format
+zh 按模型格式筛选
+es Filtrar por formato de modelo
+pt Filtrar por formato do modelo
+ru Фильтр по формату модели
+de Nach Modellformat filtern
+fr Filtrer par format de modèle
+ja モデル形式で絞り込み
+ko 모델 형식으로 필터
+tr Model biçimine göre süz
+it Filtra per formato del modello
+
+> Remove from the battle
+zh 移出对战
+es Quitar de la batalla
+pt Remover da batalha
+ru Убрать из битвы
+de Aus dem Duell entfernen
+fr Retirer du duel
+ja バトルから外す
+ko 배틀에서 제거
+tr Düellodan çıkar
+it Rimuovi dalla sfida
+
+> Save this battle as a picture, and copy it to the clipboard
+zh 将这场对战保存为图片，并复制到剪贴板
+es Guardar esta batalla como imagen y copiarla al portapapeles
+pt Salvar esta batalha como imagem e copiá-la para a área de transferência
+ru Сохранить эту битву как картинку и скопировать в буфер обмена
+de Dieses Duell als Bild speichern und in die Zwischenablage kopieren
+fr Enregistrer ce duel en image et le copier dans le presse-papiers
+ja このバトルを画像として保存し、クリップボードにコピー
+ko 이 배틀을 이미지로 저장하고 클립보드에 복사
+tr Bu düelloyu görsel olarak kaydet ve panoya kopyala
+it Salva questa sfida come immagine e copiala negli appunti
+
+> Run this model on this PC
+zh 在这台电脑上运行此模型
+es Ejecutar este modelo en este PC
+pt Rodar este modelo neste PC
+ru Запустить эту модель на этом ПК
+de Dieses Modell auf diesem PC ausführen
+fr Lancer ce modèle sur ce PC
+ja このモデルをこのPCで実行
+ko 이 모델을 이 PC에서 실행
+tr Bu modeli bu bilgisayarda çalıştır
+it Esegui questo modello su questo PC
+
+> Run this model once and keep its real speed on this PC
+zh 运行一次此模型，并保存它在这台电脑上的真实速度
+es Ejecutar este modelo una vez y guardar su velocidad real en este PC
+pt Rodar este modelo uma vez e guardar a velocidade real neste PC
+ru Запустить модель один раз и сохранить её реальную скорость на этом ПК
+de Dieses Modell einmal ausführen und sein echtes Tempo auf diesem PC behalten
+fr Lancer ce modèle une fois et garder sa vitesse réelle sur ce PC
+ja このモデルを一度実行し、このPCでの実際の速度を保存
+ko 이 모델을 한 번 실행해 이 PC에서의 실제 속도를 저장
+tr Bu modeli bir kez çalıştır ve bu bilgisayardaki gerçek hızını sakla
+it Esegui questo modello una volta e conserva la sua velocità reale su questo PC
+
+> Ask this model 40 questions with one right answer each, and keep its score
+zh 向此模型提出 40 个各有唯一正确答案的问题，并保存得分
+es Hacer a este modelo 40 preguntas con una sola respuesta correcta y guardar su puntuación
+pt Fazer a este modelo 40 perguntas com uma única resposta certa e guardar a pontuação
+ru Задать модели 40 вопросов с одним верным ответом и сохранить результат
+de Diesem Modell 40 Fragen mit je einer richtigen Antwort stellen und das Ergebnis behalten
+fr Poser à ce modèle 40 questions à réponse unique et garder son score
+ja このモデルに正解が1つの質問を40問出し、スコアを保存
+ko 이 모델에 정답이 하나인 질문 40개를 묻고 점수를 저장
+tr Bu modele tek doğru yanıtı olan 40 soru sor ve puanını sakla
+it Fai a questo modello 40 domande con una sola risposta giusta e conserva il punteggio
+
+> Close (Esc)
+zh 关闭 (Esc)
+es Cerrar (Esc)
+pt Fechar (Esc)
+ru Закрыть (Esc)
+de Schließen (Esc)
+fr Fermer (Échap)
+ja 閉じる (Esc)
+ko 닫기 (Esc)
+tr Kapat (Esc)
+it Chiudi (Esc)
+
+> Bits and sizes are llama.cpp's own figures for an 8B model. "What to expect" is common guidance, not a measurement:
+zh 位数和大小是 llama.cpp 针对 8B 模型给出的数据。“效果预期”是通用经验，并非测量结果：
+es Los bits y tamaños son las cifras del propio llama.cpp para un modelo 8B. «Qué esperar» es una guía general, no una medición:
+pt Os bits e tamanhos são os números do próprio llama.cpp para um modelo 8B. «O que esperar» é uma orientação geral, não uma medição:
+ru Биты и размеры — данные самого llama.cpp для модели 8B. «Чего ожидать» — общие рекомендации, а не измерение:
+de Bits und Größen sind llama.cpps eigene Werte für ein 8B-Modell. „Was zu erwarten ist“ ist allgemeine Erfahrung, keine Messung:
+fr Les bits et tailles sont les chiffres de llama.cpp pour un modèle 8B. « À quoi s'attendre » est un conseil général, pas une mesure :
+ja ビット数とサイズは、8Bモデルについての llama.cpp 自身の数値です。「期待できること」は一般的な目安で、計測値ではありません：
+ko 비트와 크기는 8B 모델에 대한 llama.cpp 자체 수치입니다. 「기대할 수 있는 것」은 일반적인 지침이며 측정값이 아닙니다:
+tr Bitler ve boyutlar, llama.cpp'nin 8B model için kendi verileridir. «Ne beklenir» genel bir yönlendirmedir, ölçüm değildir:
+it Bit e dimensioni sono i dati di llama.cpp per un modello 8B. «Cosa aspettarsi» è un'indicazione generale, non una misurazione:
+
+> shows what a version really loses on this PC.
+zh 可显示某个版本在这台电脑上的实际损失。
+es muestra lo que una versión pierde de verdad en este PC.
+pt mostra o que uma versão realmente perde neste PC.
+ru показывает, сколько версия реально теряет на этом ПК.
+de zeigt, was eine Version auf diesem PC wirklich einbüßt.
+fr montre ce qu'une version perd réellement sur ce PC.
+ja で、あるバージョンがこのPCで実際にどれだけ劣化するかがわかります。
+ko (으)로 한 버전이 이 PC에서 실제로 얼마나 손실되는지 알 수 있습니다.
+tr bir sürümün bu bilgisayarda gerçekte ne kaybettiğini gösterir.
+it mostra quanto perde davvero una versione su questo PC.
+
+> Smaller versions are faster and need less memory; larger ones answer better
+zh 较小的版本更快、占用内存更少；较大的版本回答更好
+es Las versiones más pequeñas son más rápidas y necesitan menos memoria; las más grandes responden mejor
+pt Versões menores são mais rápidas e precisam de menos memória; as maiores respondem melhor
+ru Версии меньше быстрее и требуют меньше памяти; версии больше отвечают лучше
+de Kleinere Versionen sind schneller und brauchen weniger Speicher; größere antworten besser
+fr Les versions plus petites sont plus rapides et demandent moins de mémoire ; les plus grandes répondent mieux
+ja 小さいバージョンは速くてメモリが少なく、大きいバージョンは回答が良くなります
+ko 작은 버전은 더 빠르고 메모리를 덜 쓰며, 큰 버전은 더 잘 답합니다
+tr Küçük sürümler daha hızlıdır ve daha az bellek ister; büyükler daha iyi yanıt verir
+it Le versioni più piccole sono più veloci e richiedono meno memoria; le più grandi rispondono meglio
+
+> Check this model against this PC and see its files
+zh 将此模型与这台电脑比对并查看其文件
+es Comprobar este modelo en este PC y ver sus archivos
+pt Verificar este modelo neste PC e ver os arquivos
+ru Проверить эту модель для этого ПК и посмотреть её файлы
+de Dieses Modell für diesen PC prüfen und seine Dateien ansehen
+fr Vérifier ce modèle sur ce PC et voir ses fichiers
+ja このモデルをこのPCでチェックし、ファイルを表示
+ko 이 모델을 이 PC 기준으로 확인하고 파일 보기
+tr Bu modeli bu bilgisayar için kontrol et ve dosyalarını gör
+it Verifica questo modello su questo PC e vedi i suoi file
+
+> Run it with
+zh 运行方式
+es Ejecutarlo con
+pt Rodar com
+ru Запустить через
+de Ausführen mit
+fr L'exécuter avec
+ja 実行に使うもの
+ko 실행 도구
+tr Şununla çalıştır
+it Eseguilo con
+
+> Share my speeds
+zh 分享我的速度
+es Compartir mis velocidades
+pt Compartilhar minhas velocidades
+ru Поделиться моими скоростями
+de Meine Tempi teilen
+fr Partager mes vitesses
+ja 自分の速度を共有
+ko 내 속도 공유
+tr Hızlarımı paylaş
+it Condividi le mie velocità

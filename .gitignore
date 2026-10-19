@@ -1,0 +1,21 @@
+# build output
+bin/
+obj/
+dist/
+*.zip
+*.user
+.vs/
+
+# big binaries: they ship in the release zip (tools/get-binaries.ps1 fetches them for a source build)
+ModelFitStudio/engine/*
+!ModelFitStudio/engine/engine.json
+!ModelFitStudio/engine/LICENSE-LLVM-OpenMP
+ModelFitStudio/tools/llmfit.exe
+
+# not part of the app
+/llmfit/
+/design/
+/screens-*/
+/ModelFitStudio.csproj
+.zcodeignore
+*.log

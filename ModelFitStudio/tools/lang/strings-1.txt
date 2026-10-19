@@ -1,0 +1,731 @@
+> Check, benchmark and download local AI models
+zh 检查、测速并下载本地 AI 模型
+es Comprueba, mide y descarga modelos de IA locales
+pt Verifique, meça e baixe modelos de IA locais
+ru Проверяйте, тестируйте и скачивайте локальные модели ИИ
+de Lokale KI-Modelle prüfen, messen und herunterladen
+fr Vérifiez, mesurez et téléchargez des modèles d'IA locaux
+ja ローカルAIモデルの確認・計測・ダウンロード
+ko 로컬 AI 모델 확인, 측정, 다운로드
+tr Yerel yapay zekâ modellerini kontrol edin, ölçün ve indirin
+it Verifica, misura e scarica modelli di IA locali
+
+> Hide this panel
+zh 隐藏此面板
+es Ocultar este panel
+pt Ocultar este painel
+ru Скрыть панель
+de Dieses Panel ausblenden
+fr Masquer ce panneau
+ja このパネルを隠す
+ko 이 패널 숨기기
+tr Bu paneli gizle
+it Nascondi questo pannello
+
+> Show the side panel
+zh 显示侧边栏
+es Mostrar el panel lateral
+pt Mostrar o painel lateral
+ru Показать боковую панель
+de Seitenleiste einblenden
+fr Afficher le panneau latéral
+ja サイドパネルを表示
+ko 사이드 패널 표시
+tr Yan paneli göster
+it Mostra il pannello laterale
+
+> Hide or show the side panel
+zh 隐藏或显示侧边栏
+es Ocultar o mostrar el panel lateral
+pt Ocultar ou mostrar o painel lateral
+ru Скрыть или показать боковую панель
+de Seitenleiste aus- oder einblenden
+fr Masquer ou afficher le panneau latéral
+ja サイドパネルの表示／非表示
+ko 사이드 패널 숨기기/표시
+tr Yan paneli gizle veya göster
+it Nascondi o mostra il pannello laterale
+
+> This machine
+zh 这台电脑
+es Este equipo
+pt Este computador
+ru Этот компьютер
+de Dieser Rechner
+fr Cette machine
+ja このマシン
+ko 이 컴퓨터
+tr Bu bilgisayar
+it Questo computer
+
+> Rescan
+zh 重新检测
+es Volver a detectar
+pt Detectar de novo
+ru Пересканировать
+de Neu erkennen
+fr Réanalyser
+ja 再スキャン
+ko 다시 검사
+tr Yeniden tara
+it Rileva di nuovo
+
+> Memory budget
+zh 可用内存
+es Memoria disponible
+pt Memória disponível
+ru Доступная память
+de Speicherbudget
+fr Mémoire disponible
+ja 使えるメモリ
+ko 사용 가능한 메모리
+tr Kullanılabilir bellek
+it Memoria disponibile
+
+> {0} usable
+zh 可用 {0}
+es {0} utilizables
+pt {0} utilizáveis
+ru доступно {0}
+de {0} nutzbar
+fr {0} utilisables
+ja {0} 使用可能
+ko {0} 사용 가능
+tr {0} kullanılabilir
+it {0} utilizzabili
+
+> system RAM only
+zh 仅系统内存
+es solo RAM del sistema
+pt apenas RAM do sistema
+ru только системная память
+de nur Arbeitsspeicher
+fr RAM système uniquement
+ja システムRAMのみ
+ko 시스템 RAM만
+tr yalnızca sistem belleği
+it solo RAM di sistema
+
+> corrected
+zh 已修正
+es corregido
+pt corrigido
+ru исправлено
+de korrigiert
+fr corrigé
+ja 補正済み
+ko 보정됨
+tr düzeltildi
+it corretto
+
+> Windows reported {0} (pools over 4 GB wrap). Using {1} from {2}.
+zh Windows 报告为 {0}（超过 4 GB 的显存池会溢出）。改用{2}给出的 {1}。
+es Windows indicó {0} (los grupos de más de 4 GB se desbordan). Se usan {1} según {2}.
+pt O Windows informou {0} (acima de 4 GB o valor transborda). Usando {1} de acordo com {2}.
+ru Windows сообщила {0} (пулы больше 4 ГБ переполняются). Используется {1}: {2}.
+de Windows meldete {0} (Pools über 4 GB laufen über). Verwendet werden {1} laut {2}.
+fr Windows a indiqué {0} (au-delà de 4 Go la valeur déborde). Utilisation de {1} d'après {2}.
+ja Windows の報告は {0}（4 GB を超えるプールは桁あふれします）。{2}に基づき {1} を使用。
+ko Windows는 {0}로 보고했습니다(4 GB를 넘는 풀은 값이 넘칩니다). {2} 기준 {1} 사용.
+tr Windows {0} bildirdi (4 GB üzeri havuzlar taşar). {2} temel alınarak {1} kullanılıyor.
+it Windows ha indicato {0} (oltre 4 GB il valore va in overflow). Si usano {1} in base a {2}.
+
+> driver name
+zh 驱动名称
+es el nombre del controlador
+pt o nome do driver
+ru имя драйвера
+de Treibername
+fr le nom du pilote
+ja ドライバー名
+ko 드라이버 이름
+tr sürücü adı
+it il nome del driver
+
+> {0} free of {1} total
+zh 共 {1}，空闲 {0}
+es {0} libres de {1}
+pt {0} livres de {1}
+ru свободно {0} из {1}
+de {0} frei von {1}
+fr {0} libres sur {1}
+ja 全 {1} 中 {0} 空き
+ko 전체 {1} 중 {0} 여유
+tr {1} içinden {0} boş
+it {0} liberi su {1}
+
+> {0} · {1} cores
+zh {0} · {1} 核
+es {0} · {1} núcleos
+pt {0} · {1} núcleos
+ru {0} · ядер: {1}
+de {0} · {1} Kerne
+fr {0} · {1} cœurs
+ja {0} · {1} コア
+ko {0} · {1}코어
+tr {0} · {1} çekirdek
+it {0} · {1} core
+
+> Engine
+zh 引擎
+es Motor
+pt Motor
+ru Движок
+de Engine
+fr Moteur
+ja エンジン
+ko 엔진
+tr Motor
+it Motore
+
+> llama.cpp · any card
+zh llama.cpp · 任意显卡
+es llama.cpp · cualquier tarjeta
+pt llama.cpp · qualquer placa
+ru llama.cpp · любая видеокарта
+de llama.cpp · jede Grafikkarte
+fr llama.cpp · toute carte
+ja llama.cpp · すべてのGPU
+ko llama.cpp · 모든 그래픽 카드
+tr llama.cpp · her ekran kartı
+it llama.cpp · qualsiasi scheda
+
+> llama.cpp · processor
+zh llama.cpp · 处理器
+es llama.cpp · procesador
+pt llama.cpp · processador
+ru llama.cpp · процессор
+de llama.cpp · Prozessor
+fr llama.cpp · processeur
+ja llama.cpp · プロセッサ
+ko llama.cpp · 프로세서
+tr llama.cpp · işlemci
+it llama.cpp · processore
+
+> NVIDIA card found. Its own engine is faster.
+zh 检测到 NVIDIA 显卡。它的专用引擎更快。
+es Tarjeta NVIDIA detectada. Su propio motor es más rápido.
+pt Placa NVIDIA encontrada. O motor próprio dela é mais rápido.
+ru Найдена видеокарта NVIDIA. Её собственный движок быстрее.
+de NVIDIA-Karte gefunden. Ihre eigene Engine ist schneller.
+fr Carte NVIDIA détectée. Son propre moteur est plus rapide.
+ja NVIDIA のGPUを検出しました。専用エンジンのほうが高速です。
+ko NVIDIA 카드를 찾았습니다. 전용 엔진이 더 빠릅니다.
+tr NVIDIA kartı bulundu. Kendi motoru daha hızlı.
+it Scheda NVIDIA rilevata. Il suo motore è più veloce.
+
+> Get it
+zh 获取
+es Obtener
+pt Obter
+ru Установить
+de Holen
+fr Obtenir
+ja 入手
+ko 받기
+tr Edin
+it Ottieni
+
+> None (CPU only)
+zh 无（仅 CPU）
+es Ninguna (solo CPU)
+pt Nenhuma (só CPU)
+ru Нет (только ЦП)
+de Keine (nur CPU)
+fr Aucune (CPU seul)
+ja なし（CPUのみ）
+ko 없음(CPU만)
+tr Yok (yalnızca CPU)
+it Nessuna (solo CPU)
+
+> Paste a Hugging Face link or org/model to check it — e.g. unsloth/Qwen3-8B-GGUF
+zh 粘贴 Hugging Face 链接或 org/model 进行检查，例如 unsloth/Qwen3-8B-GGUF
+es Pega un enlace de Hugging Face u org/model para comprobarlo, p. ej. unsloth/Qwen3-8B-GGUF
+pt Cole um link do Hugging Face ou org/model para verificar, ex.: unsloth/Qwen3-8B-GGUF
+ru Вставьте ссылку Hugging Face или org/model для проверки, например unsloth/Qwen3-8B-GGUF
+de Hugging-Face-Link oder org/model zum Prüfen einfügen, z. B. unsloth/Qwen3-8B-GGUF
+fr Collez un lien Hugging Face ou org/model pour le vérifier, ex. unsloth/Qwen3-8B-GGUF
+ja Hugging Face のリンクか org/model を貼り付けてチェック（例：unsloth/Qwen3-8B-GGUF）
+ko Hugging Face 링크나 org/model을 붙여넣어 확인하세요. 예: unsloth/Qwen3-8B-GGUF
+tr Kontrol için bir Hugging Face bağlantısı veya org/model yapıştırın, örn. unsloth/Qwen3-8B-GGUF
+it Incolla un link Hugging Face o org/model per verificarlo, es. unsloth/Qwen3-8B-GGUF
+
+> Paste
+zh 粘贴
+es Pegar
+pt Colar
+ru Вставить
+de Einfügen
+fr Coller
+ja 貼り付け
+ko 붙여넣기
+tr Yapıştır
+it Incolla
+
+> Check
+zh 检查
+es Comprobar
+pt Verificar
+ru Проверить
+de Prüfen
+fr Vérifier
+ja チェック
+ko 확인
+tr Kontrol et
+it Verifica
+
+> Search
+zh 搜索
+es Buscar
+pt Buscar
+ru Поиск
+de Suchen
+fr Rechercher
+ja 検索
+ko 검색
+tr Ara
+it Cerca
+
+> Checks any Hugging Face model against
+zh 将任意 Hugging Face 模型与
+es Comprueba cualquier modelo de Hugging Face en
+pt Verifica qualquer modelo do Hugging Face
+ru Проверяет любую модель Hugging Face для
+de Prüft jedes Hugging-Face-Modell für
+fr Vérifie n'importe quel modèle Hugging Face sur
+ja Hugging Face の任意のモデルを
+ko Hugging Face의 어떤 모델이든
+tr Herhangi bir Hugging Face modelini
+it Verifica qualsiasi modello Hugging Face su
+
+> this PC
+zh 这台电脑
+es este PC
+pt neste PC
+ru этого ПК
+de diesen PC
+fr ce PC
+ja このPC
+ko 이 PC
+tr bu bilgisayar
+it questo PC
+
+> . To look for one, search the list below.
+zh 比对。要找模型，请在下方列表中搜索。
+es . Para buscar uno, usa la lista de abajo.
+pt . Para procurar um, use a lista abaixo.
+ru . Чтобы найти модель, ищите в списке ниже.
+de . Zum Suchen die Liste unten verwenden.
+fr . Pour en chercher un, utilisez la liste ci-dessous.
+ja で確認します。探すときは下のリストで検索してください。
+ko 기준으로 확인합니다. 모델을 찾으려면 아래 목록에서 검색하세요.
+tr için kontrol eder. Aramak için aşağıdaki listeyi kullanın.
+it . Per cercarne uno, usa l'elenco qui sotto.
+
+> Models
+zh 模型
+es Modelos
+pt Modelos
+ru Модели
+de Modelle
+fr Modèles
+ja モデル
+ko 모델
+tr Modeller
+it Modelli
+
+> Battle
+zh 对战
+es Batalla
+pt Batalha
+ru Битва
+de Duell
+fr Duel
+ja バトル
+ko 배틀
+tr Düello
+it Sfida
+
+> Library
+zh 模型库
+es Biblioteca
+pt Biblioteca
+ru Библиотека
+de Bibliothek
+fr Bibliothèque
+ja ライブラリ
+ko 라이브러리
+tr Kitaplık
+it Libreria
+
+> Settings
+zh 设置
+es Ajustes
+pt Configurações
+ru Настройки
+de Einstellungen
+fr Réglages
+ja 設定
+ko 설정
+tr Ayarlar
+it Impostazioni
+
+> Detecting hardware…
+zh 正在检测硬件…
+es Detectando hardware…
+pt Detectando hardware…
+ru Определение оборудования…
+de Hardware wird erkannt…
+fr Détection du matériel…
+ja ハードウェアを検出中…
+ko 하드웨어 감지 중…
+tr Donanım algılanıyor…
+it Rilevamento hardware…
+
+> Detecting hardware
+zh 检测硬件
+es Detectando hardware
+pt Detectando hardware
+ru Определение оборудования
+de Hardware erkennen
+fr Détection du matériel
+ja ハードウェアを検出
+ko 하드웨어 감지
+tr Donanım algılama
+it Rilevamento hardware
+
+> Resolving repository
+zh 解析仓库
+es Resolviendo el repositorio
+pt Resolvendo o repositório
+ru Поиск репозитория
+de Repository auflösen
+fr Résolution du dépôt
+ja リポジトリを確認
+ko 저장소 확인
+tr Depo çözümleniyor
+it Risoluzione del repository
+
+> Reading model config
+zh 读取模型配置
+es Leyendo la configuración del modelo
+pt Lendo a configuração do modelo
+ru Чтение конфигурации модели
+de Modellkonfiguration lesen
+fr Lecture de la configuration du modèle
+ja モデル設定を読み込み
+ko 모델 설정 읽기
+tr Model yapılandırması okunuyor
+it Lettura della configurazione del modello
+
+> Scoring fit and speed
+zh 评估适配与速度
+es Evaluando ajuste y velocidad
+pt Avaliando ajuste e velocidade
+ru Оценка совместимости и скорости
+de Passform und Tempo bewerten
+fr Évaluation de l'adéquation et de la vitesse
+ja 適合度と速度を評価
+ko 적합도와 속도 평가
+tr Uyum ve hız puanlanıyor
+it Valutazione di compatibilità e velocità
+
+> Ranking quant options
+zh 排序量化版本
+es Ordenando las versiones
+pt Ordenando as versões
+ru Сортировка версий
+de Versionen sortieren
+fr Classement des versions
+ja 量子化バージョンを順位付け
+ko 양자화 버전 순위 매기기
+tr Sürümler sıralanıyor
+it Ordinamento delle versioni
+
+> Resolving repository…
+zh 正在解析仓库…
+es Resolviendo el repositorio…
+pt Resolvendo o repositório…
+ru Поиск репозитория…
+de Repository wird aufgelöst…
+fr Résolution du dépôt…
+ja リポジトリを確認中…
+ko 저장소 확인 중…
+tr Depo çözümleniyor…
+it Risoluzione del repository…
+
+> Reading model config…
+zh 正在读取模型配置…
+es Leyendo la configuración del modelo…
+pt Lendo a configuração do modelo…
+ru Чтение конфигурации модели…
+de Modellkonfiguration wird gelesen…
+fr Lecture de la configuration du modèle…
+ja モデル設定を読み込み中…
+ko 모델 설정 읽는 중…
+tr Model yapılandırması okunuyor…
+it Lettura della configurazione del modello…
+
+> Scoring fit and speed…
+zh 正在评估适配与速度…
+es Evaluando ajuste y velocidad…
+pt Avaliando ajuste e velocidade…
+ru Оценка совместимости и скорости…
+de Passform und Tempo werden bewertet…
+fr Évaluation de l'adéquation et de la vitesse…
+ja 適合度と速度を評価中…
+ko 적합도와 속도 평가 중…
+tr Uyum ve hız puanlanıyor…
+it Valutazione di compatibilità e velocità…
+
+> Ranking quant options…
+zh 正在排序量化版本…
+es Ordenando las versiones…
+pt Ordenando as versões…
+ru Сортировка версий…
+de Versionen werden sortiert…
+fr Classement des versions…
+ja 量子化バージョンを順位付け中…
+ko 양자화 버전 순위 매기는 중…
+tr Sürümler sıralanıyor…
+it Ordinamento delle versioni…
+
+> Back to models
+zh 返回模型列表
+es Volver a los modelos
+pt Voltar aos modelos
+ru Назад к моделям
+de Zurück zu den Modellen
+fr Retour aux modèles
+ja モデル一覧に戻る
+ko 모델 목록으로
+tr Modellere dön
+it Torna ai modelli
+
+> Scanned on this machine
+zh 已在这台电脑上检查
+es Analizado en este equipo
+pt Analisado neste computador
+ru Проверено на этом компьютере
+de Auf diesem Rechner geprüft
+fr Analysé sur cette machine
+ja このマシンでチェック済み
+ko 이 컴퓨터에서 확인됨
+tr Bu bilgisayarda tarandı
+it Analizzato su questo computer
+
+> memory used
+zh 内存占用
+es memoria usada
+pt memória usada
+ru память занята
+de Speicher belegt
+fr mémoire utilisée
+ja メモリ使用
+ko 메모리 사용
+tr bellek kullanımı
+it memoria usata
+
+> Preview speed
+zh 预览速度
+es Vista previa de velocidad
+pt Prévia da velocidade
+ru Предпросмотр скорости
+de Tempo-Vorschau
+fr Aperçu de la vitesse
+ja 速度をプレビュー
+ko 속도 미리보기
+tr Hız önizlemesi
+it Anteprima velocità
+
+> Download this model
+zh 下载此模型
+es Descargar este modelo
+pt Baixar este modelo
+ru Скачать эту модель
+de Dieses Modell herunterladen
+fr Télécharger ce modèle
+ja このモデルをダウンロード
+ko 이 모델 다운로드
+tr Bu modeli indir
+it Scarica questo modello
+
+> estimated speed
+zh 估计速度
+es velocidad estimada
+pt velocidade estimada
+ru расчётная скорость
+de geschätztes Tempo
+fr vitesse estimée
+ja 推定速度
+ko 예상 속도
+tr tahmini hız
+it velocità stimata
+
+> measured speed
+zh 实测速度
+es velocidad medida
+pt velocidade medida
+ru измеренная скорость
+de gemessenes Tempo
+fr vitesse mesurée
+ja 実測速度
+ko 측정 속도
+tr ölçülen hız
+it velocità misurata
+
+> Runs on this machine
+zh 可在这台电脑上运行
+es Funciona en este equipo
+pt Roda neste computador
+ru Работает на этом компьютере
+de Läuft auf diesem Rechner
+fr Fonctionne sur cette machine
+ja このマシンで動きます
+ko 이 컴퓨터에서 실행됩니다
+tr Bu bilgisayarda çalışır
+it Funziona su questo computer
+
+> Runs — but tight
+zh 能运行，但很吃紧
+es Funciona, pero justo
+pt Roda, mas no limite
+ru Работает, но на пределе
+de Läuft, aber knapp
+fr Fonctionne, mais c'est juste
+ja 動きますが、ぎりぎりです
+ko 실행되지만 빠듯합니다
+tr Çalışır, ama sınırda
+it Funziona, ma al limite
+
+> Won't fit
+zh 放不下
+es No cabe
+pt Não cabe
+ru Не поместится
+de Passt nicht
+fr Ne tient pas
+ja 収まりません
+ko 들어가지 않습니다
+tr Sığmaz
+it Non ci sta
+
+> {0} needs {1} of the {2} this machine makes available.
+zh {0} 需要这台电脑 {2} 可用内存中的 {1}。
+es {0} necesita {1} de los {2} que este equipo tiene disponibles.
+pt {0} precisa de {1} dos {2} que este computador disponibiliza.
+ru {0} требует {1} из {2}, доступных на этом компьютере.
+de {0} braucht {1} von den {2}, die dieser Rechner bereitstellt.
+fr {0} a besoin de {1} sur les {2} disponibles sur cette machine.
+ja {0} は、このマシンで使える {2} のうち {1} を必要とします。
+ko {0}은(는) 이 컴퓨터에서 쓸 수 있는 {2} 중 {1}가 필요합니다.
+tr {0}, bu bilgisayarın sunduğu {2} belleğin {1} kadarını ister.
+it {0} richiede {1} dei {2} disponibili su questo computer.
+
+> Recommended: the largest version that still writes at reading pace here.
+zh 推荐：在这台电脑上仍能达到阅读速度的最大版本。
+es Recomendado: la versión más grande que aquí aún escribe a ritmo de lectura.
+pt Recomendado: a maior versão que ainda escreve em ritmo de leitura aqui.
+ru Рекомендуется: самая большая версия, которая здесь ещё пишет со скоростью чтения.
+de Empfohlen: die größte Version, die hier noch im Lesetempo schreibt.
+fr Recommandé : la plus grande version qui écrit encore ici au rythme de lecture.
+ja おすすめ：この環境で読む速さを保てる最大のバージョン。
+ko 추천: 이 PC에서 읽는 속도를 유지하는 가장 큰 버전.
+tr Önerilen: burada hâlâ okuma hızında yazan en büyük sürüm.
+it Consigliata: la versione più grande che qui scrive ancora a ritmo di lettura.
+
+> Recommended: the largest version that fits, and it writes at reading pace.
+zh 推荐：能放下的最大版本，并且达到阅读速度。
+es Recomendado: la versión más grande que cabe, y escribe a ritmo de lectura.
+pt Recomendado: a maior versão que cabe, e escreve em ritmo de leitura.
+ru Рекомендуется: самая большая версия, которая помещается, и она пишет со скоростью чтения.
+de Empfohlen: die größte Version, die passt, und sie schreibt im Lesetempo.
+fr Recommandé : la plus grande version qui tient, et elle écrit au rythme de lecture.
+ja おすすめ：収まる最大のバージョンで、読む速さで書けます。
+ko 추천: 들어가는 가장 큰 버전이며, 읽는 속도로 씁니다.
+tr Önerilen: sığan en büyük sürüm; okuma hızında yazar.
+it Consigliata: la versione più grande che ci sta, e scrive a ritmo di lettura.
+
+> No version reaches reading pace on this PC. Recommended: the usual best trade between quality and speed.
+zh 在这台电脑上没有版本能达到阅读速度。推荐：质量与速度的常用折中。
+es Ninguna versión alcanza el ritmo de lectura en este PC. Recomendado: el equilibrio habitual entre calidad y velocidad.
+pt Nenhuma versão alcança o ritmo de leitura neste PC. Recomendado: o equilíbrio usual entre qualidade e velocidade.
+ru Ни одна версия не достигает скорости чтения на этом ПК. Рекомендуется: обычный компромисс между качеством и скоростью.
+de Keine Version erreicht auf diesem PC das Lesetempo. Empfohlen: der übliche Kompromiss aus Qualität und Tempo.
+fr Aucune version n'atteint le rythme de lecture sur ce PC. Recommandé : le compromis habituel entre qualité et vitesse.
+ja このPCでは読む速さに届くバージョンがありません。おすすめ：品質と速度の定番バランス。
+ko 이 PC에서 읽는 속도에 도달하는 버전이 없습니다. 추천: 품질과 속도의 일반적인 절충.
+tr Bu bilgisayarda hiçbir sürüm okuma hızına ulaşmıyor. Önerilen: kalite ile hız arasındaki olağan denge.
+it Nessuna versione raggiunge il ritmo di lettura su questo PC. Consigliata: il solito compromesso tra qualità e velocità.
+
+> No usable GGUF found in that repository.
+zh 该仓库中没有可用的 GGUF 文件。
+es No hay ningún GGUF utilizable en ese repositorio.
+pt Nenhum GGUF utilizável nesse repositório.
+ru В этом репозитории нет подходящего GGUF.
+de In diesem Repository gibt es kein nutzbares GGUF.
+fr Aucun GGUF utilisable dans ce dépôt.
+ja このリポジトリに使える GGUF がありません。
+ko 이 저장소에 사용할 수 있는 GGUF가 없습니다.
+tr Bu depoda kullanılabilir GGUF yok.
+it Nessun GGUF utilizzabile in quel repository.
+
+> Measured on this PC with llama.cpp.
+zh 在这台电脑上用 llama.cpp 实测。
+es Medido en este PC con llama.cpp.
+pt Medido neste PC com llama.cpp.
+ru Измерено на этом ПК с помощью llama.cpp.
+de Auf diesem PC mit llama.cpp gemessen.
+fr Mesuré sur ce PC avec llama.cpp.
+ja このPCで llama.cpp を使って実測。
+ko 이 PC에서 llama.cpp로 측정했습니다.
+tr Bu bilgisayarda llama.cpp ile ölçüldü.
+it Misurato su questo PC con llama.cpp.
+
+> Estimated from the version of this model you measured here.
+zh 根据你在此实测过的该模型版本估算。
+es Estimado a partir de la versión de este modelo que mediste aquí.
+pt Estimado a partir da versão deste modelo que você mediu aqui.
+ru Оценка по версии этой модели, измеренной здесь.
+de Geschätzt aus der Version dieses Modells, die Sie hier gemessen haben.
+fr Estimé à partir de la version de ce modèle que vous avez mesurée ici.
+ja ここで実測したこのモデルの別バージョンからの推定。
+ko 여기서 측정한 이 모델의 다른 버전을 바탕으로 추정했습니다.
+tr Bu modelin burada ölçtüğünüz sürümünden tahmin edildi.
+it Stimato dalla versione di questo modello che hai misurato qui.
+
+> A range corrected by a real run on this PC.
+zh 该范围已按这台电脑上的实测结果校正。
+es Un rango corregido con una ejecución real en este PC.
+pt Uma faixa corrigida por uma execução real neste PC.
+ru Диапазон скорректирован по реальному запуску на этом ПК.
+de Ein Bereich, korrigiert durch einen echten Lauf auf diesem PC.
+fr Une plage corrigée par une exécution réelle sur ce PC.
+ja このPCでの実測で補正した範囲です。
+ko 이 PC에서의 실제 실행으로 보정한 범위입니다.
+tr Bu bilgisayardaki gerçek bir çalıştırmayla düzeltilmiş aralık.
+it Un intervallo corretto da un'esecuzione reale su questo PC.
+
+> A range for a GPU that shares system memory. Measure a downloaded model to make it exact for this PC.
+zh 这是共享系统内存的 GPU 的范围。测一次已下载的模型，即可得到这台电脑的准确值。
+es Un rango para una GPU que comparte la memoria del sistema. Mide un modelo descargado para tener el valor exacto de este PC.
+pt Uma faixa para uma GPU que compartilha a memória do sistema. Meça um modelo baixado para ter o valor exato deste PC.
+ru Диапазон для видеокарты с общей системной памятью. Измерьте скачанную модель, чтобы получить точное значение для этого ПК.
+de Ein Bereich für eine GPU, die den Arbeitsspeicher mitnutzt. Messen Sie ein heruntergeladenes Modell, um den genauen Wert für diesen PC zu erhalten.
+fr Une plage pour un GPU qui partage la mémoire système. Mesurez un modèle téléchargé pour obtenir la valeur exacte sur ce PC.
+ja システムメモリを共有するGPU向けの範囲です。ダウンロード済みモデルを計測すると、このPCの正確な値になります。
+ko 시스템 메모리를 공유하는 GPU 기준 범위입니다. 다운로드한 모델을 측정하면 이 PC의 정확한 값이 됩니다.
+tr Sistem belleğini paylaşan bir GPU için aralık. Bu bilgisayar için kesin değeri almak üzere indirilmiş bir modeli ölçün.
+it Un intervallo per una GPU che condivide la memoria di sistema. Misura un modello scaricato per avere il valore esatto di questo PC.
+
+> A range for this kind of PC. Measure a downloaded model to make it exact for this PC.
+zh 这是此类电脑的范围。测一次已下载的模型，即可得到这台电脑的准确值。
+es Un rango para este tipo de PC. Mide un modelo descargado para tener el valor exacto de este PC.
+pt Uma faixa para este tipo de PC. Meça um modelo baixado para ter o valor exato deste PC.
+ru Диапазон для такого типа ПК. Измерьте скачанную модель, чтобы получить точное значение для этого ПК.
+de Ein Bereich für diese Art von PC. Messen Sie ein heruntergeladenes Modell, um den genauen Wert für diesen PC zu erhalten.
+fr Une plage pour ce type de PC. Mesurez un modèle téléchargé pour obtenir la valeur exacte sur ce PC.
+ja この種類のPC向けの範囲です。ダウンロード済みモデルを計測すると、このPCの正確な値になります。
+ko 이런 종류의 PC 기준 범위입니다. 다운로드한 모델을 측정하면 이 PC의 정확한 값이 됩니다.
+tr Bu tür bilgisayarlar için aralık. Bu bilgisayar için kesin değeri almak üzere indirilmiş bir modeli ölçün.
+it Un intervallo per questo tipo di PC. Misura un modello scaricato per avere il valore esatto di questo PC.

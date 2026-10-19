@@ -1,0 +1,4887 @@
+{
+ "about": "One Suggest rule for Models Fit Studio and zer0ne code. Both apps test against this file; the two copies must be the same (CoreTests/suggest-cases.json and zer0ne_code/engine/test/fixtures/suggest-cases.json). A row is [origin, paramsB, quality, typical tok/s, category]; the speed range is ±15% around it.",
+ "constants": {
+  "comfortPace": 12,
+  "readingPace": 7
+ },
+ "categories": [
+  {
+   "name": "google/gemma-4-E4B-it",
+   "useCase": "Multimodal, vision and text",
+   "category": "Multimodal"
+  },
+  {
+   "name": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "useCase": "Code generation and completion",
+   "category": "Coding"
+  },
+  {
+   "name": "BAAI/bge-large-en",
+   "useCase": "Text embeddings for RAG",
+   "category": "Embedding"
+  },
+  {
+   "name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+   "useCase": "General purpose",
+   "category": "Reasoning"
+  },
+  {
+   "name": "meta-llama/Llama-3.2-3B-Instruct",
+   "useCase": "Instruction following, chat",
+   "category": "Chat"
+  },
+  {
+   "name": "Qwen/Qwen2.5-3B",
+   "useCase": "General purpose text generation",
+   "category": "General"
+  },
+  {
+   "name": "someone/Thinker-8B",
+   "useCase": "Advanced reasoning, chain-of-thought",
+   "category": "Reasoning"
+  }
+ ],
+ "usable": [
+  {
+   "origin": "google/gemma-4-E4B-it",
+   "provider": "unsloth",
+   "category": "Multimodal",
+   "moe": false,
+   "usable": true
+  },
+  {
+   "origin": "Qwen/Qwen3.5-4B",
+   "provider": "unsloth",
+   "category": "Multimodal",
+   "moe": false,
+   "usable": true
+  },
+  {
+   "origin": "meta-llama/Llama-3.2-3B-Instruct",
+   "provider": "bartowski",
+   "category": "Chat",
+   "moe": false,
+   "usable": true
+  },
+  {
+   "origin": "Qwen/Qwen2.5-3B",
+   "provider": "bartowski",
+   "category": "General",
+   "moe": false,
+   "usable": false
+  },
+  {
+   "origin": "Qwen/Qwen2.5-3B-Instruct",
+   "provider": "bartowski",
+   "category": "General",
+   "moe": false,
+   "usable": true
+  },
+  {
+   "origin": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "provider": "unsloth",
+   "category": "Coding",
+   "moe": false,
+   "usable": false
+  },
+  {
+   "origin": "google/medgemma-4b-it",
+   "provider": "unsloth",
+   "category": "Multimodal",
+   "moe": false,
+   "usable": false
+  },
+  {
+   "origin": "dots-studio/dots.ocr",
+   "provider": "ggml-org",
+   "category": "Multimodal",
+   "moe": false,
+   "usable": false
+  },
+  {
+   "origin": "BAAI/bge-large-en",
+   "provider": "unsloth",
+   "category": "Embedding",
+   "moe": false,
+   "usable": false
+  },
+  {
+   "origin": "someone/Qwen3-8B-abliterated",
+   "provider": "unsloth",
+   "category": "Chat",
+   "moe": false,
+   "usable": false
+  },
+  {
+   "origin": "someone/nice-chat-8B-Instruct",
+   "provider": "mradermacher",
+   "category": "Chat",
+   "moe": false,
+   "usable": false
+  },
+  {
+   "origin": "google/gemma-4-26B-A4B-it",
+   "provider": "unsloth",
+   "category": "Multimodal",
+   "moe": true,
+   "usable": false
+  },
+  {
+   "origin": "Qwen/Qwen3.5-2B",
+   "provider": "Qwen",
+   "category": "Multimodal",
+   "moe": false,
+   "usable": true
+  }
+ ],
+ "picks": [
+  {
+   "name": "the best mix, then the smartest, then the fastest",
+   "rows": [
+    [
+     "google/gemma-4-E4B-it",
+     8,
+     92.5,
+     9.7,
+     "Multimodal"
+    ],
+    [
+     "Qwen/Qwen3.5-4B",
+     4.7,
+     77,
+     15.6,
+     "Multimodal"
+    ],
+    [
+     "Qwen/Qwen3.5-2B",
+     2.3,
+     62,
+     28,
+     "Multimodal"
+    ],
+    [
+     "HuggingFaceTB/SmolLM2-360M-Instruct",
+     0.4,
+     30,
+     120,
+     "Chat"
+    ]
+   ],
+   "picks": [
+    [
+     "best",
+     "Qwen3.5-4B"
+    ],
+    [
+     "smartest",
+     "gemma-4-E4B-it"
+    ],
+    [
+     "fastest",
+     "Qwen3.5-2B"
+    ]
+   ]
+  },
+  {
+   "name": "never slower than reading pace when a comfortable one exists",
+   "rows": [
+    [
+     "big/Smart-27B-it",
+     27,
+     97,
+     3.1,
+     "Chat"
+    ],
+    [
+     "google/gemma-4-E4B-it",
+     8,
+     92.5,
+     9.7,
+     "Chat"
+    ],
+    [
+     "Qwen/Qwen3.5-4B",
+     4.7,
+     77,
+     15.6,
+     "Chat"
+    ]
+   ],
+   "picks": [
+    [
+     "best",
+     "Qwen3.5-4B"
+    ],
+    [
+     "smartest",
+     "gemma-4-E4B-it"
+    ]
+   ]
+  },
+  {
+   "name": "the same model counts once",
+   "rows": [
+    [
+     "Qwen/Qwen3-VL-8B-Instruct",
+     8.8,
+     89,
+     9,
+     "Chat"
+    ],
+    [
+     "Qwen/Qwen3-VL-8B-Thinking",
+     8.8,
+     89,
+     9,
+     "Chat"
+    ],
+    [
+     "unsloth/Qwen3-VL-8B",
+     8.8,
+     89,
+     9,
+     "Chat"
+    ]
+   ],
+   "picks": [
+    [
+     "best",
+     "Qwen3-VL-8B-Instruct"
+    ]
+   ]
+  },
+  {
+   "name": "a weak computer still gets an answer",
+   "rows": [
+    [
+     "Qwen/Qwen3.5-2B",
+     2.3,
+     62,
+     4,
+     "Chat"
+    ],
+    [
+     "Qwen/Qwen3.5-4B",
+     4.7,
+     77,
+     2.2,
+     "Chat"
+    ]
+   ],
+   "picks": [
+    [
+     "best",
+     "Qwen3.5-2B"
+    ]
+   ]
+  },
+  {
+   "name": "nothing that fits gives no suggestion",
+   "rows": [],
+   "picks": []
+  }
+ ],
+ "speed": {
+  "gpuClass": [
+   {
+    "name": "Intel(R) Arc(TM) 140T GPU (16GB)",
+    "hasGpu": true,
+    "unified": false,
+    "gpuClass": "integrated"
+   },
+   {
+    "name": "Intel(R) Arc(TM) A770 Graphics",
+    "hasGpu": true,
+    "unified": false,
+    "gpuClass": "discrete"
+   },
+   {
+    "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "hasGpu": true,
+    "unified": false,
+    "gpuClass": "discrete"
+   },
+   {
+    "name": "AMD Radeon(TM) Graphics",
+    "hasGpu": true,
+    "unified": false,
+    "gpuClass": "integrated"
+   },
+   {
+    "name": "AMD Radeon 890M",
+    "hasGpu": true,
+    "unified": false,
+    "gpuClass": "integrated"
+   },
+   {
+    "name": "Apple M3 Max",
+    "hasGpu": true,
+    "unified": true,
+    "gpuClass": "integrated"
+   },
+   {
+    "name": "",
+    "hasGpu": false,
+    "unified": false,
+    "gpuClass": "cpu"
+   },
+   {
+    "name": "Intel(R) Iris(R) Xe Graphics",
+    "hasGpu": true,
+    "unified": false,
+    "gpuClass": "integrated"
+   }
+  ],
+  "range": [
+   {
+    "raw": 26.7,
+    "gpuClass": "integrated",
+    "calibration": 0,
+    "range": [
+     12,
+     17.4
+    ]
+   },
+   {
+    "raw": 26.7,
+    "gpuClass": "discrete",
+    "calibration": 0,
+    "range": [
+     20,
+     26.7
+    ]
+   },
+   {
+    "raw": 26.7,
+    "gpuClass": "cpu",
+    "calibration": 0,
+    "range": [
+     18.7,
+     26.7
+    ]
+   },
+   {
+    "raw": 26.7,
+    "gpuClass": "integrated",
+    "calibration": 0.55,
+    "range": [
+     12.5,
+     16.9
+    ]
+   },
+   {
+    "raw": 0,
+    "gpuClass": "discrete",
+    "calibration": 0,
+    "range": [
+     0,
+     0
+    ]
+   },
+   {
+    "raw": 12.35,
+    "gpuClass": "integrated",
+    "calibration": 0,
+    "range": [
+     5.6,
+     8
+    ]
+   }
+  ],
+  "rawTps": [
+   {
+    "gbPerSec": 92.4,
+    "sizeGb": 3.1,
+    "rawTps": 26.4
+   },
+   {
+    "gbPerSec": 92.4,
+    "sizeGb": 0.2,
+    "rawTps": 154
+   },
+   {
+    "gbPerSec": 92.4,
+    "sizeGb": 0.01,
+    "rawTps": 220
+   },
+   {
+    "gbPerSec": 500,
+    "sizeGb": 0.5,
+    "rawTps": 220
+   },
+   {
+    "gbPerSec": 0,
+    "sizeGb": 4,
+    "rawTps": 0
+   },
+   {
+    "gbPerSec": 92.4,
+    "sizeGb": 9.2,
+    "rawTps": 9.6
+   }
+  ],
+  "calibration": [
+   {
+    "runs": [
+     [
+      7.5,
+      15
+     ],
+     [
+      9,
+      14.2
+     ],
+     [
+      8.1,
+      15.5
+     ]
+    ],
+    "calibration": 0.523
+   },
+   {
+    "runs": [
+     [
+      7,
+      14
+     ],
+     [
+      6,
+      12
+     ]
+    ],
+    "calibration": 0.5
+   },
+   {
+    "runs": [
+     [
+      0,
+      10
+     ],
+     [
+      50,
+      10
+     ],
+     [
+      10,
+      0
+     ]
+    ],
+    "calibration": 0
+   },
+   {
+    "runs": [],
+    "calibration": 0
+   }
+  ]
+ },
+ "llmfit": {
+  "about": "llmfit 1.1.17 rows from an Arc 140T laptop (32 GB RAM), budget 16 GB: the decode rate comes from the first 200 rows, the suggestions from all of them.",
+  "budgetGb": 16,
+  "gpuClass": "integrated",
+  "calibration": 0,
+  "gbPerSec": 92.4,
+  "rowCount": 69,
+  "picks": [
+   [
+    "best",
+    "gemma-4-E2B-it",
+    11.6,
+    16.7
+   ],
+   [
+    "smartest",
+    "gemma-4-E4B-it",
+    7.8,
+    11.3
+   ],
+   [
+    "fastest",
+    "Qwen3.5-2B",
+    21.9,
+    31.6
+   ]
+  ],
+  "models": [
+   {
+    "name": "PreDoctor/DeepSeek-R1-0528-Qwen3-8B-NVFP4-W4A16-PreTensor",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 94.4
+    },
+    "release_date": "2026-09-13",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "Alexzander85/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-NVFP4-MLP-FP8KV",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 7.54,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 90.8
+    },
+    "release_date": "2026-03-04",
+    "estimated_tps": 11.7,
+    "disk_size_gb": 7.92
+   },
+   {
+    "name": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/DeepSeek-R1-0528-Qwen3-8B-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.19,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 91.4
+    },
+    "release_date": "2025-05-29",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.6
+   },
+   {
+    "name": "heseltiNe/barrier-free-fine-tuning_deepseek-r1-0528-qwen3-8B_alpaca",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.19,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 91.4
+    },
+    "release_date": "2025-07-05",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.6
+   },
+   {
+    "name": "mlx-community/DeepSeek-R1-0528-Qwen3-8B-4bit",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.19,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 91.4
+    },
+    "release_date": "2025-05-29",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.6
+   },
+   {
+    "name": "unsloth/DeepSeek-R1-0528-Qwen3-8B-unsloth-bnb-4bit",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.38,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 91.4
+    },
+    "release_date": null,
+    "estimated_tps": 10.5,
+    "disk_size_gb": 8.8
+   },
+   {
+    "name": "reasonwang/SkillGym-Qwen3.5-9B",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 9.41,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92.3
+    },
+    "release_date": "2026-09-13",
+    "estimated_tps": 9.4,
+    "disk_size_gb": 9.88
+   },
+   {
+    "name": "Jackrong/MLX-Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-4bit",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.95,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 90.8
+    },
+    "release_date": "2026-03-06",
+    "estimated_tps": 9.8,
+    "disk_size_gb": 9.4
+   },
+   {
+    "name": "Jackrong/MLX-Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-8bit",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.95,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 90.8
+    },
+    "release_date": "2026-03-07",
+    "estimated_tps": 9.8,
+    "disk_size_gb": 9.4
+   },
+   {
+    "name": "mondk/Safetensors.claude_Deepseek-R1-Llama",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.03,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 89.4
+    },
+    "release_date": "2026-08-15",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.43
+   },
+   {
+    "name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 7.62,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 88.4
+    },
+    "release_date": "2025-01-20",
+    "estimated_tps": 11.6,
+    "disk_size_gb": 8
+   },
+   {
+    "name": "huihui-ai/DeepSeek-R1-Distill-Qwen-7B-abliterated-v2",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 7.62,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 88.4
+    },
+    "release_date": "2025-01-31",
+    "estimated_tps": 11.6,
+    "disk_size_gb": 8
+   },
+   {
+    "name": "Jackrong/MLX-Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-4bit",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 89.3
+    },
+    "release_date": null,
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.62
+   },
+   {
+    "name": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 9.65,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 90.8
+    },
+    "release_date": "2026-03-03",
+    "estimated_tps": 9.1,
+    "disk_size_gb": 10.14
+   },
+   {
+    "name": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "mradermacher/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "provider": "mradermacher"
+     }
+    ],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 9.65,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 90.8
+    },
+    "release_date": "2026-04-22",
+    "estimated_tps": 9.1,
+    "disk_size_gb": 10.14
+   },
+   {
+    "name": "Jackrong/Qwen3.5-9B-Gemini-3.1-Pro-Reasoning-Distill",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 9.65,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 90.8
+    },
+    "release_date": "2026-03-10",
+    "estimated_tps": 9.1,
+    "disk_size_gb": 10.14
+   },
+   {
+    "name": "unsloth/DeepSeek-R1-Distill-Qwen-7B-bnb-4bit",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 7.82,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 88.4
+    },
+    "release_date": null,
+    "estimated_tps": 11.3,
+    "disk_size_gb": 8.21
+   },
+   {
+    "name": "unsloth/DeepSeek-R1-Distill-Qwen-7B-unsloth-bnb-4bit",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 7.76,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 88.4
+    },
+    "release_date": null,
+    "estimated_tps": 11.3,
+    "disk_size_gb": 8.15
+   },
+   {
+    "name": "khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled-GGUF",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 3.13,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 73
+    },
+    "release_date": null,
+    "estimated_tps": 28.2,
+    "disk_size_gb": 3.28
+   },
+   {
+    "name": "17slever17/translate-gemma-4-sub-e4b",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 88.1
+    },
+    "release_date": "2026-07-23",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "AlSamCur123/gemma-4-E4B-it-uncensored-continued",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 88.1
+    },
+    "release_date": "2026-07-29",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "Ayodele01/gemma-4-E4B-Gemini-3.1-Pro-Reasoning-Distill",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 88.1
+    },
+    "release_date": "2026-04-03",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "ermiaazarkhalili/Gemma4-E4B-SFT-Claude-Opus-Reasoning-Unsloth",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 88.1
+    },
+    "release_date": "2026-06-24",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "amazon/GKA-primed-HQwen3-8B-Reasoner",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.5,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 87.7
+    },
+    "release_date": "2026-03-31",
+    "estimated_tps": 10.4,
+    "disk_size_gb": 8.93
+   },
+   {
+    "name": "arefehRajabian/deepseek_r1_finetune_16bit",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.19,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 87
+    },
+    "release_date": "2026-09-11",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.6
+   },
+   {
+    "name": "inference-optimization/Qwen3-30B-A3B-Thinking-2507-REAP-25-uniform",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "General",
+    "is_moe": true,
+    "params_b": 23.28,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 66
+    },
+    "release_date": "2026-09-29",
+    "estimated_tps": 42.1,
+    "disk_size_gb": 13.5
+   },
+   {
+    "name": "Jackrong/MLX-Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-4bit",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 4.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 75.8
+    },
+    "release_date": "2026-03-04",
+    "estimated_tps": 20.9,
+    "disk_size_gb": 4.42
+   },
+   {
+    "name": "Jackrong/MLX-Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-8bit",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 4.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 75.8
+    },
+    "release_date": "2026-03-04",
+    "estimated_tps": 20.9,
+    "disk_size_gb": 4.42
+   },
+   {
+    "name": "khazarai/Qwen3-4B-Kimi2.5-Reasoning-Distilled-GGUF",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 3.13,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 71.2
+    },
+    "release_date": null,
+    "estimated_tps": 28.2,
+    "disk_size_gb": 3.28
+   },
+   {
+    "name": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/DeepSeek-R1-Distill-Llama-8B-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.03,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 86.4
+    },
+    "release_date": "2025-01-20",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.43
+   },
+   {
+    "name": "huihui-ai/DeepSeek-R1-Distill-Llama-8B-abliterated",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.03,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 86.4
+    },
+    "release_date": null,
+    "estimated_tps": 11,
+    "disk_size_gb": 8.43
+   },
+   {
+    "name": "reasonwang/SkillGym-Qwen3.5-4B",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 4.54,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 77.3
+    },
+    "release_date": "2026-09-22",
+    "estimated_tps": 19.4,
+    "disk_size_gb": 4.77
+   },
+   {
+    "name": "z-lab/DeepSeek-R1-Distill-Llama-8B-PARO",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.03,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 86.4
+    },
+    "release_date": null,
+    "estimated_tps": 11,
+    "disk_size_gb": 8.43
+   },
+   {
+    "name": "ziaulkarim245/Deepseek-R1-Phishing-Detector",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.03,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 86.4
+    },
+    "release_date": "2026-01-19",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.43
+   },
+   {
+    "name": "gaparecido/llama-3.1-8b-financial-reasoner-v1",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.03,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 86.3
+    },
+    "release_date": "2026-08-20",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.43
+   },
+   {
+    "name": "mconcat/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-NVFP4",
+    "fit_level": "Marginal",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 22.15,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 99.8
+    },
+    "release_date": "2026-03-10",
+    "estimated_tps": 5.7,
+    "disk_size_gb": 12.85
+   },
+   {
+    "name": "mconcat/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-NVFP4",
+    "fit_level": "Marginal",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 22.15,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 99.8
+    },
+    "release_date": "2026-03-26",
+    "estimated_tps": 5.7,
+    "disk_size_gb": 12.85
+   },
+   {
+    "name": "Anudeep28/DeepSeek-R1-Distill-Llama-8B-Game-theory-V1",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 86.4
+    },
+    "release_date": null,
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.66
+   },
+   {
+    "name": "ArliAI/DS-R1-Qwen3-8B-ArliAI-RpR-v4-Small",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.19,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 86.2
+    },
+    "release_date": "2025-06-03",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.6
+   },
+   {
+    "name": "gustavecortal/Qwen3-psychological-reasoning-8B",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.19,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 86.2
+    },
+    "release_date": "2025-07-07",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.6
+   },
+   {
+    "name": "microsoft/Phi-4-mini-flash-reasoning",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 3.85,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 73
+    },
+    "release_date": "2025-06-19",
+    "estimated_tps": 22.8,
+    "disk_size_gb": 4.05
+   },
+   {
+    "name": "mims-harvard/ATHENA-R1-Qwen3-8B",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.19,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 86.2
+    },
+    "release_date": null,
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.6
+   },
+   {
+    "name": "unsloth/DeepSeek-R1-Distill-Llama-8B-bnb-4bit",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.25,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 86.4
+    },
+    "release_date": null,
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.66
+   },
+   {
+    "name": "unsloth/DeepSeek-R1-Distill-Llama-8B-unsloth-bnb-4bit",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 86.4
+    },
+    "release_date": "2025-01-20",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.66
+   },
+   {
+    "name": "DavidAU/Llama3.3-8B-Instruct-Thinking-Claude-4.5-Opus-High-Reasoning",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.03,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 85.5
+    },
+    "release_date": null,
+    "estimated_tps": 11,
+    "disk_size_gb": 8.43
+   },
+   {
+    "name": "DavidAU/Llama3.3-8B-Instruct-Thinking-Heretic-Uncensored-Claude-4.5-Opus-High-Reasoning",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.03,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 85.5
+    },
+    "release_date": "2026-01-02",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.43
+   },
+   {
+    "name": "cerebras/Qwen3-Coder-REAP-25B-A3B",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "mradermacher/Qwen3-Coder-REAP-25B-A3B-GGUF",
+      "provider": "mradermacher"
+     }
+    ],
+    "category": "Coding",
+    "is_moe": true,
+    "params_b": 24.87,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 70.2
+    },
+    "release_date": "2025-10-20",
+    "estimated_tps": 41.1,
+    "disk_size_gb": 14.42
+   },
+   {
+    "name": "malaiwah/Qwen3.8-27B-EXL3-K5K6-context",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 10.34,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98.4
+    },
+    "release_date": null,
+    "estimated_tps": 8.5,
+    "disk_size_gb": 10.85
+   },
+   {
+    "name": "sajan-sarker/Qwen3.5-4B-LoRA-GRPO-CyberSec-Reasoner",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 4.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 74.3
+    },
+    "release_date": null,
+    "estimated_tps": 20.9,
+    "disk_size_gb": 4.42
+   },
+   {
+    "name": "Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 4.66,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 75.8
+    },
+    "release_date": "2026-03-03",
+    "estimated_tps": 18.9,
+    "disk_size_gb": 4.89
+   },
+   {
+    "name": "TeichAI/Qwen3.5-4B-Claude-Opus-Reasoning-Distill",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 4.66,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 75.8
+    },
+    "release_date": "2026-03-24",
+    "estimated_tps": 18.9,
+    "disk_size_gb": 4.89
+   },
+   {
+    "name": "AlicanKiraz0/Kizagan-E4B-Turkish-Reasoning-Model",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 84
+    },
+    "release_date": null,
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "McG-221/G4-MeroMero-v2-31B-9bit",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 10.17,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 97
+    },
+    "release_date": null,
+    "estimated_tps": 8.7,
+    "disk_size_gb": 10.67
+   },
+   {
+    "name": "google/DiarizationLM-Gemma-4-E4B-v1",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 94
+    },
+    "release_date": "2026-10-04",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "mlx-community/gemma-4-E4B-it-qat-mobile",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/gemma-4-E4B-it-qat-mobile-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 3.37,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 79
+    },
+    "release_date": "2026-08-11",
+    "estimated_tps": 26.1,
+    "disk_size_gb": 3.54
+   },
+   {
+    "name": "s-emanuilov/LLMBG-Llama-3.1-8B-BG-Reasoning-v0.1",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.03,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 83.3
+    },
+    "release_date": "2025-02-08",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.43
+   },
+   {
+    "name": "DavidAU/Qwen3-4B-Claude-Sonnet-4-Reasoning-Distill-Heretic-Abliterated-Heretic-Abliterated",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 4.02,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 71.2
+    },
+    "release_date": null,
+    "estimated_tps": 21.9,
+    "disk_size_gb": 4.22
+   },
+   {
+    "name": "microsoft/Phi-4-mini-reasoning",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Phi-4-mini-reasoning-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 3.84,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 70
+    },
+    "release_date": "2025-05-01",
+    "estimated_tps": 22.9,
+    "disk_size_gb": 4.03
+   },
+   {
+    "name": "huihui-ai/DeepSeek-R1-0528-Qwen3-8B-abliterated",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.19,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 91.4
+    },
+    "release_date": "2025-05-30",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.6
+   },
+   {
+    "name": "mlx-community/DeepSeek-R1-0528-Qwen3-8B-bf16",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.19,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 91.4
+    },
+    "release_date": null,
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.6
+   },
+   {
+    "name": "mondk/claude_Deepseek-R1-Qwen3_safetensors",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.19,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 91.4
+    },
+    "release_date": null,
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.6
+   },
+   {
+    "name": "SOMEHOTMEAL/_Broken-quants_Gemma-4-12B-Janus-Abliterated-V2-Base_And_GGUF",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 11.92,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 100
+    },
+    "release_date": "2026-09-13",
+    "estimated_tps": 8.8,
+    "disk_size_gb": 9.54
+   },
+   {
+    "name": "jonluj/qwen8b_secreason",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.19,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 83
+    },
+    "release_date": "2025-05-19",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.6
+   },
+   {
+    "name": "mxlin043/EmbRACE-Qwen3.5-9B",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 93.5
+    },
+    "release_date": "2026-09-28",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.62
+   },
+   {
+    "name": "MohamedAhmedAE/Llama-3.2-1B-Instruct-Medical-Finetuned-merged",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 55.1
+    },
+    "release_date": "2026-06-09",
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "armand0e/Gemma-4-E4B-it-DeepSeek-v4-Distill",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 93
+    },
+    "release_date": null,
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "nowdoor/gemma4-inspect-12b-v1",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 11.96,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 100
+    },
+    "release_date": "2026-08-12",
+    "estimated_tps": 8.7,
+    "disk_size_gb": 9.57
+   },
+   {
+    "name": "saidutta69/Llama-3.2-1B-Instruct-heretic",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 55.1
+    },
+    "release_date": "2026-07-02",
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "Sohailhosseini/Qwen3.8-9B-Distill-FP8",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.41,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 94.4
+    },
+    "release_date": "2026-08-20",
+    "estimated_tps": 9.4,
+    "disk_size_gb": 9.88
+   },
+   {
+    "name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+    "fit_level": "Marginal",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 14.77,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 94.4
+    },
+    "release_date": "2025-01-20",
+    "estimated_tps": 7.1,
+    "disk_size_gb": 11.82
+   },
+   {
+    "name": "huihui-ai/DeepSeek-R1-Distill-Qwen-14B-abliterated-v2",
+    "fit_level": "Marginal",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 14.77,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 94.4
+    },
+    "release_date": "2025-01-23",
+    "estimated_tps": 7.1,
+    "disk_size_gb": 11.82
+   },
+   {
+    "name": "masato25/Qwen2.5-Coder-3B-Arbor-4bit",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Coding",
+    "is_moe": false,
+    "params_b": 3.09,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 75.2
+    },
+    "release_date": "2026-06-02",
+    "estimated_tps": 28.5,
+    "disk_size_gb": 3.24
+   },
+   {
+    "name": "meta-llama/Llama-3.2-11B-Vision",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 10.64,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 96.6
+    },
+    "release_date": "2024-09-18",
+    "estimated_tps": 8.3,
+    "disk_size_gb": 11.18
+   },
+   {
+    "name": "ryzdfm/qwen2.5-coder-3b-claude_opus_4.6-distilled",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Coding",
+    "is_moe": false,
+    "params_b": 3.09,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 75.2
+    },
+    "release_date": "2026-04-02",
+    "estimated_tps": 28.5,
+    "disk_size_gb": 3.24
+   },
+   {
+    "name": "saidutta69/DeepSeek-R1-Distill-Qwen-14B-heretic",
+    "fit_level": "Marginal",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 14.77,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 94.4
+    },
+    "release_date": null,
+    "estimated_tps": 7.1,
+    "disk_size_gb": 11.82
+   },
+   {
+    "name": "unsloth/Phi-4-mini-reasoning-unsloth-bnb-4bit",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 3.93,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 70
+    },
+    "release_date": "2025-05-01",
+    "estimated_tps": 22.4,
+    "disk_size_gb": 4.13
+   },
+   {
+    "name": "xy10086/Qwen3.8-9B-Distill-Uncensored-Heretic-MTPLX-Q6G64",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.41,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 94.4
+    },
+    "release_date": "2026-09-11",
+    "estimated_tps": 9.4,
+    "disk_size_gb": 9.88
+   },
+   {
+    "name": "AxionML/Qwen3.5-9B-NVFP4",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 7.54,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92
+    },
+    "release_date": "2026-03-30",
+    "estimated_tps": 11.7,
+    "disk_size_gb": 7.92
+   },
+   {
+    "name": "Chungulus/Qwen3.8-27B-EXL3",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.54,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 94.4
+    },
+    "release_date": "2026-08-16",
+    "estimated_tps": 9.2,
+    "disk_size_gb": 10.02
+   },
+   {
+    "name": "Clinical-Reasoning-Hub/Diagnostic-Reasoning-Q3X1",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.19,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 82.5
+    },
+    "release_date": "2026-02-21",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.6
+   },
+   {
+    "name": "DavidAU/Qwen3-24B-MOE-6x-4B-Star-Trek-AwayTeam-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": true,
+    "params_b": 17.86,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 54.4
+    },
+    "release_date": null,
+    "estimated_tps": 53.5,
+    "disk_size_gb": 14.29
+   },
+   {
+    "name": "Jackrong/MLX-Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-4bit",
+    "fit_level": "Marginal",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 26.9,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 96.8
+    },
+    "release_date": "2026-03-20",
+    "estimated_tps": 5.1,
+    "disk_size_gb": 12.91
+   },
+   {
+    "name": "MCult01/muse-gemma4e4b-heretic",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92.5
+    },
+    "release_date": "2026-05-06",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "Polygl0t/Tucano2-qwen-1.5B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.51,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 54.5
+    },
+    "release_date": "2026-02-05",
+    "estimated_tps": 58.3,
+    "disk_size_gb": 1.59
+   },
+   {
+    "name": "Qwen/Qwen2.5-1.5B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/Qwen2.5-1.5B-Instruct-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.54,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 54.5
+    },
+    "release_date": "2026-09-18",
+    "estimated_tps": 57,
+    "disk_size_gb": 1.62
+   },
+   {
+    "name": "TheZeez/gemma-4-e4b-creative-DFT-exp",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92.5
+    },
+    "release_date": "2026-05-19",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "afihsan/qwen2.5-1.5b-legal-chatbot-finetuned",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.54,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 54.5
+    },
+    "release_date": "2026-09-18",
+    "estimated_tps": 57,
+    "disk_size_gb": 1.62
+   },
+   {
+    "name": "cfli/reasoner-rewriter-qwen2.5-7b-0821",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 7.62,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 81.5
+    },
+    "release_date": "2025-10-11",
+    "estimated_tps": 11.6,
+    "disk_size_gb": 8
+   },
+   {
+    "name": "google/gemma-4-E4B-it",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/gemma-4-E4B-it-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92.5
+    },
+    "release_date": "2026-03-31",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "majentik/gemma-4-E4B-turboquant",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92.5
+    },
+    "release_date": "2026-04-06",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "mervinpraison/praisonai-gemma-4-E4B-tamil",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92.5
+    },
+    "release_date": "2026-07-22",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "mlx-community/gemma-4-e4b-it-4bit",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 7.94,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92.5
+    },
+    "release_date": "2026-04-02",
+    "estimated_tps": 11.1,
+    "disk_size_gb": 8.34
+   },
+   {
+    "name": "taharmasmaliyev07/Mirza-GEC-Gemma4-E4B-Paraphraser-E3-BF16",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92.5
+    },
+    "release_date": "2026-07-22",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "unsloth/gemma-4-E4B-it-unsloth-bnb-4bit",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92.5
+    },
+    "release_date": "2026-04-02",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "raj-hitpromo/hit-promo-reasoner",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 3.84,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 69
+    },
+    "release_date": "2026-09-12",
+    "estimated_tps": 22.9,
+    "disk_size_gb": 4.03
+   },
+   {
+    "name": "EpistemeAI/Reason-Medical-20b-4bit",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": true,
+    "params_b": 21.51,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 66.5
+    },
+    "release_date": "2026-06-18",
+    "estimated_tps": 34.8,
+    "disk_size_gb": 11.83
+   },
+   {
+    "name": "amd/HyLo-Llama-4MLA12GDN-64K-SFT",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "General",
+    "is_moe": false,
+    "params_b": 1.67,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 59
+    },
+    "release_date": "2026-09-11",
+    "estimated_tps": 52.6,
+    "disk_size_gb": 1.76
+   },
+   {
+    "name": "taide/embeddinggemma-GTAIDE-300m-2605",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Embedding",
+    "is_moe": false,
+    "params_b": 0.3,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 38.5
+    },
+    "release_date": "2026-06-12",
+    "estimated_tps": 290.6,
+    "disk_size_gb": 0.32
+   },
+   {
+    "name": "EpistemeAI/Reasoning-Medical-27B",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "mradermacher/Reasoning-Medical-27B-GGUF",
+      "provider": "mradermacher"
+     }
+    ],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 27.78,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 91
+    },
+    "release_date": "2026-06-16",
+    "estimated_tps": 5.3,
+    "disk_size_gb": 10.28
+   },
+   {
+    "name": "Gryphe/Pantheon-Reasoning-27B",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "mradermacher/Pantheon-Reasoning-27B-GGUF",
+      "provider": "mradermacher"
+     }
+    ],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 27.78,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 91
+    },
+    "release_date": "2026-05-29",
+    "estimated_tps": 5.3,
+    "disk_size_gb": 10.28
+   },
+   {
+    "name": "Nickyang/Gemma-4-26B-A4B-it-RAZOR-14B-A4B-E64of128",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": true,
+    "params_b": 14.38,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 63
+    },
+    "release_date": "2026-09-29",
+    "estimated_tps": 43.1,
+    "disk_size_gb": 11.51
+   },
+   {
+    "name": "malaiwah/Qwen3.8-27B-EXL3-K6-parity",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 11.52,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98.4
+    },
+    "release_date": null,
+    "estimated_tps": 7.6,
+    "disk_size_gb": 12.09
+   },
+   {
+    "name": "AlvinAgile/Llama-3.2-1B-Instruct-forg3t-rdm-forget10",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": null,
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "Blackfrost-AI/MiMo-V2.6-Distill-Qwen-9B-Derisked-BF16",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.41,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 93.5
+    },
+    "release_date": "2026-09-27",
+    "estimated_tps": 9.4,
+    "disk_size_gb": 9.88
+   },
+   {
+    "name": "Hochnten/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.41,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 93.5
+    },
+    "release_date": "2026-08-20",
+    "estimated_tps": 9.4,
+    "disk_size_gb": 9.88
+   },
+   {
+    "name": "RedHatAI/Llama-3.2-1B-Instruct-FP8",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.5,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": "2024-09-26",
+    "estimated_tps": 58.7,
+    "disk_size_gb": 1.57
+   },
+   {
+    "name": "RedHatAI/Llama-3.2-1B-Instruct-FP8-dynamic",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.5,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": "2024-09-25",
+    "estimated_tps": 58.7,
+    "disk_size_gb": 1.57
+   },
+   {
+    "name": "RedHatAI/Llama-3.2-1B-Instruct-quantized.w8a8",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.5,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": "2024-09-25",
+    "estimated_tps": 58.7,
+    "disk_size_gb": 1.57
+   },
+   {
+    "name": "TeichAI/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 14.77,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92.2
+    },
+    "release_date": "2025-12-10",
+    "estimated_tps": 7.1,
+    "disk_size_gb": 11.81
+   },
+   {
+    "name": "TheWirelessPhoenix/Qwen3.5-9B-4bit-vmlx",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.41,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 93.5
+    },
+    "release_date": "2026-08-02",
+    "estimated_tps": 9.4,
+    "disk_size_gb": 9.88
+   },
+   {
+    "name": "Vikhrmodels/Vikhr-Llama-3.2-1B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "mradermacher/Vikhr-Llama-3.2-1B-Instruct-GGUF",
+      "provider": "mradermacher"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": "2024-09-27",
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.41,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 93.5
+    },
+    "release_date": "2026-09-21",
+    "estimated_tps": 9.4,
+    "disk_size_gb": 9.88
+   },
+   {
+    "name": "Youssofal/MiMo-V2.6-Qwen-9B-MTPLX-Optimized-Speed",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.41,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 93.5
+    },
+    "release_date": "2026-09-23",
+    "estimated_tps": 9.4,
+    "disk_size_gb": 9.88
+   },
+   {
+    "name": "argilla-warehouse/Llama-3.2-1B-Instruct-v2-FC",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": "2024-10-20",
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "argilla/Llama-3.2-1B-Instruct-APIGen-FC-v0.1",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "mradermacher/Llama-3.2-1B-Instruct-APIGen-FC-v0.1-GGUF",
+      "provider": "mradermacher"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": "2024-10-07",
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "cazzz307/Abliterated-Llama-3.2-1B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": "2025-12-04",
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "context-labs/meta-llama-Llama-3.2-1B-Instruct-FP16",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": null,
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "darrellbest/Qwen-Image-2.1-PE-I2I-Heretic",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.41,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 93.5
+    },
+    "release_date": "2026-09-22",
+    "estimated_tps": 9.4,
+    "disk_size_gb": 9.88
+   },
+   {
+    "name": "distil-labs/Distil-PII-Llama-3.2-1B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": "2025-10-13",
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "gshasiri/llama3.2-1B-chatml",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": null,
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "huihui-ai/Llama-3.2-1B-Instruct-abliterated",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "mradermacher/Llama-3.2-1B-Instruct-abliterated-GGUF",
+      "provider": "mradermacher"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.5,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": "2024-10-01",
+    "estimated_tps": 58.7,
+    "disk_size_gb": 1.57
+   },
+   {
+    "name": "issai/Qwen3.5-9B-Kazakh",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.54,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 93.5
+    },
+    "release_date": "2026-08-05",
+    "estimated_tps": 9.2,
+    "disk_size_gb": 10.02
+   },
+   {
+    "name": "ketiswp/meta-Llama-3.2-1B-Instruct-bilinear",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": null,
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "meta-llama/Llama-3.2-1B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/Llama-3.2-1B-Instruct-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": "2024-09-25",
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "mlx-community/DeepSeek-V4-Pro-Qwen3.5-9B-4bit",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.41,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 93.5
+    },
+    "release_date": "2026-08-07",
+    "estimated_tps": 9.4,
+    "disk_size_gb": 9.88
+   },
+   {
+    "name": "mlx-community/Llama-3.2-1B-Instruct-4bit",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": "2024-09-25",
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "mlx-community/Llama-3.2-1B-Instruct-bf16",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": null,
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "mlx-community/Qwen3.5-9B-6bit",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92
+    },
+    "release_date": "2026-03-02",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.62
+   },
+   {
+    "name": "phamhai/Llama-3.2-1B-Instruct-Frog",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "mradermacher/Llama-3.2-1B-Instruct-Frog-GGUF",
+      "provider": "mradermacher"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": null,
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "prithivMLmods/Qwen3.5-9B-DS-v4-Flash-v3.0-FP8",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.41,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 93.5
+    },
+    "release_date": "2026-08-06",
+    "estimated_tps": 9.4,
+    "disk_size_gb": 9.88
+   },
+   {
+    "name": "typhoon-ai/llama3.2-typhoon2-1b-instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": "2024-12-15",
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "unsloth/Llama-3.2-1B-Instruct-GGUF",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.07,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": "2024-09-25",
+    "estimated_tps": 82.4,
+    "disk_size_gb": 1.12
+   },
+   {
+    "name": "unsloth/Llama-3.2-1B-Instruct-bnb-4bit",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.27,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": "2024-09-25",
+    "estimated_tps": 69.5,
+    "disk_size_gb": 1.33
+   },
+   {
+    "name": "unsloth/Llama-3.2-1B-Instruct-unsloth-bnb-4bit",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.26,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 53.6
+    },
+    "release_date": "2025-01-22",
+    "estimated_tps": 69.6,
+    "disk_size_gb": 1.33
+   },
+   {
+    "name": "z-lab/Qwen3.5-9B-PARO",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92
+    },
+    "release_date": "2026-03-05",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.62
+   },
+   {
+    "name": "AxionML/Gemma-4-12B-FP8",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 11.96,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98.5
+    },
+    "release_date": "2026-06-04",
+    "estimated_tps": 8.7,
+    "disk_size_gb": 9.57
+   },
+   {
+    "name": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-DARK-ROAST-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.65,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 93.5
+    },
+    "release_date": "2026-08-07",
+    "estimated_tps": 9.1,
+    "disk_size_gb": 10.14
+   },
+   {
+    "name": "Jackrong/Gemopus-4-E4B-it",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 91.5
+    },
+    "release_date": "2026-04-08",
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "OliverSundaram/Llama-3.2-1B-MathCodeInstruct-5k",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Coding",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 62.6
+    },
+    "release_date": "2026-08-14",
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "OsaurusAI/gemma-4-12B-it-MXFP8",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 11.96,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98.5
+    },
+    "release_date": "2026-06-03",
+    "estimated_tps": 8.7,
+    "disk_size_gb": 9.57
+   },
+   {
+    "name": "ValiantLabs/gemma-4-12B-it-Esper4",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "mradermacher/gemma-4-12B-it-Esper4-GGUF",
+      "provider": "mradermacher"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 11.96,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98.5
+    },
+    "release_date": "2026-07-15",
+    "estimated_tps": 8.7,
+    "disk_size_gb": 9.57
+   },
+   {
+    "name": "ValiantLabs/gemma-4-12B-it-Guardpoint",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "mradermacher/gemma-4-12B-it-Guardpoint-GGUF",
+      "provider": "mradermacher"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 11.96,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98.5
+    },
+    "release_date": "2026-07-15",
+    "estimated_tps": 8.7,
+    "disk_size_gb": 9.57
+   },
+   {
+    "name": "ameer4wisam/gemma-iraqi-10k-merged",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 11.96,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98.5
+    },
+    "release_date": "2026-07-29",
+    "estimated_tps": 8.7,
+    "disk_size_gb": 9.57
+   },
+   {
+    "name": "ansulev/Qwen3.5-9B-Defiant-Heretic-NEO-IMATRIX-MAX-MTP",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.65,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 93.5
+    },
+    "release_date": "2026-08-15",
+    "estimated_tps": 9.1,
+    "disk_size_gb": 10.14
+   },
+   {
+    "name": "billmccartney/Qwen3.8-27B-exl3-8.00bpw",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 14.67,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 97.4
+    },
+    "release_date": null,
+    "estimated_tps": 7.1,
+    "disk_size_gb": 11.74
+   },
+   {
+    "name": "farbodtavakkoli/OTel-Embedding-300M",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Embedding",
+    "is_moe": false,
+    "params_b": 0.3,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 37.5
+    },
+    "release_date": "2026-02-02",
+    "estimated_tps": 290.6,
+    "disk_size_gb": 0.32
+   },
+   {
+    "name": "google/gemma-4-12B-it",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/gemma-4-12B-it-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 11.96,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98.5
+    },
+    "release_date": "2026-05-29",
+    "estimated_tps": 8.7,
+    "disk_size_gb": 9.57
+   },
+   {
+    "name": "igorls/gemma-4-12B-it-qat-q4_0-unquantized-heretic",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 11.96,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98.5
+    },
+    "release_date": "2026-06-06",
+    "estimated_tps": 8.7,
+    "disk_size_gb": 9.57
+   },
+   {
+    "name": "kshitijthakkar/deepseek-v4-mini-6B-init",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "General",
+    "is_moe": true,
+    "params_b": 8.06,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 58.5
+    },
+    "release_date": "2026-04-30",
+    "estimated_tps": 64.7,
+    "disk_size_gb": 8.46
+   },
+   {
+    "name": "mlx-community/gemma-4-12B-it-qat-4bit",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 11.96,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98.5
+    },
+    "release_date": "2026-06-05",
+    "estimated_tps": 8.7,
+    "disk_size_gb": 9.57
+   },
+   {
+    "name": "mlx-community/gemma-4-12B-it-qat-8bit",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 11.96,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98.5
+    },
+    "release_date": "2026-06-05",
+    "estimated_tps": 8.7,
+    "disk_size_gb": 9.57
+   },
+   {
+    "name": "unsloth/gemma-4-12b",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "ggml-org/gemma-4-12b-GGUF",
+      "provider": "ggml-org"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 11.96,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98.5
+    },
+    "release_date": "2026-05-29",
+    "estimated_tps": 8.7,
+    "disk_size_gb": 9.57
+   },
+   {
+    "name": "yasu-oh/gemma-4-12B-it-qat-NVFP4",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 11.96,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98.5
+    },
+    "release_date": "2026-07-21",
+    "estimated_tps": 8.7,
+    "disk_size_gb": 9.57
+   },
+   {
+    "name": "zaakirio/gemma-4-12b-it-uncensored",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "mradermacher/gemma-4-12b-it-uncensored-GGUF",
+      "provider": "mradermacher"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 11.96,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98.5
+    },
+    "release_date": "2026-06-13",
+    "estimated_tps": 8.7,
+    "disk_size_gb": 9.57
+   },
+   {
+    "name": "Ravionhf/qwen3.6-27b-reasoning-distill-fp8-v1",
+    "fit_level": "Marginal",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 27.36,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 97
+    },
+    "release_date": "2026-08-09",
+    "estimated_tps": 5,
+    "disk_size_gb": 13.13
+   },
+   {
+    "name": "r0b0tlab/gemma-4-12B-it-nvfp4",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 12,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98.5
+    },
+    "release_date": "2026-07-14",
+    "estimated_tps": 8.7,
+    "disk_size_gb": 9.6
+   },
+   {
+    "name": "sakamakismile/Huihui-gemma-4-12B-it-abliterated-NVFP4A16",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 12,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98.5
+    },
+    "release_date": "2026-06-07",
+    "estimated_tps": 8.7,
+    "disk_size_gb": 9.6
+   },
+   {
+    "name": "surogate/Qwen3.5-4B-SWQ",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 3.28,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 75.5
+    },
+    "release_date": null,
+    "estimated_tps": 26.8,
+    "disk_size_gb": 3.44
+   },
+   {
+    "name": "valarauca1/qwen3-vl-25m-stitched-8bL16-to-32bL29",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 14.57,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 98
+    },
+    "release_date": "2026-08-16",
+    "estimated_tps": 7.2,
+    "disk_size_gb": 11.66
+   },
+   {
+    "name": "AI-ISL/DeepSeek-R1-Distill-Qwen-7B-SP",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 7.62,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 88.4
+    },
+    "release_date": null,
+    "estimated_tps": 11.6,
+    "disk_size_gb": 8
+   },
+   {
+    "name": "BlivionIaG/Ornith-1.5-9b-exl3-3bpw",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 91.5
+    },
+    "release_date": "2026-08-31",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.62
+   },
+   {
+    "name": "MihaiPopa-1/Qwen3.8-2B-Heretic-Max",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "General",
+    "is_moe": false,
+    "params_b": 2.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 58.4
+    },
+    "release_date": "2026-08-23",
+    "estimated_tps": 39.8,
+    "disk_size_gb": 2.32
+   },
+   {
+    "name": "Qwen/Qwen2.5-Coder-3B",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/Qwen2.5-Coder-3B-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Coding",
+    "is_moe": false,
+    "params_b": 3.09,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 73.7
+    },
+    "release_date": "2024-11-08",
+    "estimated_tps": 28.5,
+    "disk_size_gb": 3.24
+   },
+   {
+    "name": "Qwen/Qwen2.5-Coder-3B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Qwen2.5-Coder-3B-Instruct-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Coding",
+    "is_moe": false,
+    "params_b": 3.09,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 73.7
+    },
+    "release_date": "2024-11-06",
+    "estimated_tps": 28.5,
+    "disk_size_gb": 3.24
+   },
+   {
+    "name": "SL-AI/GRaPE-2.5-Helios",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 91.5
+    },
+    "release_date": "2026-08-13",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.62
+   },
+   {
+    "name": "htb-ac-1424625/Qwen3.8-2B-Distill-heretic",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "General",
+    "is_moe": false,
+    "params_b": 2.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 58.4
+    },
+    "release_date": "2026-10-02",
+    "estimated_tps": 39.8,
+    "disk_size_gb": 2.32
+   },
+   {
+    "name": "huihui-ai/Qwen2.5-Coder-3B-Instruct-abliterated",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/Qwen2.5-Coder-3B-Instruct-abliterated-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Coding",
+    "is_moe": false,
+    "params_b": 3.09,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 73.7
+    },
+    "release_date": null,
+    "estimated_tps": 28.5,
+    "disk_size_gb": 3.24
+   },
+   {
+    "name": "lugman-madhiai/Qwen3.5-2B-SearchAgent-SFT-01",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 2.27,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 63.5
+    },
+    "release_date": "2026-09-11",
+    "estimated_tps": 38.7,
+    "disk_size_gb": 2.39
+   },
+   {
+    "name": "mconcat/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-FP8-Dynamic",
+    "fit_level": "Marginal",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 27.36,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 96.8
+    },
+    "release_date": "2026-03-11",
+    "estimated_tps": 5,
+    "disk_size_gb": 13.13
+   },
+   {
+    "name": "pyros-vault/Qwen3.8-27B-Cold-Fusion-GAIN-V1.1-oQ8e-mtp",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8.18,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 91.4
+    },
+    "release_date": null,
+    "estimated_tps": 10.8,
+    "disk_size_gb": 8.59
+   },
+   {
+    "name": "pyros-vault/Qwen3.8-27B-Uncensored-oQ8e-mtp",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8.18,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 91.4
+    },
+    "release_date": null,
+    "estimated_tps": 10.8,
+    "disk_size_gb": 8.59
+   },
+   {
+    "name": "unsloth/DeepSeek-R1-Distill-Qwen-14B-unsloth-bnb-4bit",
+    "fit_level": "Marginal",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 15.09,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 94.4
+    },
+    "release_date": "2025-01-20",
+    "estimated_tps": 6.9,
+    "disk_size_gb": 12.07
+   },
+   {
+    "name": "Alibaba-AAIG/YuFeng-XGuard-Reason-8B",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "mradermacher/YuFeng-XGuard-Reason-8B-GGUF",
+      "provider": "mradermacher"
+     }
+    ],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.19,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 81
+    },
+    "release_date": "2025-12-29",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.6
+   },
+   {
+    "name": "AxionML/Qwen3.5-2B-NVFP4",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 1.67,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 62
+    },
+    "release_date": "2026-03-03",
+    "estimated_tps": 52.6,
+    "disk_size_gb": 1.76
+   },
+   {
+    "name": "DavidAU/Qwen3.6-9B-Heretic-Uncensored-Thinking-Sweet-Madness",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.09,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92.3
+    },
+    "release_date": "2026-06-18",
+    "estimated_tps": 9.7,
+    "disk_size_gb": 9.55
+   },
+   {
+    "name": "FinStep/Alpha-R1",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.19,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 81
+    },
+    "release_date": "2025-12-18",
+    "estimated_tps": 10.7,
+    "disk_size_gb": 8.6
+   },
+   {
+    "name": "Jackrong/MLX-Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-8bit",
+    "fit_level": "Marginal",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 26.9,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 95.3
+    },
+    "release_date": null,
+    "estimated_tps": 5.1,
+    "disk_size_gb": 12.91
+   },
+   {
+    "name": "KhyontekAI/gemma-4-E4B-it-Assamese-Updesh",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 91
+    },
+    "release_date": null,
+    "estimated_tps": 11,
+    "disk_size_gb": 8.4
+   },
+   {
+    "name": "RangerX/DeepSeek-V2-Lite-Chat-REAP-Pruned-ratio-0.3",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": true,
+    "params_b": 11.43,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 52.5
+    },
+    "release_date": "2026-05-04",
+    "estimated_tps": 43.6,
+    "disk_size_gb": 12
+   },
+   {
+    "name": "ai-sage/GigaChat3.1-10B-A1.8B",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": true,
+    "params_b": 11.48,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 52.5
+    },
+    "release_date": "2026-03-21",
+    "estimated_tps": 70.1,
+    "disk_size_gb": 12.05
+   },
+   {
+    "name": "ai-sage/GigaChat3.1-10B-A1.8B-bf16",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "mradermacher/GigaChat3.1-10B-A1.8B-bf16-GGUF",
+      "provider": "mradermacher"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": true,
+    "params_b": 11.48,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 52.5
+    },
+    "release_date": "2026-03-21",
+    "estimated_tps": 70.1,
+    "disk_size_gb": 12.05
+   },
+   {
+    "name": "amd/Qwen3-VL-8B-Instruct-w8a8-llmcompressor",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8.77,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92
+    },
+    "release_date": "2026-08-03",
+    "estimated_tps": 10,
+    "disk_size_gb": 9.21
+   },
+   {
+    "name": "kagakouko/Spatial-Interactor-Qwen3-VL-8B",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8.77,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92
+    },
+    "release_date": "2026-09-13",
+    "estimated_tps": 10,
+    "disk_size_gb": 9.21
+   },
+   {
+    "name": "mergekit-community/Qwen3-1.5B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.54,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 52.4
+    },
+    "release_date": "2025-02-24",
+    "estimated_tps": 57,
+    "disk_size_gb": 1.62
+   },
+   {
+    "name": "meta-llama/Llama-Guard-4-12B",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": true,
+    "params_b": 12,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 62
+    },
+    "release_date": "2025-04-23",
+    "estimated_tps": 67,
+    "disk_size_gb": 12.6
+   },
+   {
+    "name": "ranjanrajib/DPO-trained-Qwen2.5-Python-Coder-7B",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Coding",
+    "is_moe": false,
+    "params_b": 7.62,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 90.5
+    },
+    "release_date": "2026-09-14",
+    "estimated_tps": 11.6,
+    "disk_size_gb": 8
+   },
+   {
+    "name": "stefanruseti/newsvibe-stance-qwen3.5-2b",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 1.88,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 62
+    },
+    "release_date": "2026-06-02",
+    "estimated_tps": 46.8,
+    "disk_size_gb": 1.98
+   },
+   {
+    "name": "ut-amrl/foresight-qwen3vl-2b-sft",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 2.13,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 62
+    },
+    "release_date": "2026-09-11",
+    "estimated_tps": 41.4,
+    "disk_size_gb": 2.23
+   },
+   {
+    "name": "C10X/Qwen3.5-2B-heretic",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 2.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 62
+    },
+    "release_date": "2026-03-03",
+    "estimated_tps": 39.8,
+    "disk_size_gb": 2.32
+   },
+   {
+    "name": "DavidAU/Qwen3.5-2B-Polaris-HighIQ-Thinking-Compact",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 2.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 62
+    },
+    "release_date": "2026-03-03",
+    "estimated_tps": 39.8,
+    "disk_size_gb": 2.32
+   },
+   {
+    "name": "Kewk/Heretical-Qwen3.5-2B",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 2.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 62
+    },
+    "release_date": "2026-03-04",
+    "estimated_tps": 39.8,
+    "disk_size_gb": 2.32
+   },
+   {
+    "name": "Local-Novel-LLM-project/Qwen3.5-Hasutsubomi-9B",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8.95,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92
+    },
+    "release_date": "2026-04-01",
+    "estimated_tps": 9.8,
+    "disk_size_gb": 9.4
+   },
+   {
+    "name": "ML-Intern-lab/Qwen-Image-2.1-PE-T2I-Pocket-2B",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "General",
+    "is_moe": false,
+    "params_b": 1.88,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 57.5
+    },
+    "release_date": "2026-09-21",
+    "estimated_tps": 46.8,
+    "disk_size_gb": 1.98
+   },
+   {
+    "name": "UT-IFML/dQwen3.5-2B-Base",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "General",
+    "is_moe": false,
+    "params_b": 1.88,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 57.5
+    },
+    "release_date": "2026-08-06",
+    "estimated_tps": 46.8,
+    "disk_size_gb": 1.98
+   },
+   {
+    "name": "Vortex5/G4-Starry-Ocean-12B",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "mradermacher/G4-Starry-Ocean-12B-GGUF",
+      "provider": "mradermacher"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 11.91,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 97.5
+    },
+    "release_date": "2026-07-05",
+    "estimated_tps": 8.8,
+    "disk_size_gb": 9.53
+   },
+   {
+    "name": "anon-researcher-ua/codegpt-oss-20b",
+    "fit_level": "Good",
+    "gguf_sources": [],
+    "category": "Coding",
+    "is_moe": true,
+    "params_b": 20.91,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 66
+    },
+    "release_date": "2025-08-28",
+    "estimated_tps": 35.8,
+    "disk_size_gb": 11.5
+   },
+   {
+    "name": "ansulev/Qwen3.5-2B-Polaris-HighIQ-Thinking",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 2.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 62
+    },
+    "release_date": "2026-05-15",
+    "estimated_tps": 39.8,
+    "disk_size_gb": 2.32
+   },
+   {
+    "name": "bfavro73/qwen2.5-coder-7b-pandas-dpo-aligned",
+    "fit_level": "Perfect",
+    "gguf_sources": [],
+    "category": "Coding",
+    "is_moe": false,
+    "params_b": 7.62,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 90.2
+    },
+    "release_date": "2026-03-24",
+    "estimated_tps": 11.6,
+    "disk_size_gb": 8
+   },
+   {
+    "name": "eousphoros/qwen3.8-27b-yarn4-mixed-kl-128k-r1-iter137",
+    "fit_level": "Marginal",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 27.78,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 97.6
+    },
+    "release_date": "2026-09-02",
+    "estimated_tps": 4.9,
+    "disk_size_gb": 13.34
+   },
+   {
+    "name": "eousphoros/qwen3.8-27b-yarn4-mixed-kl-128k-r1-iter137-fp8",
+    "fit_level": "Marginal",
+    "gguf_sources": [],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 27.78,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 97.6
+    },
+    "release_date": "2026-09-02",
+    "estimated_tps": 4.9,
+    "disk_size_gb": 13.34
+   },
+   {
+    "name": "Qwen/Qwen2.5-Math-1.5B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/Qwen2.5-Math-1.5B-Instruct-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.54,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 51.5
+    },
+    "release_date": "2024-09-16",
+    "estimated_tps": 57,
+    "disk_size_gb": 1.62
+   },
+   {
+    "name": "Qwen/Qwen3.5-9B",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Qwen3.5-9B-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.65,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 92
+    },
+    "release_date": "2026-05-15",
+    "estimated_tps": 9.1,
+    "disk_size_gb": 10.14
+   },
+   {
+    "name": "Qwen/Qwen3-VL-2B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Qwen3-VL-2B-Instruct-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 2.13,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 60.5
+    },
+    "release_date": "2026-07-08",
+    "estimated_tps": 41.4,
+    "disk_size_gb": 2.23
+   },
+   {
+    "name": "Qwen/Qwen3.5-2B",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Qwen3.5-2B-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 2.27,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 62
+    },
+    "release_date": "2026-02-28",
+    "estimated_tps": 38.7,
+    "disk_size_gb": 2.39
+   },
+   {
+    "name": "microsoft/Fara1.5-9B",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/Fara1.5-9B-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.41,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 90
+    },
+    "release_date": "2026-05-12",
+    "estimated_tps": 9.4,
+    "disk_size_gb": 9.88
+   },
+   {
+    "name": "Qwen/Qwen3-VL-2B-Thinking",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Qwen3-VL-2B-Thinking-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 2.13,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 59
+    },
+    "release_date": "2025-10-19",
+    "estimated_tps": 41.4,
+    "disk_size_gb": 2.23
+   },
+   {
+    "name": "Qwen/Qwen3-VL-8B-Instruct",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Qwen3-VL-8B-Instruct-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8.77,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 89
+    },
+    "release_date": "2025-10-14",
+    "estimated_tps": 10,
+    "disk_size_gb": 9.21
+   },
+   {
+    "name": "Qwen/Qwen3-VL-8B-Thinking",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Qwen3-VL-8B-Thinking-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8.77,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 89
+    },
+    "release_date": "2025-10-11",
+    "estimated_tps": 10,
+    "disk_size_gb": 9.21
+   },
+   {
+    "name": "nvidia/Cosmos-Reason1-7B",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Cosmos-Reason1-7B-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Reasoning",
+    "is_moe": false,
+    "params_b": 8.29,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 78
+    },
+    "release_date": "2025-04-18",
+    "estimated_tps": 10.6,
+    "disk_size_gb": 8.71
+   },
+   {
+    "name": "SakanaAI/TinySwallow-1.5B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/TinySwallow-1.5B-Instruct-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.54,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 48
+    },
+    "release_date": "2025-01-07",
+    "estimated_tps": 57,
+    "disk_size_gb": 1.62
+   },
+   {
+    "name": "google/gemma-3n-E4B-it",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/gemma-3n-E4B-it-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8.39,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 88
+    },
+    "release_date": "2025-06-26",
+    "estimated_tps": 10.5,
+    "disk_size_gb": 8.81
+   },
+   {
+    "name": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Qwen2.5-VL-7B-Instruct-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8.29,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 87.5
+    },
+    "release_date": "2025-01-31",
+    "estimated_tps": 10.6,
+    "disk_size_gb": 8.71
+   },
+   {
+    "name": "prithivMLmods/Llama-SmolTalk-3.2-1B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/Llama-SmolTalk-3.2-1B-Instruct-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.24,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 47
+    },
+    "release_date": "2024-11-23",
+    "estimated_tps": 71.2,
+    "disk_size_gb": 1.3
+   },
+   {
+    "name": "LiquidAI/LFM2.5-VL-3B",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/LFM2.5-VL-3B-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 3.12,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 69
+    },
+    "release_date": "2026-08-12",
+    "estimated_tps": 28.2,
+    "disk_size_gb": 3.28
+   },
+   {
+    "name": "google/gemma-3-12b-it",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/gemma-3-12b-it-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 12.19,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 94
+    },
+    "release_date": "2025-03-12",
+    "estimated_tps": 8.6,
+    "disk_size_gb": 9.75
+   },
+   {
+    "name": "Qwen/Qwen2-VL-7B-Instruct",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/Qwen2-VL-7B-Instruct-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8.29,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 86
+    },
+    "release_date": "2024-08-28",
+    "estimated_tps": 10.6,
+    "disk_size_gb": 8.71
+   },
+   {
+    "name": "LiquidAI/LFM2.5-1.2B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/LFM2.5-1.2B-Instruct-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.17,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 45
+    },
+    "release_date": "2026-01-06",
+    "estimated_tps": 75.2,
+    "disk_size_gb": 1.23
+   },
+   {
+    "name": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Qwen2.5-VL-3B-Instruct-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 3.75,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 72.5
+    },
+    "release_date": "2025-01-26",
+    "estimated_tps": 23.4,
+    "disk_size_gb": 3.94
+   },
+   {
+    "name": "tiiuae/Falcon-H1-1.5B-Deep-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Falcon-H1-1.5B-Deep-Instruct-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.55,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 45
+    },
+    "release_date": "2025-05-01",
+    "estimated_tps": 56.6,
+    "disk_size_gb": 1.63
+   },
+   {
+    "name": "tiiuae/Falcon-H1-1.5B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Falcon-H1-1.5B-Instruct-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.55,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 45
+    },
+    "release_date": null,
+    "estimated_tps": 56.6,
+    "disk_size_gb": 1.63
+   },
+   {
+    "name": "tiiuae/Falcon3-1B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/Falcon3-1B-Instruct-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.67,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 45
+    },
+    "release_date": "2024-12-14",
+    "estimated_tps": 52.7,
+    "disk_size_gb": 1.75
+   },
+   {
+    "name": "Qwen/Qwen3.5-4B",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Qwen3.5-4B-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 4.66,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 77
+    },
+    "release_date": "2026-05-14",
+    "estimated_tps": 18.9,
+    "disk_size_gb": 4.89
+   },
+   {
+    "name": "mobilint/Qwen2-VL-2B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/Qwen2-VL-2B-Instruct-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 2.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 56
+    },
+    "release_date": "2025-12-09",
+    "estimated_tps": 39.8,
+    "disk_size_gb": 2.32
+   },
+   {
+    "name": "allenai/OLMo-2-0425-1B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/OLMo-2-0425-1B-Instruct-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 1.48,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 44.2
+    },
+    "release_date": "2025-04-29",
+    "estimated_tps": 59.3,
+    "disk_size_gb": 1.56
+   },
+   {
+    "name": "mobilint/Qwen3-VL-4B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Qwen3-VL-4B-Instruct-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 4.44,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 75.5
+    },
+    "release_date": "2026-04-03",
+    "estimated_tps": 19.8,
+    "disk_size_gb": 4.66
+   },
+   {
+    "name": "google/gemma-4-E2B-it",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/gemma-4-E2B-it-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 5.12,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 77.5
+    },
+    "release_date": "2026-03-31",
+    "estimated_tps": 17.2,
+    "disk_size_gb": 5.38
+   },
+   {
+    "name": "unsloth/gemma-4-E2B",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "ggml-org/gemma-4-E2B-GGUF",
+      "provider": "ggml-org"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 5.12,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 77.5
+    },
+    "release_date": "2026-03-31",
+    "estimated_tps": 17.2,
+    "disk_size_gb": 5.38
+   },
+   {
+    "name": "Qwen/Qwen3-VL-4B-Thinking",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Qwen3-VL-4B-Thinking-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 4.44,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 74
+    },
+    "release_date": "2025-10-11",
+    "estimated_tps": 19.8,
+    "disk_size_gb": 4.66
+   },
+   {
+    "name": "google/gemma-3-4b-it",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/gemma-3-4b-it-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 4.3,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 73
+    },
+    "release_date": "2025-03-12",
+    "estimated_tps": 20.5,
+    "disk_size_gb": 4.52
+   },
+   {
+    "name": "Qwen/Qwen2.5-3B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/Qwen2.5-3B-Instruct-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 3.09,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 66.5
+    },
+    "release_date": "2024-09-18",
+    "estimated_tps": 28.5,
+    "disk_size_gb": 3.24
+   },
+   {
+    "name": "meta-llama/Llama-3.2-3B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Llama-3.2-3B-Instruct-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 3.21,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 68.6
+    },
+    "release_date": "2024-09-25",
+    "estimated_tps": 27.4,
+    "disk_size_gb": 3.37
+   },
+   {
+    "name": "openbmb/MiniCPM-V-4.6",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "ggml-org/MiniCPM-V-4.6-GGUF",
+      "provider": "ggml-org"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 1.3,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 52.5
+    },
+    "release_date": "2026-04-13",
+    "estimated_tps": 67.7,
+    "disk_size_gb": 1.37
+   },
+   {
+    "name": "OpenGVLab/InternVL3-8B",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/InternVL3-8B-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 7.94,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 81
+    },
+    "release_date": "2025-04-10",
+    "estimated_tps": 11.1,
+    "disk_size_gb": 8.34
+   },
+   {
+    "name": "OpenGVLab/InternVL3-8B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/InternVL3-8B-Instruct-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 7.94,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 81
+    },
+    "release_date": "2025-04-16",
+    "estimated_tps": 11.1,
+    "disk_size_gb": 8.34
+   },
+   {
+    "name": "openbmb/MiniCPM-V-2_6",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/MiniCPM-V-2_6-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 8.1,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 81
+    },
+    "release_date": "2024-08-04",
+    "estimated_tps": 10.9,
+    "disk_size_gb": 8.5
+   },
+   {
+    "name": "LiquidAI/LFM2.5-VL-1.6B",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/LFM2.5-VL-1.6B-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 1.6,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 51
+    },
+    "release_date": "2026-01-05",
+    "estimated_tps": 55.1,
+    "disk_size_gb": 1.68
+   },
+   {
+    "name": "OpenGVLab/InternVL3-2B",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/InternVL3-2B-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 2.09,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 51
+    },
+    "release_date": "2025-04-10",
+    "estimated_tps": 42.1,
+    "disk_size_gb": 2.19
+   },
+   {
+    "name": "OpenGVLab/InternVL3-2B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "ggml-org/InternVL3-2B-Instruct-GGUF",
+      "provider": "ggml-org"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 2.09,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 51
+    },
+    "release_date": "2025-04-16",
+    "estimated_tps": 42.1,
+    "disk_size_gb": 2.19
+   },
+   {
+    "name": "LiquidAI/LFM2.5-1.2B-Thinking",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/LFM2.5-1.2B-Thinking-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "General",
+    "is_moe": false,
+    "params_b": 1.17,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 45
+    },
+    "release_date": "2026-01-20",
+    "estimated_tps": 75.2,
+    "disk_size_gb": 1.23
+   },
+   {
+    "name": "zai-org/AutoGLM-Phone-9B",
+    "fit_level": "Good",
+    "gguf_sources": [
+     {
+      "repo": "ggml-org/AutoGLM-Phone-9B-GGUF",
+      "provider": "ggml-org"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 9.4,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 81
+    },
+    "release_date": "2025-12-08",
+    "estimated_tps": 9.4,
+    "disk_size_gb": 9.87
+   },
+   {
+    "name": "HuggingFaceTB/SmolVLM-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "ggml-org/SmolVLM-Instruct-GGUF",
+      "provider": "ggml-org"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 2.25,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 51
+    },
+    "release_date": "2024-11-18",
+    "estimated_tps": 39.2,
+    "disk_size_gb": 2.36
+   },
+   {
+    "name": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "ggml-org/SmolVLM2-2.2B-Instruct-GGUF",
+      "provider": "ggml-org"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 2.25,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 51
+    },
+    "release_date": "2025-02-08",
+    "estimated_tps": 39.2,
+    "disk_size_gb": 2.36
+   },
+   {
+    "name": "LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/EXAONE-3.5-2.4B-Instruct-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 2.41,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 45
+    },
+    "release_date": "2024-12-01",
+    "estimated_tps": 36.6,
+    "disk_size_gb": 2.53
+   },
+   {
+    "name": "OpenGVLab/InternVL2_5-4B",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "ggml-org/InternVL2_5-4B-GGUF",
+      "provider": "ggml-org"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 3.71,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 66
+    },
+    "release_date": "2024-11-20",
+    "estimated_tps": 23.7,
+    "disk_size_gb": 3.9
+   },
+   {
+    "name": "google/gemma-3n-E2B-it",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "ggml-org/gemma-3n-E2B-it-GGUF",
+      "provider": "ggml-org"
+     }
+    ],
+    "category": "Multimodal",
+    "is_moe": false,
+    "params_b": 5.98,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 73
+    },
+    "release_date": "2025-06-12",
+    "estimated_tps": 14.7,
+    "disk_size_gb": 6.28
+   },
+   {
+    "name": "tiiuae/Falcon-H1-3B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Falcon-H1-3B-Instruct-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 3.15,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 60
+    },
+    "release_date": "2025-05-01",
+    "estimated_tps": 27.9,
+    "disk_size_gb": 3.31
+   },
+   {
+    "name": "ibm-granite/granite-3.1-2b-instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/granite-3.1-2b-instruct-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 2.53,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 44.2
+    },
+    "release_date": "2024-12-06",
+    "estimated_tps": 34.7,
+    "disk_size_gb": 2.66
+   },
+   {
+    "name": "tiiuae/Falcon3-3B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/Falcon3-3B-Instruct-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 3.23,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 60
+    },
+    "release_date": "2024-12-14",
+    "estimated_tps": 27.3,
+    "disk_size_gb": 3.39
+   },
+   {
+    "name": "Qwen/Qwen3-4B-Instruct-2507",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Qwen3-4B-Instruct-2507-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 4.02,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 70.4
+    },
+    "release_date": "2025-08-06",
+    "estimated_tps": 21.9,
+    "disk_size_gb": 4.22
+   },
+   {
+    "name": "google/gemma-2-2b-it",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/gemma-2-2b-it-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "General",
+    "is_moe": false,
+    "params_b": 2.61,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 49
+    },
+    "release_date": "2024-12-12",
+    "estimated_tps": 33.7,
+    "disk_size_gb": 2.75
+   },
+   {
+    "name": "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/SmolLM2-360M-Instruct-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 0.36,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 30
+    },
+    "release_date": "2024-10-31",
+    "estimated_tps": 243.2,
+    "disk_size_gb": 0.38
+   },
+   {
+    "name": "OpenGVLab/InternVL3-1B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/InternVL3-1B-Instruct-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 0.94,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 30
+    },
+    "release_date": null,
+    "estimated_tps": 93.8,
+    "disk_size_gb": 0.99
+   },
+   {
+    "name": "Qwen/Qwen3-4B-Thinking-2507",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Qwen3-4B-Thinking-2507-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "General",
+    "is_moe": false,
+    "params_b": 4.02,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 68
+    },
+    "release_date": "2025-08-06",
+    "estimated_tps": 21.9,
+    "disk_size_gb": 4.22
+   },
+   {
+    "name": "google/gemma-1.1-2b-it",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/gemma-1.1-2b-it-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "General",
+    "is_moe": false,
+    "params_b": 2.51,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 46
+    },
+    "release_date": "2024-03-26",
+    "estimated_tps": 35.1,
+    "disk_size_gb": 2.63
+   },
+   {
+    "name": "h2oai/h2o-danube3-500m-chat",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/h2o-danube3-500m-chat-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 0.51,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 30
+    },
+    "release_date": "2024-07-04",
+    "estimated_tps": 171.3,
+    "disk_size_gb": 0.54
+   },
+   {
+    "name": "ibm-granite/granite-3.0-2b-instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/granite-3.0-2b-instruct-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 2.63,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 44.2
+    },
+    "release_date": "2024-10-02",
+    "estimated_tps": 33.4,
+    "disk_size_gb": 2.77
+   },
+   {
+    "name": "google/gemma-3-1b-it",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/gemma-3-1b-it-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "General",
+    "is_moe": false,
+    "params_b": 1,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 37
+    },
+    "release_date": "2025-03-12",
+    "estimated_tps": 88,
+    "disk_size_gb": 1.05
+   },
+   {
+    "name": "google/gemma-3-270m-it",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/gemma-3-270m-it-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "General",
+    "is_moe": false,
+    "params_b": 0.27,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 37
+    },
+    "release_date": "2025-08-13",
+    "estimated_tps": 328.2,
+    "disk_size_gb": 0.28
+   },
+   {
+    "name": "microsoft/Phi-3.5-mini-instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/Phi-3.5-mini-instruct-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 3.82,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 66
+    },
+    "release_date": "2024-08-16",
+    "estimated_tps": 23,
+    "disk_size_gb": 4.01
+   },
+   {
+    "name": "microsoft/phi-3-mini-4k-instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/phi-3-mini-4k-instruct-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 3.82,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 66
+    },
+    "release_date": "2024-04-22",
+    "estimated_tps": 23,
+    "disk_size_gb": 4.01
+   },
+   {
+    "name": "microsoft/Phi-4-mini-instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "unsloth/Phi-4-mini-instruct-GGUF",
+      "provider": "unsloth"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 3.84,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 66
+    },
+    "release_date": "2025-02-19",
+    "estimated_tps": 22.9,
+    "disk_size_gb": 4.03
+   },
+   {
+    "name": "nvidia/Nemotron-Mini-4B-Instruct",
+    "fit_level": "Perfect",
+    "gguf_sources": [
+     {
+      "repo": "bartowski/Nemotron-Mini-4B-Instruct-GGUF",
+      "provider": "bartowski"
+     }
+    ],
+    "category": "Chat",
+    "is_moe": false,
+    "params_b": 3.81,
+    "memory_available_gb": 16,
+    "score_components": {
+     "quality": 60
+    },
+    "release_date": "2024-09-10",
+    "estimated_tps": 23.1,
+    "disk_size_gb": 4
+   }
+  ]
+ }
+}

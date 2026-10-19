@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <!-- The files under test, linked from the WPF app: pure planning, no process and no network. -->
+  <ItemGroup>
+    <Compile Include="..\ModelFitStudio\Core\TurboFit.cs" />
+    <Compile Include="..\ModelFitStudio\Core\SpeedEstimate.cs" />
+    <Compile Include="..\ModelFitStudio\Core\QualityQuestions.cs" />
+    <Compile Include="..\ModelFitStudio\Core\NvidiaEngine.cs" />
+    <Compile Include="..\ModelFitStudio\Core\Suggest.cs" />
+    <Compile Include="..\ModelFitStudio\Core\RepoFiles.cs" />
+    <Compile Include="..\ModelFitStudio\Core\FitRule.cs" />
+    <Compile Include="..\ModelFitStudio\Core\AgentPlan.cs" />
+    <Compile Include="..\ModelFitStudio\Core\GgufInfo.cs" />
+    <Compile Include="..\ModelFitStudio\Core\RequestFitter.cs" />
+    <Compile Include="..\ModelFitStudio\Core\AgentCases.cs" />
+    <Compile Include="..\ModelFitStudio\Core\AgentShare.cs" />
+    <Compile Include="..\ModelFitStudio\Core\Updates.cs" />
+  </ItemGroup>
+
+  <!-- The cases both apps answer the same way; zer0ne code keeps the other copy. -->
+  <ItemGroup>
+    <None Include="fit-cases.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="quality-cases.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="suggest-cases.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.10.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="4.0.1" />
+  </ItemGroup>
+
+</Project>

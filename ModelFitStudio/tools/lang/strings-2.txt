@@ -1,0 +1,959 @@
+> Chat / general
+zh 对话 / 通用
+es Chat / general
+pt Chat / geral
+ru Чат / общее
+de Chat / allgemein
+fr Chat / général
+ja チャット / 汎用
+ko 채팅 / 일반
+tr Sohbet / genel
+it Chat / generale
+
+> Coding
+zh 编程
+es Programación
+pt Programação
+ru Программирование
+de Programmieren
+fr Programmation
+ja コーディング
+ko 코딩
+tr Kodlama
+it Programmazione
+
+> Vision
+zh 视觉
+es Visión
+pt Visão
+ru Зрение
+de Bildverstehen
+fr Vision
+ja 画像理解
+ko 비전
+tr Görme
+it Visione
+
+> Embedding
+zh 向量嵌入
+es Embeddings
+pt Embeddings
+ru Эмбеддинги
+de Embeddings
+fr Embeddings
+ja 埋め込み
+ko 임베딩
+tr Gömme
+it Embedding
+
+> Audio / TTS
+zh 音频 / 语音合成
+es Audio / voz
+pt Áudio / voz
+ru Аудио / речь
+de Audio / Sprache
+fr Audio / voix
+ja 音声 / TTS
+ko 오디오 / TTS
+tr Ses / TTS
+it Audio / voce
+
+> context
+zh 上下文
+es contexto
+pt contexto
+ru контекст
+de Kontext
+fr contexte
+ja コンテキスト
+ko 컨텍스트
+tr bağlam
+it contesto
+
+> usable
+zh 可用
+es utilizables
+pt utilizáveis
+ru доступно
+de nutzbar
+fr utilisables
+ja 使用可能
+ko 사용 가능
+tr kullanılabilir
+it utilizzabili
+
+> licence
+zh 许可
+es licencia
+pt licença
+ru лицензия
+de Lizenz
+fr licence
+ja ライセンス
+ko 라이선스
+tr lisans
+it licenza
+
+> Model
+zh 模型
+es Modelo
+pt Modelo
+ru Модель
+de Modell
+fr Modèle
+ja モデル
+ko 모델
+tr Model
+it Modello
+
+> from Hugging Face
+zh 来自 Hugging Face
+es de Hugging Face
+pt do Hugging Face
+ru с Hugging Face
+de von Hugging Face
+fr depuis Hugging Face
+ja Hugging Face より
+ko Hugging Face 제공
+tr Hugging Face'ten
+it da Hugging Face
+
+> Files
+zh 文件
+es Archivos
+pt Arquivos
+ru Файлы
+de Dateien
+fr Fichiers
+ja ファイル
+ko 파일
+tr Dosyalar
+it File
+
+> pick the quant that fits
+zh 选择放得下的量化版本
+es elige la versión que cabe
+pt escolha a versão que cabe
+ru выберите подходящую версию
+de die passende Version wählen
+fr choisissez la version qui tient
+ja 収まる量子化版を選択
+ko 맞는 양자화 버전을 고르세요
+tr sığan sürümü seçin
+it scegli la versione che ci sta
+
+> Provider
+zh 发布者
+es Proveedor
+pt Fornecedor
+ru Автор
+de Anbieter
+fr Fournisseur
+ja 提供元
+ko 제공자
+tr Sağlayıcı
+it Fornitore
+
+> Role
+zh 用途
+es Función
+pt Função
+ru Назначение
+de Einsatz
+fr Rôle
+ja 用途
+ko 용도
+tr Görev
+it Ruolo
+
+> Parameters
+zh 参数量
+es Parámetros
+pt Parâmetros
+ru Параметры
+de Parameter
+fr Paramètres
+ja パラメータ数
+ko 파라미터
+tr Parametreler
+it Parametri
+
+> Architecture
+zh 架构
+es Arquitectura
+pt Arquitetura
+ru Архитектура
+de Architektur
+fr Architecture
+ja アーキテクチャ
+ko 아키텍처
+tr Mimari
+it Architettura
+
+> Context
+zh 上下文
+es Contexto
+pt Contexto
+ru Контекст
+de Kontext
+fr Contexte
+ja コンテキスト
+ko 컨텍스트
+tr Bağlam
+it Contesto
+
+> Best file
+zh 最佳文件
+es Mejor archivo
+pt Melhor arquivo
+ru Лучший файл
+de Beste Datei
+fr Meilleur fichier
+ja 最適なファイル
+ko 최적 파일
+tr En iyi dosya
+it File migliore
+
+> File size
+zh 文件大小
+es Tamaño del archivo
+pt Tamanho do arquivo
+ru Размер файла
+de Dateigröße
+fr Taille du fichier
+ja ファイルサイズ
+ko 파일 크기
+tr Dosya boyutu
+it Dimensione del file
+
+> Memory needed
+zh 所需内存
+es Memoria necesaria
+pt Memória necessária
+ru Нужно памяти
+de Benötigter Speicher
+fr Mémoire nécessaire
+ja 必要メモリ
+ko 필요한 메모리
+tr Gereken bellek
+it Memoria necessaria
+
+> of {0} budget
+zh / 可用 {0}
+es de {0} disponibles
+pt de {0} disponíveis
+ru из {0} доступных
+de von {0} Budget
+fr sur {0} disponibles
+ja / 使える {0}
+ko / 가용 {0}
+tr / {0} bütçe
+it su {0} disponibili
+
+> Fit
+zh 适配
+es Ajuste
+pt Ajuste
+ru Совместимость
+de Passform
+fr Adéquation
+ja 適合
+ko 적합도
+tr Uyum
+it Compatibilità
+
+> Run mode
+zh 运行方式
+es Modo de ejecución
+pt Modo de execução
+ru Режим работы
+de Ausführung
+fr Mode d'exécution
+ja 実行モード
+ko 실행 방식
+tr Çalışma kipi
+it Modalità di esecuzione
+
+> Downloads
+zh 下载
+es Descargas
+pt Downloads
+ru Загрузки
+de Downloads
+fr Téléchargements
+ja ダウンロード
+ko 다운로드
+tr İndirmeler
+it Download
+
+> Base model
+zh 基础模型
+es Modelo base
+pt Modelo base
+ru Базовая модель
+de Basismodell
+fr Modèle de base
+ja ベースモデル
+ko 기반 모델
+tr Temel model
+it Modello di base
+
+> Quality
+zh 质量
+es Calidad
+pt Qualidade
+ru Качество
+de Qualität
+fr Qualité
+ja 品質
+ko 품질
+tr Kalite
+it Qualità
+
+> estimate, not tested here
+zh 估计值，未在此测试
+es estimación, no probado aquí
+pt estimativa, não testado aqui
+ru оценка, здесь не тестировалось
+de Schätzung, hier nicht getestet
+fr estimation, non testé ici
+ja 推定値（ここでは未テスト）
+ko 추정치, 여기서 테스트 안 됨
+tr tahmin, burada test edilmedi
+it stima, non testato qui
+
+> of the quality test, this version on this PC
+zh 质量测试得分（此版本，这台电脑）
+es de la prueba de calidad, esta versión en este PC
+pt do teste de qualidade, esta versão neste PC
+ru теста качества, эта версия на этом ПК
+de des Qualitätstests, diese Version auf diesem PC
+fr du test de qualité, cette version sur ce PC
+ja 品質テストの正答率（このバージョン・このPC）
+ko 품질 테스트 정답률(이 버전, 이 PC)
+tr kalite testinden, bu sürüm bu bilgisayarda
+it del test di qualità, questa versione su questo PC
+
+> {0} max
+zh 最大 {0}
+es {0} máx.
+pt {0} máx.
+ru макс. {0}
+de {0} max.
+fr {0} max.
+ja 最大 {0}
+ko 최대 {0}
+tr en çok {0}
+it {0} max
+
+> → {0} usable here
+zh → 此处可用 {0}
+es → {0} utilizables aquí
+pt → {0} utilizáveis aqui
+ru → здесь доступно {0}
+de → hier {0} nutzbar
+fr → {0} utilisables ici
+ja → ここでは {0} 使用可能
+ko → 여기서 {0} 사용 가능
+tr → burada {0} kullanılabilir
+it → {0} utilizzabili qui
+
+> File
+zh 文件
+es Archivo
+pt Arquivo
+ru Файл
+de Datei
+fr Fichier
+ja ファイル
+ko 파일
+tr Dosya
+it File
+
+> Size
+zh 大小
+es Tamaño
+pt Tamanho
+ru Размер
+de Größe
+fr Taille
+ja サイズ
+ko 크기
+tr Boyut
+it Dimensione
+
+> Perfect
+zh 完美
+es Perfecto
+pt Perfeito
+ru Отлично
+de Perfekt
+fr Parfait
+ja 最適
+ko 완벽
+tr Mükemmel
+it Perfetto
+
+> Good
+zh 良好
+es Bueno
+pt Bom
+ru Хорошо
+de Gut
+fr Bon
+ja 良好
+ko 좋음
+tr İyi
+it Buono
+
+> Marginal
+zh 勉强
+es Justo
+pt No limite
+ru На грани
+de Grenzwertig
+fr Limite
+ja ぎりぎり
+ko 아슬아슬
+tr Sınırda
+it Al limite
+
+> Tight
+zh 吃紧
+es Ajustado
+pt Apertado
+ru Впритык
+de Knapp
+fr Juste
+ja きつい
+ko 빠듯함
+tr Dar
+it Stretto
+
+> Too tight
+zh 太吃紧
+es Demasiado justo
+pt Apertado demais
+ru Слишком тесно
+de Zu knapp
+fr Trop juste
+ja きつすぎる
+ko 너무 빠듯함
+tr Çok dar
+it Troppo stretto
+
+> Too big
+zh 太大
+es Demasiado grande
+pt Grande demais
+ru Слишком большая
+de Zu groß
+fr Trop gros
+ja 大きすぎる
+ko 너무 큼
+tr Çok büyük
+it Troppo grande
+
+> Fits
+zh 放得下
+es Cabe
+pt Cabe
+ru Помещается
+de Passt
+fr Tient
+ja 収まる
+ko 맞음
+tr Sığar
+it Ci sta
+
+> Uses {0} of the {1} memory budget.
+zh 占用 {1} 可用内存的 {0}。
+es Usa el {0} de los {1} de memoria disponibles.
+pt Usa {0} dos {1} de memória disponíveis.
+ru Занимает {0} из {1} доступной памяти.
+de Nutzt {0} des Speicherbudgets von {1}.
+fr Utilise {0} des {1} de mémoire disponibles.
+ja 使えるメモリ {1} の {0} を使用。
+ko 가용 메모리 {1}의 {0} 사용.
+tr {1} bellek bütçesinin {0} kadarını kullanır.
+it Usa il {0} dei {1} di memoria disponibili.
+
+> Already downloaded
+zh 已下载
+es Ya descargado
+pt Já baixado
+ru Уже скачано
+de Bereits heruntergeladen
+fr Déjà téléchargé
+ja ダウンロード済み
+ko 이미 다운로드됨
+tr Zaten indirildi
+it Già scaricato
+
+> Not sure which file?
+zh 不确定选哪个文件？
+es ¿No sabes qué archivo?
+pt Não sabe qual arquivo?
+ru Не знаете, какой файл?
+de Unsicher, welche Datei?
+fr Vous hésitez sur le fichier ?
+ja どのファイルか迷ったら
+ko 어떤 파일인지 모르겠다면?
+tr Hangi dosya, emin değil misiniz?
+it Non sai quale file?
+
+> is the usual pick.
+zh 是常用之选。
+es es la elección habitual.
+pt é a escolha habitual.
+ru — обычный выбор.
+de ist die übliche Wahl.
+fr est le choix habituel.
+ja が定番です。
+ko 이(가) 일반적인 선택입니다.
+tr olağan tercihtir.
+it è la scelta abituale.
+
+> Which version should I pick?
+zh 我该选哪个版本？
+es ¿Qué versión elijo?
+pt Qual versão escolher?
+ru Какую версию выбрать?
+de Welche Version soll ich nehmen?
+fr Quelle version choisir ?
+ja どのバージョンを選ぶ？
+ko 어떤 버전을 고를까요?
+tr Hangi sürümü seçmeliyim?
+it Quale versione scegliere?
+
+> Measured by others
+zh 其他人的实测
+es Medido por otros
+pt Medido por outros
+ru Измерено другими
+de Von anderen gemessen
+fr Mesuré par d'autres
+ja 他のユーザーの実測
+ko 다른 사람들의 측정
+tr Başkalarının ölçümleri
+it Misurato da altri
+
+> {0} run from community benchmarks · none on your GPU yet
+zh 社区基准测试 {0} 次 · 尚无你的 GPU 数据
+es {0} ejecución de pruebas de la comunidad · ninguna en tu GPU aún
+pt {0} execução de testes da comunidade · nenhuma na sua GPU ainda
+ru {0} запуск из тестов сообщества · на вашей видеокарте пока нет
+de {0} Lauf aus Community-Benchmarks · noch keiner auf Ihrer GPU
+fr {0} exécution des tests de la communauté · aucune sur votre GPU pour l'instant
+ja コミュニティのベンチマーク {0} 件 · あなたのGPUではまだなし
+ko 커뮤니티 벤치마크 {0}건 · 내 GPU 기록은 아직 없음
+tr Topluluk ölçümlerinden {0} çalıştırma · sizin GPU'nuzda henüz yok
+it {0} esecuzione dai benchmark della comunità · nessuna sulla tua GPU per ora
+
+> {0} runs from community benchmarks · none on your GPU yet
+zh 社区基准测试 {0} 次 · 尚无你的 GPU 数据
+es {0} ejecuciones de pruebas de la comunidad · ninguna en tu GPU aún
+pt {0} execuções de testes da comunidade · nenhuma na sua GPU ainda
+ru Запусков из тестов сообщества: {0} · на вашей видеокарте пока нет
+de {0} Läufe aus Community-Benchmarks · noch keiner auf Ihrer GPU
+fr {0} exécutions des tests de la communauté · aucune sur votre GPU pour l'instant
+ja コミュニティのベンチマーク {0} 件 · あなたのGPUではまだなし
+ko 커뮤니티 벤치마크 {0}건 · 내 GPU 기록은 아직 없음
+tr Topluluk ölçümlerinden {0} çalıştırma · sizin GPU'nuzda henüz yok
+it {0} esecuzioni dai benchmark della comunità · nessuna sulla tua GPU per ora
+
+> {0} run from community benchmarks · {1} on your GPU
+zh 社区基准测试 {0} 次 · 其中 {1} 次用的是你的 GPU
+es {0} ejecución de pruebas de la comunidad · {1} en tu GPU
+pt {0} execução de testes da comunidade · {1} na sua GPU
+ru {0} запуск из тестов сообщества · {1} на вашей видеокарте
+de {0} Lauf aus Community-Benchmarks · {1} auf Ihrer GPU
+fr {0} exécution des tests de la communauté · {1} sur votre GPU
+ja コミュニティのベンチマーク {0} 件 · うち {1} 件はあなたのGPU
+ko 커뮤니티 벤치마크 {0}건 · 내 GPU {1}건
+tr Topluluk ölçümlerinden {0} çalıştırma · {1} tanesi sizin GPU'nuzda
+it {0} esecuzione dai benchmark della comunità · {1} sulla tua GPU
+
+> {0} runs from community benchmarks · {1} on your GPU
+zh 社区基准测试 {0} 次 · 其中 {1} 次用的是你的 GPU
+es {0} ejecuciones de pruebas de la comunidad · {1} en tu GPU
+pt {0} execuções de testes da comunidade · {1} na sua GPU
+ru Запусков из тестов сообщества: {0} · {1} на вашей видеокарте
+de {0} Läufe aus Community-Benchmarks · {1} auf Ihrer GPU
+fr {0} exécutions des tests de la communauté · {1} sur votre GPU
+ja コミュニティのベンチマーク {0} 件 · うち {1} 件はあなたのGPU
+ko 커뮤니티 벤치마크 {0}건 · 내 GPU {1}건
+tr Topluluk ölçümlerinden {0} çalıştırma · {1} tanesi sizin GPU'nuzda
+it {0} esecuzioni dai benchmark della comunità · {1} sulla tua GPU
+
+> first word {0}
+zh 首词 {0}
+es primera palabra {0}
+pt primeira palavra {0}
+ru первое слово {0}
+de erstes Wort {0}
+fr premier mot {0}
+ja 最初の語まで {0}
+ko 첫 단어 {0}
+tr ilk sözcük {0}
+it prima parola {0}
+
+> Run it locally
+zh 在本机运行
+es Ejecutarlo en local
+pt Rodar localmente
+ru Запустить локально
+de Lokal ausführen
+fr L'exécuter en local
+ja ローカルで実行
+ko 로컬에서 실행
+tr Yerelde çalıştır
+it Eseguilo in locale
+
+> Start it now
+zh 立即启动
+es Iniciarlo ahora
+pt Iniciar agora
+ru Запустить сейчас
+de Jetzt starten
+fr Le démarrer maintenant
+ja 今すぐ起動
+ko 지금 시작
+tr Şimdi başlat
+it Avvialo ora
+
+> Open on Hugging Face
+zh 在 Hugging Face 上打开
+es Abrir en Hugging Face
+pt Abrir no Hugging Face
+ru Открыть на Hugging Face
+de Auf Hugging Face öffnen
+fr Ouvrir sur Hugging Face
+ja Hugging Face で開く
+ko Hugging Face에서 열기
+tr Hugging Face'te aç
+it Apri su Hugging Face
+
+> The engine this app measures with. It opens a chat page in your browser.
+zh 本应用用来测速的引擎。它会在浏览器中打开聊天页面。
+es El motor con el que mide esta app. Abre una página de chat en tu navegador.
+pt O motor com que este app mede. Abre uma página de chat no navegador.
+ru Движок, которым приложение измеряет скорость. Открывает страницу чата в браузере.
+de Die Engine, mit der diese App misst. Sie öffnet eine Chat-Seite im Browser.
+fr Le moteur avec lequel l'application mesure. Il ouvre une page de chat dans votre navigateur.
+ja このアプリが計測に使うエンジンです。ブラウザーでチャット画面が開きます。
+ko 이 앱이 측정에 쓰는 엔진입니다. 브라우저에 채팅 페이지가 열립니다.
+tr Bu uygulamanın ölçüm yaptığı motor. Tarayıcınızda bir sohbet sayfası açar.
+it Il motore con cui l'app misura. Apre una pagina di chat nel browser.
+
+> Download the file
+zh 下载文件
+es Descarga el archivo
+pt Baixe o arquivo
+ru Скачайте файл
+de Datei herunterladen
+fr Téléchargez le fichier
+ja ファイルをダウンロード
+ko 파일 다운로드
+tr Dosyayı indirin
+it Scarica il file
+
+> Use Download this model above: {0} ({1}).
+zh 使用上方的“下载此模型”：{0}（{1}）。
+es Usa «Descargar este modelo» arriba: {0} ({1}).
+pt Use «Baixar este modelo» acima: {0} ({1}).
+ru Нажмите «Скачать эту модель» выше: {0} ({1}).
+de Oben „Dieses Modell herunterladen“ verwenden: {0} ({1}).
+fr Utilisez « Télécharger ce modèle » ci-dessus : {0} ({1}).
+ja 上の「このモデルをダウンロード」を使用：{0}（{1}）。
+ko 위의 「이 모델 다운로드」를 사용하세요: {0} ({1}).
+tr Yukarıdaki «Bu modeli indir» düğmesini kullanın: {0} ({1}).
+it Usa «Scarica questo modello» qui sopra: {0} ({1}).
+
+> Start the model
+zh 启动模型
+es Inicia el modelo
+pt Inicie o modelo
+ru Запустите модель
+de Modell starten
+fr Démarrez le modèle
+ja モデルを起動
+ko 모델 시작
+tr Modeli başlatın
+it Avvia il modello
+
+> Run this in a terminal. Keep the window open while you use the model.
+zh 在终端中运行此命令。使用模型期间请保持窗口打开。
+es Ejecuta esto en una terminal. Mantén la ventana abierta mientras uses el modelo.
+pt Execute isto em um terminal. Mantenha a janela aberta enquanto usar o modelo.
+ru Выполните это в терминале. Не закрывайте окно, пока пользуетесь моделью.
+de Im Terminal ausführen. Das Fenster offen lassen, solange Sie das Modell nutzen.
+fr Exécutez ceci dans un terminal. Gardez la fenêtre ouverte pendant l'utilisation du modèle.
+ja ターミナルで実行します。モデルを使う間はウィンドウを開いたままにしてください。
+ko 터미널에서 실행하세요. 모델을 쓰는 동안 창을 열어 두세요.
+tr Bunu bir terminalde çalıştırın. Modeli kullanırken pencereyi açık tutun.
+it Esegui questo in un terminale. Tieni aperta la finestra mentre usi il modello.
+
+> Copy
+zh 复制
+es Copiar
+pt Copiar
+ru Копировать
+de Kopieren
+fr Copier
+ja コピー
+ko 복사
+tr Kopyala
+it Copia
+
+> Copied
+zh 已复制
+es Copiado
+pt Copiado
+ru Скопировано
+de Kopiert
+fr Copié
+ja コピーしました
+ko 복사됨
+tr Kopyalandı
+it Copiato
+
+> Chat
+zh 聊天
+es Chatea
+pt Converse
+ru Общайтесь
+de Chatten
+fr Discutez
+ja チャット
+ko 채팅
+tr Sohbet edin
+it Chatta
+
+> Open http://127.0.0.1:8080 in your browser. Closing the terminal window stops the model.
+zh 在浏览器中打开 http://127.0.0.1:8080。关闭终端窗口即可停止模型。
+es Abre http://127.0.0.1:8080 en tu navegador. Cerrar la ventana de la terminal detiene el modelo.
+pt Abra http://127.0.0.1:8080 no navegador. Fechar a janela do terminal encerra o modelo.
+ru Откройте http://127.0.0.1:8080 в браузере. Закрытие окна терминала останавливает модель.
+de http://127.0.0.1:8080 im Browser öffnen. Das Schließen des Terminalfensters beendet das Modell.
+fr Ouvrez http://127.0.0.1:8080 dans votre navigateur. Fermer la fenêtre du terminal arrête le modèle.
+ja ブラウザーで http://127.0.0.1:8080 を開きます。ターミナルを閉じるとモデルは停止します。
+ko 브라우저에서 http://127.0.0.1:8080 을 여세요. 터미널 창을 닫으면 모델이 멈춥니다.
+tr Tarayıcınızda http://127.0.0.1:8080 adresini açın. Terminal penceresini kapatmak modeli durdurur.
+it Apri http://127.0.0.1:8080 nel browser. Chiudere la finestra del terminale ferma il modello.
+
+> Download the file to start it from here.
+zh 下载文件后即可从这里启动。
+es Descarga el archivo para iniciarlo desde aquí.
+pt Baixe o arquivo para iniciá-lo daqui.
+ru Скачайте файл, чтобы запустить его отсюда.
+de Datei herunterladen, um es von hier zu starten.
+fr Téléchargez le fichier pour le démarrer d'ici.
+ja ファイルをダウンロードすると、ここから起動できます。
+ko 파일을 다운로드하면 여기서 시작할 수 있습니다.
+tr Buradan başlatmak için dosyayı indirin.
+it Scarica il file per avviarlo da qui.
+
+> Start it now does steps 1 and 2 for you.
+zh “立即启动”会替你完成第 1、2 步。
+es «Iniciarlo ahora» hace los pasos 1 y 2 por ti.
+pt «Iniciar agora» faz os passos 1 e 2 por você.
+ru «Запустить сейчас» выполняет шаги 1 и 2 за вас.
+de „Jetzt starten“ erledigt die Schritte 1 und 2 für Sie.
+fr « Le démarrer maintenant » fait les étapes 1 et 2 pour vous.
+ja 「今すぐ起動」が手順1と2を代わりに行います。
+ko 「지금 시작」이 1, 2단계를 대신 해 줍니다.
+tr «Şimdi başlat» 1. ve 2. adımları sizin yerinize yapar.
+it «Avvialo ora» esegue i passi 1 e 2 per te.
+
+> One command. Ollama downloads its own copy of the model and keeps it ready.
+zh 一条命令。Ollama 会下载自己的模型副本并保持就绪。
+es Un solo comando. Ollama descarga su propia copia del modelo y la deja lista.
+pt Um único comando. O Ollama baixa a própria cópia do modelo e a mantém pronta.
+ru Одна команда. Ollama скачивает собственную копию модели и держит её наготове.
+de Ein Befehl. Ollama lädt eine eigene Kopie des Modells und hält sie bereit.
+fr Une seule commande. Ollama télécharge sa propre copie du modèle et la garde prête.
+ja コマンド1つ。Ollama が自分用のコピーをダウンロードして待機させます。
+ko 명령 한 줄. Ollama가 모델 사본을 직접 내려받아 준비해 둡니다.
+tr Tek komut. Ollama modelin kendi kopyasını indirir ve hazır tutar.
+it Un solo comando. Ollama scarica la propria copia del modello e la tiene pronta.
+
+> Install Ollama
+zh 安装 Ollama
+es Instala Ollama
+pt Instale o Ollama
+ru Установите Ollama
+de Ollama installieren
+fr Installez Ollama
+ja Ollama をインストール
+ko Ollama 설치
+tr Ollama'yı kurun
+it Installa Ollama
+
+> From ollama.com, once.
+zh 从 ollama.com 获取，只需一次。
+es Desde ollama.com, una sola vez.
+pt Em ollama.com, uma única vez.
+ru С ollama.com, один раз.
+de Von ollama.com, einmalig.
+fr Depuis ollama.com, une seule fois.
+ja ollama.com から、初回のみ。
+ko ollama.com에서, 한 번만.
+tr ollama.com'dan, bir kez.
+it Da ollama.com, una volta sola.
+
+> Run the model
+zh 运行模型
+es Ejecuta el modelo
+pt Execute o modelo
+ru Запустите модель
+de Modell ausführen
+fr Lancez le modèle
+ja モデルを実行
+ko 모델 실행
+tr Modeli çalıştırın
+it Esegui il modello
+
+> It downloads on the first run, then opens a chat in the terminal.
+zh 首次运行时会下载，然后在终端中打开聊天。
+es Se descarga en la primera ejecución y luego abre un chat en la terminal.
+pt Baixa na primeira execução e depois abre um chat no terminal.
+ru При первом запуске скачивается, затем открывает чат в терминале.
+de Lädt beim ersten Start herunter und öffnet dann einen Chat im Terminal.
+fr Il se télécharge au premier lancement, puis ouvre un chat dans le terminal.
+ja 初回実行時にダウンロードし、その後ターミナルでチャットが開きます。
+ko 첫 실행 때 내려받은 뒤 터미널에서 채팅이 열립니다.
+tr İlk çalıştırmada indirir, sonra terminalde bir sohbet açar.
+it Si scarica al primo avvio, poi apre una chat nel terminale.
+
+> A desktop app with a chat window. It can reuse the file you downloaded here.
+zh 带聊天窗口的桌面应用。可以直接使用你在这里下载的文件。
+es Una app de escritorio con ventana de chat. Puede reutilizar el archivo que descargaste aquí.
+pt Um app de desktop com janela de chat. Pode reutilizar o arquivo que você baixou aqui.
+ru Настольное приложение с окном чата. Может использовать файл, скачанный здесь.
+de Eine Desktop-App mit Chatfenster. Sie kann die hier geladene Datei weiterverwenden.
+fr Une application de bureau avec une fenêtre de chat. Elle peut réutiliser le fichier téléchargé ici.
+ja チャット画面付きのデスクトップアプリ。ここでダウンロードしたファイルを再利用できます。
+ko 채팅 창이 있는 데스크톱 앱입니다. 여기서 받은 파일을 그대로 쓸 수 있습니다.
+tr Sohbet penceresi olan bir masaüstü uygulaması. Burada indirdiğiniz dosyayı kullanabilir.
+it Un'app desktop con finestra di chat. Può riutilizzare il file scaricato qui.
+
+> Install LM Studio
+zh 安装 LM Studio
+es Instala LM Studio
+pt Instale o LM Studio
+ru Установите LM Studio
+de LM Studio installieren
+fr Installez LM Studio
+ja LM Studio をインストール
+ko LM Studio 설치
+tr LM Studio'yu kurun
+it Installa LM Studio
+
+> From lmstudio.ai, once.
+zh 从 lmstudio.ai 获取，只需一次。
+es Desde lmstudio.ai, una sola vez.
+pt Em lmstudio.ai, uma única vez.
+ru С lmstudio.ai, один раз.
+de Von lmstudio.ai, einmalig.
+fr Depuis lmstudio.ai, une seule fois.
+ja lmstudio.ai から、初回のみ。
+ko lmstudio.ai에서, 한 번만.
+tr lmstudio.ai'den, bir kez.
+it Da lmstudio.ai, una volta sola.
+
+> Get the model
+zh 获取模型
+es Consigue el modelo
+pt Obtenha o modelo
+ru Получите модель
+de Modell holen
+fr Récupérez le modèle
+ja モデルを入手
+ko 모델 받기
+tr Modeli edinin
+it Ottieni il modello
+
+> In LM Studio, or from a terminal:
+zh 在 LM Studio 中，或通过终端：
+es En LM Studio, o desde una terminal:
+pt No LM Studio, ou por um terminal:
+ru В LM Studio или из терминала:
+de In LM Studio oder im Terminal:
+fr Dans LM Studio, ou depuis un terminal :
+ja LM Studio 内、またはターミナルから：
+ko LM Studio에서, 또는 터미널에서:
+tr LM Studio içinde veya bir terminalden:
+it In LM Studio, oppure da un terminale:
+
+> Open LM Studio, pick the model at the top, and start typing.
+zh 打开 LM Studio，在顶部选择模型，然后开始输入。
+es Abre LM Studio, elige el modelo arriba y empieza a escribir.
+pt Abra o LM Studio, escolha o modelo no topo e comece a digitar.
+ru Откройте LM Studio, выберите модель вверху и начинайте писать.
+de LM Studio öffnen, oben das Modell wählen und lostippen.
+fr Ouvrez LM Studio, choisissez le modèle en haut et commencez à écrire.
+ja LM Studio を開き、上部でモデルを選んで入力を始めます。
+ko LM Studio를 열고 상단에서 모델을 고른 뒤 입력을 시작하세요.
+tr LM Studio'yu açın, üstten modeli seçin ve yazmaya başlayın.
+it Apri LM Studio, scegli il modello in alto e inizia a scrivere.
+
+> Add this file
+zh 添加此文件
+es Añade este archivo
+pt Adicione este arquivo
+ru Добавьте этот файл
+de Diese Datei hinzufügen
+fr Ajoutez ce fichier
+ja このファイルを追加
+ko 이 파일 추가
+tr Bu dosyayı ekleyin
+it Aggiungi questo file
+
+> Copies the file you already have into LM Studio.
+zh 把你已有的文件复制到 LM Studio。
+es Copia a LM Studio el archivo que ya tienes.
+pt Copia para o LM Studio o arquivo que você já tem.
+ru Копирует уже имеющийся файл в LM Studio.
+de Kopiert die vorhandene Datei nach LM Studio.
+fr Copie dans LM Studio le fichier que vous avez déjà.
+ja すでにあるファイルを LM Studio にコピーします。
+ko 이미 있는 파일을 LM Studio로 복사합니다.
+tr Elinizdeki dosyayı LM Studio'ya kopyalar.
+it Copia in LM Studio il file che hai già.
+
+> Loading the model…
+zh 正在加载模型…
+es Cargando el modelo…
+pt Carregando o modelo…
+ru Загрузка модели…
+de Modell wird geladen…
+fr Chargement du modèle…
+ja モデルを読み込み中…
+ko 모델 불러오는 중…
+tr Model yükleniyor…
+it Caricamento del modello…
+
+> The model is running. Its chat page opened in your browser.
+zh 模型已在运行。聊天页面已在浏览器中打开。
+es El modelo está en marcha. Su página de chat se abrió en tu navegador.
+pt O modelo está rodando. A página de chat abriu no navegador.
+ru Модель работает. Страница чата открыта в браузере.
+de Das Modell läuft. Die Chat-Seite wurde im Browser geöffnet.
+fr Le modèle tourne. Sa page de chat s'est ouverte dans votre navigateur.
+ja モデルが動いています。ブラウザーでチャット画面を開きました。
+ko 모델이 실행 중입니다. 브라우저에 채팅 페이지가 열렸습니다.
+tr Model çalışıyor. Sohbet sayfası tarayıcınızda açıldı.
+it Il modello è in esecuzione. La pagina di chat si è aperta nel browser.
+
+> The model did not start
+zh 模型未能启动
+es El modelo no se inició
+pt O modelo não iniciou
+ru Модель не запустилась
+de Das Modell ist nicht gestartet
+fr Le modèle n'a pas démarré
+ja モデルを起動できませんでした
+ko 모델이 시작되지 않았습니다
+tr Model başlamadı
+it Il modello non si è avviato

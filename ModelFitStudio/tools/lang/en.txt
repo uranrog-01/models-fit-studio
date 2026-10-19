@@ -1,0 +1,494 @@
+Check, benchmark and download local AI models
+Hide this panel
+Show the side panel
+Hide or show the side panel
+This machine
+Rescan
+Memory budget
+{0} usable
+system RAM only
+corrected
+Windows reported {0} (pools over 4 GB wrap). Using {1} from {2}.
+driver name
+{0} free of {1} total
+{0} · {1} cores
+Engine
+llama.cpp · any card
+llama.cpp · processor
+NVIDIA card found. Its own engine is faster.
+Get it
+None (CPU only)
+Paste a Hugging Face link or org/model to check it — e.g. unsloth/Qwen3-8B-GGUF
+Paste
+Check
+Search
+Checks any Hugging Face model against
+this PC
+. To look for one, search the list below.
+Models
+Battle
+Library
+Settings
+Detecting hardware…
+Detecting hardware
+Resolving repository
+Reading model config
+Scoring fit and speed
+Ranking quant options
+Resolving repository…
+Reading model config…
+Scoring fit and speed…
+Ranking quant options…
+Back to models
+Scanned on this machine
+memory used
+Preview speed
+Download this model
+estimated speed
+measured speed
+Runs on this machine
+Runs — but tight
+Won't fit
+{0} needs {1} of the {2} this machine makes available.
+Recommended: the largest version that still writes at reading pace here.
+Recommended: the largest version that fits, and it writes at reading pace.
+No version reaches reading pace on this PC. Recommended: the usual best trade between quality and speed.
+No usable GGUF found in that repository.
+Measured on this PC with llama.cpp.
+Estimated from the version of this model you measured here.
+A range corrected by a real run on this PC.
+A range for a GPU that shares system memory. Measure a downloaded model to make it exact for this PC.
+A range for this kind of PC. Measure a downloaded model to make it exact for this PC.
+Chat / general
+Coding
+Vision
+Embedding
+Audio / TTS
+context
+usable
+licence
+Model
+from Hugging Face
+Files
+pick the quant that fits
+Provider
+Role
+Parameters
+Architecture
+Context
+Best file
+File size
+Memory needed
+of {0} budget
+Fit
+Run mode
+Downloads
+Base model
+Quality
+estimate, not tested here
+of the quality test, this version on this PC
+{0} max
+→ {0} usable here
+File
+Size
+Perfect
+Good
+Marginal
+Tight
+Too tight
+Too big
+Fits
+Uses {0} of the {1} memory budget.
+Already downloaded
+Not sure which file?
+is the usual pick.
+Which version should I pick?
+Measured by others
+{0} run from community benchmarks · none on your GPU yet
+{0} runs from community benchmarks · none on your GPU yet
+{0} run from community benchmarks · {1} on your GPU
+{0} runs from community benchmarks · {1} on your GPU
+first word {0}
+Run it locally
+Start it now
+Open on Hugging Face
+The engine this app measures with. It opens a chat page in your browser.
+Download the file
+Use Download this model above: {0} ({1}).
+Start the model
+Run this in a terminal. Keep the window open while you use the model.
+Copy
+Copied
+Chat
+Open http://127.0.0.1:8080 in your browser. Closing the terminal window stops the model.
+Download the file to start it from here.
+Start it now does steps 1 and 2 for you.
+One command. Ollama downloads its own copy of the model and keeps it ready.
+Install Ollama
+From ollama.com, once.
+Run the model
+It downloads on the first run, then opens a chat in the terminal.
+A desktop app with a chat window. It can reuse the file you downloaded here.
+Install LM Studio
+From lmstudio.ai, once.
+Get the model
+In LM Studio, or from a terminal:
+Open LM Studio, pick the model at the top, and start typing.
+Add this file
+Copies the file you already have into LM Studio.
+Loading the model…
+The model is running. Its chat page opened in your browser.
+The model did not start
+Suggest
+Show the best models for this PC
+Best for this PC
+Close
+Looking through the models that fit…
+Chosen from the models that fit, by quality and speed.
+Best overall
+Smartest
+Fastest
+The highest quality that still feels quick on this PC.
+The highest quality that still writes at reading pace.
+The quickest one that still answers well.
+{0} of {1} GB memory
+{0} GB memory
+Reads images
+Add to battle
+Added to Battle
+No well-known chat model fits this PC comfortably. Try the search below with a small size, like 1B or 3B.
+Search Hugging Face — qwen coder, vision, gemma, 7B…
+Fits this PC
+Show only models that fit this PC's memory
+Refresh
+Most downloads
+Most likes
+Recently updated
+GGUF and MLX
+Models from Hugging Face, sized against this PC. The card is a quick estimate;
+gives the exact answer.
+searching huggingface.co…
+{0} that fit this PC
+{0} models
+nothing that fits matched — turn off “Fits this PC” to see everything
+nothing matched — try a shorter query
+{0} of {1} memory
+{0} — more than the {1} this PC has
+tok/s est
+params
+downloads
+HF page
+size unknown — run a check
+Add a fighter — paste a Hugging Face link or name
+Add
+Choose models that fit
+Adding…
+Checking it against this PC
+No fighters yet.
+Add two or more models. They are scored on this PC: quality, speed, memory and context. A model that does not fit is knocked out, not refused.
+Winner
+points
+{0} points
+Share picture
+Round {0} · {1}
+Speed
+Memory
+and
+quality
+speed
+memory
+estimate · test every fighter to use real scores
+full points at 20 tok/s, 60% at reading pace (7)
+full points when it uses half of this PC's memory or less
+full points at 32K tokens usable here
+share of the 40-question quality test answered right, on this PC
+{0} of {1} · on this PC
+{0} · {1}
+{0} · {1} · {2}
+{0} · {1} · {2} · {3}
+reading pace
+fast
+slow
+speed unknown
+{0} tok/s est.
+{0} tok/s measured
+{0} of 100 est.
+{0} of 100
+{0}% tested
+quality {0}% tested
+quality {0} of 100 est.
+{0} → {1} of {2} points
+Knocked out
+Does not fit
+Does not fit: needs {0}, this PC has {1}.
+Fits, but tight
+Too slow
+Too tight and too slow
+Download · {0}
+A near tie: {0} points each, ahead by less than a point.
+{0} points against {1}.
+{0} points. The others do not fit this PC.
+It wins on {0}.
+It wins on the total, without winning a single round outright.
+It fits with room to spare and writes faster than you read.
+It fits and writes at reading pace or better.
+It is the best of these, but memory is tight: close other apps, or take a smaller version.
+It is the best of these, but slow here: a smaller version would write faster.
+No winner: none of these fit this PC.
+Try a smaller version of one of them, or a smaller model.
+How points work: quality 45, speed 30, memory 15, context 10, each on a fixed scale for this PC, so a score does not depend on the opponent.
+Quality here is real: the share of the 40-question test each model answered right on this PC.
+Quality is an estimate from model size, family and task fit, lowered for heavy compression.
+Download the fighters and use Test quality on each to fight on real scores.
+Speeds marked est. are estimates: download a model and use Measure speed to fight with its real number.
+Every speed here was measured on this PC.
+Choose models that fit this PC
+Search — qwen, coder, gemma, 7B…
+Done
+{0} of {1} in the battle
+Looking for models that fit this PC…
+{0} chat models that fit this PC, most downloaded first.
+{0} of {1} · {2} downloads
+In the battle
+Waiting…
+Battle is full
+Your models
+{0} file · {1}
+{0} files · {1}
+Folder
+{0} GB free
+Change folder…
+Open folder
+Compare your models
+Which of your downloaded models is best for this PC.
+Only one of your models is a chat model: download another to compare.
+Open in Battle
+Compare
+Compare again
+Checking each model against this PC.
+{0} is the best of your models for this PC.
+None of your models fits this PC.
+{0} model: not a chat model, so it does not fight
+{0} model: not a chat model, so it is left out
+Run
+Measure speed
+Measure again
+Test quality
+Test again
+Delete
+Running
+Loading…
+Stop
+Open chat
+quality {0}%
+measured
+Nothing downloaded yet.
+Stop the model first
+Delete {0} from disk?
+Deleted
+Stopped
+Could not delete it. Something still has the file open.
+Library refreshed
+Resume all
+Downloading
+Queued
+Paused
+Failed
+Cancelled
+Pause
+Resume
+Retry
+Discard
+Dismiss
+Cancel
+{0} downloaded
+Already in your library
+Checking this PC…
+Ready on this PC
+On this PC
+Not on this PC
+Running now
+Small download first
+Starts the model in its own window and opens a chat page in your browser. Close that window to stop it.
+Conversation length
+Longer remembers more of the chat and uses more memory.
+Run on
+The graphics chip is faster. The processor works when memory is short.
+Graphics
+Processor
+Show the command
+Start
+Adds this file to LM Studio's list of models. It is linked, not copied, so it takes no more disk space.
+Then open LM Studio, pick the model at the top and start typing.
+Add to LM Studio
+Get LM Studio
+Get Ollama
+Copy the command
+One command in a terminal. Ollama downloads its own copy of the model, so it needs the disk space a second time.
+Ollama is not on this PC yet.
+This does not look like a chat model (speech or embeddings). A chat program may refuse to load it.
+Loading the model into memory. Its chat page opens in your browser when it is ready.
+Added. Open LM Studio and pick it at the top.
+Speed preview
+Version
+Estimated pace · sample text
+Measured pace · sample text
+Play again
+Measure real speed
+Download {0}
+Perfect for this PC
+Writes faster than you read, with memory to spare.
+Good for this PC
+Fits comfortably and writes at about reading pace.
+Tight on this PC
+It runs, but uses almost all the memory. Close other apps first.
+Slow on this PC
+It fits, but writes slower than you read. A smaller version is faster.
+Tight and slow on this PC
+It uses almost all the memory and writes slower than you read. A smaller version is the better pick.
+Too big for this PC
+It needs {0} and this PC has {1}. Pick a smaller version.
+{0} memory
+{0} download
+A one-page answer takes about {0}.
+A one-page answer takes about {0} to {1}.
+An estimate. Download it to measure the real speed.
+Measured on this PC.
+On your disk. Run it once for the real speed.
+No speed estimate for this version.
+A local model writes its answer one small piece at a time. What you are reading now appears at about the speed this version is expected to reach on your computer, so you can judge it before spending the download. If the words arrive faster than you read them, long answers will feel comfortable. If you find yourself waiting for each word, pick a smaller version from the list above and watch the pace again.
+Measuring… run {0} of {1}
+Testing… question {0} of {1}
+Warming up…
+Another model is being measured
+The measurement failed
+The quality test failed
+GGUF versions
+One model comes as several files. Each stores a weight in fewer bits: a smaller file needs less memory and writes faster, and below about 4 bits the answers get worse quickly.
+Bits per weight
+8B model
+What to expect
+{0} bits
+The original. Q8 answers the same.
+As good as the original.
+Very close to the original.
+A small loss. A step up from Q4.
+The usual pick: best balance.
+Like Q4, a little smaller.
+A clear loss. When Q4 does not fit.
+Weak. For very large models only.
+Heavy loss. A last resort.
+Mostly broken. Avoid.
+Reading a name
+about 4 bits per weight
+spends more bits where they matter
+small, medium, large mix
+tuned with sample text: smaller at the same quality
+Bigger model first.
+A larger model at Q4 usually answers better than a smaller one at Q8.
+Leave room.
+The file is not all the memory: the conversation needs 1–2 GB on top.
+Below Q3, only big models.
+Small models fall apart at 2 bits.
+Got it
+Storage
+Model folder
+Change…
+Open in Explorer
+Where downloaded models are stored.
+Hugging Face access token (optional)
+Show
+Hide
+Save
+Saved
+Only required when downloading gated models that require user agreement on Hugging Face. Normal open models download with no token needed.
+Downloaded models (
+Unfinished downloads
+Free disk space
+Delete unfinished downloads
+Nothing to delete
+{0} model ({1})
+{0} models ({1})
+App
+Keep running in the tray when the window is closed
+Downloads continue in the background. When this is off, closing the window quits the app.
+Start with Windows
+Models Fit Studio starts in the tray when you sign in.
+Language
+The words in the app. Model names and commands stay as they are.
+Speed measurement
+llama.cpp is the engine that runs a model. It ships with the app, so measuring and running need no download. It draws on any graphics card, or on the processor alone. Measuring a model keeps its real speed, and the estimates for other models on this PC are then corrected by it.
+llama.cpp {0} is built in.
+The NVIDIA engine {0} is active.
+nothing measured yet
+{0} model measured
+{0} models measured
+{0} model measured · estimates corrected
+{0} models measured · estimates corrected
+NVIDIA's own engine is faster on NVIDIA cards. Once it is on this PC the app uses it by itself, and goes back to the built-in one if a model will not load with it.
+NVIDIA card found. The NVIDIA engine is active.
+NVIDIA card found. It runs on the built-in engine now; the NVIDIA engine is faster.
+Get the NVIDIA engine
+Remove the NVIDIA engine
+Downloading the NVIDIA engine…
+The NVIDIA engine is active
+Forget measured speeds
+Share my speeds…
+About
+Version {0}
+Models Fit Studio is made by
+. It is free to use, under the MIT licence.
+Theme
+Choose a theme
+Default
+Dark, lime accent
+Near-black, copper
+Light page, charcoal cards
+Frosted panels, yellow accent
+Clipboard is empty
+Re-scanning hardware…
+Paste a Hugging Face link first
+Could not analyse that
+Fits on the GPU — no Turbo needed
+{0} context
+{0} / month
+Hide the side panel
+Re-detect hardware
+Paste from clipboard
+Back to the model list
+A preview of the estimated writing speed on this PC. No model runs.
+Send this model into a battle against others, on this PC
+Skip the cache and pull the list from huggingface.co right now
+Sort results
+Filter by model format
+Remove from the battle
+Save this battle as a picture, and copy it to the clipboard
+Run this model on this PC
+Run this model once and keep its real speed on this PC
+Ask this model 40 questions with one right answer each, and keep its score
+Close (Esc)
+Bits and sizes are llama.cpp's own figures for an 8B model. "What to expect" is common guidance, not a measurement:
+shows what a version really loses on this PC.
+Smaller versions are faster and need less memory; larger ones answer better
+Check this model against this PC and see its files
+Run it with
+Share my speeds
+Downloading the NVIDIA engine… {0}%
+NVIDIA card found. Downloading its faster engine…
+Stopped. You can get the NVIDIA engine later in Settings.
+Smaller fits
+A smaller version fits: {0} of {1}
+Helper file
+A helper for another model (a draft or vision file), not a model to chat with.
+Runs slower
+Slower
+Runs, but slower
+{0} — over the {1} budget: runs slower, partly from system memory
+{0} needs {1}, more than the {2} budget.
+The rest runs from system memory, slower.
+Runs slower on this PC
+It is bigger than the memory budget, so part of it runs from system memory. A smaller version is faster.
+Runs slower, partly from system memory
+From zer0ne code
+This file is in zer0ne code's models folder. It is used from there, not copied.
+Delete {0} from disk? It is in zer0ne code's folder, so zer0ne code loses it too.

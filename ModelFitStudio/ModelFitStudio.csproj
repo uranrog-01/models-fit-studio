@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <!-- NotifyIcon for the system tray -->
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>Assets\app.ico</ApplicationIcon>
+    <AssemblyTitle>Models Fit Studio</AssemblyTitle>
+    <Product>Models Fit Studio</Product>
+    <Description>Check, benchmark and download local AI models.</Description>
+    <Version>3.16.1</Version>
+    <Authors>zer0ne</Authors>
+    <Company>zer0ne</Company>
+    <Copyright>Copyright (c) 2026 zer0ne. MIT licence.</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.4258.31" />
+    <!-- to find an agent server left behind by an earlier run, by its command line -->
+    <PackageReference Include="System.Management" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- also a Resource, so the window's own title bar can draw it -->
+    <Resource Include="Assets\app.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Content (not None) so the engine and the UI reach the publish folder too -->
+    <Content Include="tools\llmfit.exe" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="Always" />
+    <Content Include="tools\llmfit.exe" Link="llmfit.exe" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="Always" />
+    <!-- llama.cpp ships with the app, so measuring and running need no download -->
+    <Content Include="engine\**" Link="engine\%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="Always" />
+    <Content Include="THIRD-PARTY-NOTICES.txt" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="Always" />
+    <!-- the UI must ship with the app, not only exist in the source tree -->
+    <Content Include="Web\**" Link="Web\%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="Always" />
+  </ItemGroup>
+
+</Project>
+

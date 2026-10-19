@@ -1,0 +1,935 @@
+> A near tie: {0} points each, ahead by less than a point.
+zh 几乎打平：各得 {0} 分，领先不到 1 分。
+es Casi un empate: {0} puntos cada uno, con menos de un punto de ventaja.
+pt Quase um empate: {0} pontos cada, com menos de um ponto de vantagem.
+ru Почти ничья: по {0} очков, отрыв меньше одного очка.
+de Fast unentschieden: je {0} Punkte, weniger als ein Punkt Vorsprung.
+fr Presque une égalité : {0} points chacun, moins d'un point d'avance.
+ja ほぼ互角：どちらも {0} ポイントで、差は1ポイント未満。
+ko 거의 동점: 각각 {0}점, 1점 미만 차이로 앞섭니다.
+tr Neredeyse berabere: her biri {0} puan, fark bir puandan az.
+it Quasi pari: {0} punti ciascuno, meno di un punto di vantaggio.
+
+> {0} points against {1}.
+zh {0} 分对 {1} 分。
+es {0} puntos frente a {1}.
+pt {0} pontos contra {1}.
+ru {0} очков против {1}.
+de {0} Punkte gegen {1}.
+fr {0} points contre {1}.
+ja {0} ポイント対 {1}。
+ko {0}점 대 {1}점.
+tr {1} puana karşı {0} puan.
+it {0} punti contro {1}.
+
+> {0} points. The others do not fit this PC.
+zh {0} 分。其他模型这台电脑放不下。
+es {0} puntos. Los demás no caben en este PC.
+pt {0} pontos. Os outros não cabem neste PC.
+ru {0} очков. Остальные не помещаются на этом ПК.
+de {0} Punkte. Die anderen passen nicht auf diesen PC.
+fr {0} points. Les autres ne tiennent pas sur ce PC.
+ja {0} ポイント。ほかはこのPCに収まりません。
+ko {0}점. 나머지는 이 PC에 맞지 않습니다.
+tr {0} puan. Diğerleri bu bilgisayara sığmıyor.
+it {0} punti. Gli altri non entrano in questo PC.
+
+> It wins on {0}.
+zh 它在{0}上胜出。
+es Gana en {0}.
+pt Vence em {0}.
+ru Побеждает в категориях: {0}.
+de Es gewinnt bei {0}.
+fr Il l'emporte sur : {0}.
+ja {0}で勝っています。
+ko {0}에서 이깁니다.
+tr Şunlarda kazanıyor: {0}.
+it Vince su: {0}.
+
+> It wins on the total, without winning a single round outright.
+zh 它靠总分取胜，没有单独赢下任何一回合。
+es Gana por el total, sin ganar ningún asalto con claridad.
+pt Vence no total, sem ganhar nenhum round com folga.
+ru Побеждает по сумме, не выиграв явно ни одного раунда.
+de Es gewinnt in der Summe, ohne eine Runde klar zu gewinnen.
+fr Il l'emporte au total, sans gagner nettement une seule manche.
+ja 単独で勝ったラウンドはなく、合計点で勝っています。
+ko 어느 라운드도 확실히 이기지 않고 총점으로 이깁니다.
+tr Tek bir raundu açık farkla almadan toplamda kazanıyor.
+it Vince sul totale, senza vincere nettamente nessun round.
+
+> It fits with room to spare and writes faster than you read.
+zh 内存有余量，写得比你读得快。
+es Cabe con margen y escribe más rápido de lo que lees.
+pt Cabe com folga e escreve mais rápido do que você lê.
+ru Помещается с запасом и пишет быстрее, чем вы читаете.
+de Es passt mit Reserve und schreibt schneller, als Sie lesen.
+fr Il tient avec de la marge et écrit plus vite que vous ne lisez.
+ja 余裕を持って収まり、読むより速く書きます。
+ko 여유 있게 맞고, 읽는 것보다 빠르게 씁니다.
+tr Rahatça sığar ve sizin okuduğunuzdan hızlı yazar.
+it Ci sta con margine e scrive più veloce di quanto leggi.
+
+> It fits and writes at reading pace or better.
+zh 放得下，并且达到或超过阅读速度。
+es Cabe y escribe a ritmo de lectura o más rápido.
+pt Cabe e escreve em ritmo de leitura ou melhor.
+ru Помещается и пишет со скоростью чтения или быстрее.
+de Es passt und schreibt im Lesetempo oder schneller.
+fr Il tient et écrit au rythme de lecture ou plus vite.
+ja 収まり、読む速さ以上で書きます。
+ko 맞고, 읽는 속도 이상으로 씁니다.
+tr Sığar ve okuma hızında veya daha hızlı yazar.
+it Ci sta e scrive a ritmo di lettura o più veloce.
+
+> It is the best of these, but memory is tight: close other apps, or take a smaller version.
+zh 它是其中最好的，但内存吃紧：请关闭其他应用，或选更小的版本。
+es Es el mejor de estos, pero la memoria va justa: cierra otras apps o elige una versión más pequeña.
+pt É o melhor destes, mas a memória está no limite: feche outros apps ou escolha uma versão menor.
+ru Лучшая из этих, но памяти в обрез: закройте другие приложения или возьмите версию меньше.
+de Es ist das beste davon, aber der Speicher ist knapp: andere Apps schließen oder eine kleinere Version nehmen.
+fr C'est le meilleur du lot, mais la mémoire est juste : fermez d'autres applications ou prenez une version plus petite.
+ja この中では最良ですが、メモリがぎりぎりです。他のアプリを閉じるか、小さいバージョンを選んでください。
+ko 이 중 최고지만 메모리가 빠듯합니다. 다른 앱을 닫거나 더 작은 버전을 고르세요.
+tr Bunların en iyisi, ama bellek dar: diğer uygulamaları kapatın veya daha küçük bir sürüm alın.
+it È il migliore di questi, ma la memoria è al limite: chiudi altre app o scegli una versione più piccola.
+
+> It is the best of these, but slow here: a smaller version would write faster.
+zh 它是其中最好的，但在这里偏慢：更小的版本会写得更快。
+es Es el mejor de estos, pero aquí va lento: una versión más pequeña escribiría más rápido.
+pt É o melhor destes, mas lento aqui: uma versão menor escreveria mais rápido.
+ru Лучшая из этих, но здесь работает медленно: версия меньше писала бы быстрее.
+de Es ist das beste davon, aber hier langsam: Eine kleinere Version würde schneller schreiben.
+fr C'est le meilleur du lot, mais lent ici : une version plus petite écrirait plus vite.
+ja この中では最良ですが、ここでは遅めです。小さいバージョンのほうが速く書けます。
+ko 이 중 최고지만 여기서는 느립니다. 더 작은 버전이 더 빨리 씁니다.
+tr Bunların en iyisi, ama burada yavaş: daha küçük bir sürüm daha hızlı yazar.
+it È il migliore di questi, ma qui è lento: una versione più piccola scriverebbe più veloce.
+
+> No winner: none of these fit this PC.
+zh 没有胜者：这些模型这台电脑都放不下。
+es Sin ganador: ninguno cabe en este PC.
+pt Sem vencedor: nenhum cabe neste PC.
+ru Победителя нет: ни одна не помещается на этом ПК.
+de Kein Sieger: Keines davon passt auf diesen PC.
+fr Pas de vainqueur : aucun ne tient sur ce PC.
+ja 勝者なし：どれもこのPCに収まりません。
+ko 승자 없음: 이 PC에 맞는 모델이 없습니다.
+tr Kazanan yok: hiçbiri bu bilgisayara sığmıyor.
+it Nessun vincitore: nessuno entra in questo PC.
+
+> Try a smaller version of one of them, or a smaller model.
+zh 试试其中某个模型的较小版本，或更小的模型。
+es Prueba una versión más pequeña de alguno, o un modelo más pequeño.
+pt Tente uma versão menor de um deles, ou um modelo menor.
+ru Попробуйте версию меньше одной из них или модель меньше.
+de Versuchen Sie eine kleinere Version davon oder ein kleineres Modell.
+fr Essayez une version plus petite de l'un d'eux, ou un modèle plus petit.
+ja いずれかの小さいバージョンか、より小さいモデルを試してください。
+ko 그중 하나의 더 작은 버전이나 더 작은 모델을 시도해 보세요.
+tr Birinin daha küçük bir sürümünü veya daha küçük bir model deneyin.
+it Prova una versione più piccola di uno di essi, o un modello più piccolo.
+
+> How points work: quality 45, speed 30, memory 15, context 10, each on a fixed scale for this PC, so a score does not depend on the opponent.
+zh 计分方式：质量 45、速度 30、内存 15、上下文 10，各项按这台电脑的固定标准计分，因此得分与对手无关。
+es Cómo se puntúa: calidad 45, velocidad 30, memoria 15, contexto 10, cada uno en una escala fija para este PC, así que la puntuación no depende del rival.
+pt Como funcionam os pontos: qualidade 45, velocidade 30, memória 15, contexto 10, cada um em uma escala fixa para este PC, então a pontuação não depende do adversário.
+ru Как считаются очки: качество 45, скорость 30, память 15, контекст 10, каждое по фиксированной шкале для этого ПК, поэтому результат не зависит от соперника.
+de So werden Punkte vergeben: Qualität 45, Tempo 30, Speicher 15, Kontext 10, jeweils auf einer festen Skala für diesen PC, sodass ein Ergebnis nicht vom Gegner abhängt.
+fr Barème : qualité 45, vitesse 30, mémoire 15, contexte 10, chacun sur une échelle fixe pour ce PC, donc un score ne dépend pas de l'adversaire.
+ja 配点：品質45、速度30、メモリ15、コンテキスト10。いずれもこのPC向けの固定基準なので、スコアは対戦相手に左右されません。
+ko 점수 방식: 품질 45, 속도 30, 메모리 15, 컨텍스트 10. 각각 이 PC 기준의 고정 척도라서 점수는 상대에 좌우되지 않습니다.
+tr Puanlama: kalite 45, hız 30, bellek 15, bağlam 10; her biri bu bilgisayar için sabit bir ölçekte, bu yüzden puan rakibe bağlı değildir.
+it Come funzionano i punti: qualità 45, velocità 30, memoria 15, contesto 10, ciascuno su una scala fissa per questo PC, quindi un punteggio non dipende dall'avversario.
+
+> Quality here is real: the share of the 40-question test each model answered right on this PC.
+zh 这里的质量是真实的：每个模型在这台电脑上答对 40 题测试的比例。
+es Aquí la calidad es real: la parte de la prueba de 40 preguntas que cada modelo acertó en este PC.
+pt Aqui a qualidade é real: a parte do teste de 40 perguntas que cada modelo acertou neste PC.
+ru Здесь качество реальное: доля верных ответов каждой модели в тесте из 40 вопросов на этом ПК.
+de Die Qualität ist hier echt: der Anteil des 40-Fragen-Tests, den jedes Modell auf diesem PC richtig beantwortet hat.
+fr Ici la qualité est réelle : la part du test de 40 questions réussie par chaque modèle sur ce PC.
+ja ここでの品質は実測です：各モデルがこのPCで40問テストに正解した割合。
+ko 여기의 품질은 실제 값입니다: 각 모델이 이 PC에서 40문항 테스트를 맞힌 비율.
+tr Buradaki kalite gerçektir: her modelin bu bilgisayarda 40 soruluk testte doğru yanıtladığı oran.
+it Qui la qualità è reale: la quota del test da 40 domande a cui ogni modello ha risposto bene su questo PC.
+
+> Quality is an estimate from model size, family and task fit, lowered for heavy compression.
+zh 质量是根据模型规模、系列和任务适配度估算的，重度压缩会相应降低。
+es La calidad es una estimación según el tamaño del modelo, su familia y su adecuación a la tarea, reducida si la compresión es fuerte.
+pt A qualidade é uma estimativa a partir do tamanho do modelo, da família e da adequação à tarefa, reduzida em compressão pesada.
+ru Качество — оценка по размеру модели, семейству и соответствию задаче, сниженная при сильном сжатии.
+de Die Qualität ist eine Schätzung aus Modellgröße, Familie und Eignung für die Aufgabe, bei starker Kompression gesenkt.
+fr La qualité est une estimation d'après la taille du modèle, sa famille et son adéquation à la tâche, abaissée en cas de forte compression.
+ja 品質は、モデルの規模・系列・用途への適性からの推定で、強い圧縮の場合は下げています。
+ko 품질은 모델 크기, 계열, 작업 적합도로 추정하며, 강한 압축일수록 낮춥니다.
+tr Kalite; model boyutu, ailesi ve göreve uygunluğundan bir tahmindir, yoğun sıkıştırmada düşürülür.
+it La qualità è una stima da dimensione del modello, famiglia e adeguatezza al compito, ridotta in caso di forte compressione.
+
+> Download the fighters and use Test quality on each to fight on real scores.
+zh 下载各位选手并逐个“测试质量”，即可用真实得分对战。
+es Descarga los contendientes y usa «Probar calidad» en cada uno para competir con puntuaciones reales.
+pt Baixe os competidores e use «Testar qualidade» em cada um para disputar com pontuações reais.
+ru Скачайте бойцов и запустите «Тест качества» для каждого, чтобы сравнивать по реальным баллам.
+de Laden Sie die Kämpfer herunter und nutzen Sie bei jedem „Qualität testen“, um mit echten Werten anzutreten.
+fr Téléchargez les combattants et lancez « Tester la qualité » sur chacun pour concourir sur de vrais scores.
+ja ファイターをダウンロードし、それぞれ「品質をテスト」すると実スコアで戦えます。
+ko 선수들을 다운로드하고 각각 「품질 테스트」를 하면 실제 점수로 겨룹니다.
+tr Dövüşçüleri indirin ve gerçek puanlarla yarışmak için her birinde «Kaliteyi test et» kullanın.
+it Scarica gli sfidanti e usa «Testa qualità» su ciascuno per gareggiare con punteggi reali.
+
+> Speeds marked est. are estimates: download a model and use Measure speed to fight with its real number.
+zh 标有“估计”的速度是估算值：下载模型并“测量速度”，即可用真实数值对战。
+es Las velocidades marcadas est. son estimaciones: descarga un modelo y usa «Medir velocidad» para competir con su valor real.
+pt As velocidades marcadas est. são estimativas: baixe um modelo e use «Medir velocidade» para disputar com o valor real.
+ru Скорости с пометкой «оценка» — расчётные: скачайте модель и запустите «Измерить скорость», чтобы использовать реальное значение.
+de Mit „ca.“ markierte Tempi sind Schätzungen: Modell herunterladen und „Tempo messen“ nutzen, um mit dem echten Wert anzutreten.
+fr Les vitesses marquées est. sont des estimations : téléchargez un modèle et lancez « Mesurer la vitesse » pour concourir avec sa valeur réelle.
+ja 「推定」と付いた速度は見積もりです。モデルをダウンロードして「速度を計測」すると実測値で戦えます。
+ko 「예상」 표시가 있는 속도는 추정치입니다. 모델을 다운로드해 「속도 측정」을 하면 실제 값으로 겨룹니다.
+tr «tahmini» işaretli hızlar tahmindir: gerçek değerle yarışmak için bir modeli indirip «Hızı ölç» kullanın.
+it Le velocità segnate stim. sono stime: scarica un modello e usa «Misura velocità» per gareggiare con il valore reale.
+
+> Every speed here was measured on this PC.
+zh 这里的每个速度都是在这台电脑上实测的。
+es Todas las velocidades aquí se midieron en este PC.
+pt Todas as velocidades aqui foram medidas neste PC.
+ru Все скорости здесь измерены на этом ПК.
+de Jedes Tempo hier wurde auf diesem PC gemessen.
+fr Toutes les vitesses ici ont été mesurées sur ce PC.
+ja ここの速度はすべてこのPCで実測したものです。
+ko 여기의 모든 속도는 이 PC에서 측정했습니다.
+tr Buradaki tüm hızlar bu bilgisayarda ölçüldü.
+it Tutte le velocità qui sono state misurate su questo PC.
+
+> Choose models that fit this PC
+zh 选择这台电脑放得下的模型
+es Elige modelos que caben en este PC
+pt Escolha modelos que cabem neste PC
+ru Выберите модели, подходящие этому ПК
+de Modelle wählen, die auf diesen PC passen
+fr Choisissez des modèles qui tiennent sur ce PC
+ja このPCに収まるモデルを選ぶ
+ko 이 PC에 맞는 모델 고르기
+tr Bu bilgisayara sığan modelleri seçin
+it Scegli modelli compatibili con questo PC
+
+> Search — qwen, coder, gemma, 7B…
+zh 搜索：qwen、coder、gemma、7B…
+es Buscar: qwen, coder, gemma, 7B…
+pt Buscar: qwen, coder, gemma, 7B…
+ru Поиск: qwen, coder, gemma, 7B…
+de Suchen: qwen, coder, gemma, 7B…
+fr Rechercher : qwen, coder, gemma, 7B…
+ja 検索：qwen、coder、gemma、7B…
+ko 검색: qwen, coder, gemma, 7B…
+tr Ara: qwen, coder, gemma, 7B…
+it Cerca: qwen, coder, gemma, 7B…
+
+> Done
+zh 完成
+es Listo
+pt Pronto
+ru Готово
+de Fertig
+fr Terminé
+ja 完了
+ko 완료
+tr Tamam
+it Fatto
+
+> {0} of {1} in the battle
+zh 对战中 {0} / {1}
+es {0} de {1} en la batalla
+pt {0} de {1} na batalha
+ru В битве {0} из {1}
+de {0} von {1} im Duell
+fr {0} sur {1} dans le duel
+ja バトル中 {0} / {1}
+ko 배틀 중 {0} / {1}
+tr Düelloda {0} / {1}
+it {0} di {1} nella sfida
+
+> Looking for models that fit this PC…
+zh 正在查找这台电脑放得下的模型…
+es Buscando modelos que caben en este PC…
+pt Procurando modelos que cabem neste PC…
+ru Поиск моделей, подходящих этому ПК…
+de Passende Modelle für diesen PC werden gesucht…
+fr Recherche de modèles qui tiennent sur ce PC…
+ja このPCに収まるモデルを探しています…
+ko 이 PC에 맞는 모델을 찾는 중…
+tr Bu bilgisayara sığan modeller aranıyor…
+it Ricerca di modelli compatibili con questo PC…
+
+> {0} chat models that fit this PC, most downloaded first.
+zh {0} 个这台电脑放得下的对话模型，按下载量排序。
+es {0} modelos de chat que caben en este PC, primero los más descargados.
+pt {0} modelos de chat que cabem neste PC, os mais baixados primeiro.
+ru Чат-моделей, подходящих этому ПК: {0}, сначала самые скачиваемые.
+de {0} Chat-Modelle, die auf diesen PC passen, die meistgeladenen zuerst.
+fr {0} modèles de chat qui tiennent sur ce PC, les plus téléchargés d'abord.
+ja このPCに収まるチャットモデル {0} 件（ダウンロード数順）。
+ko 이 PC에 맞는 채팅 모델 {0}개, 다운로드 많은 순.
+tr Bu bilgisayara sığan {0} sohbet modeli, en çok indirilenler önce.
+it {0} modelli di chat compatibili con questo PC, prima i più scaricati.
+
+> {0} of {1} · {2} downloads
+zh {0} / {1} · {2} 次下载
+es {0} de {1} · {2} descargas
+pt {0} de {1} · {2} downloads
+ru {0} из {1} · загрузок: {2}
+de {0} von {1} · {2} Downloads
+fr {0} sur {1} · {2} téléchargements
+ja {0} / {1} · {2} ダウンロード
+ko {0} / {1} · 다운로드 {2}
+tr {0} / {1} · {2} indirme
+it {0} di {1} · {2} download
+
+> In the battle
+zh 已在对战中
+es En la batalla
+pt Na batalha
+ru В битве
+de Im Duell
+fr Dans le duel
+ja バトルに参加中
+ko 배틀 참가 중
+tr Düelloda
+it Nella sfida
+
+> Waiting…
+zh 等待中…
+es Esperando…
+pt Aguardando…
+ru Ожидание…
+de Wartet…
+fr En attente…
+ja 待機中…
+ko 대기 중…
+tr Bekliyor…
+it In attesa…
+
+> Battle is full
+zh 对战已满
+es La batalla está llena
+pt A batalha está cheia
+ru Битва заполнена
+de Duell ist voll
+fr Le duel est complet
+ja バトルは満員です
+ko 배틀이 가득 참
+tr Düello dolu
+it La sfida è piena
+
+> Your models
+zh 你的模型
+es Tus modelos
+pt Seus modelos
+ru Ваши модели
+de Ihre Modelle
+fr Vos modèles
+ja あなたのモデル
+ko 내 모델
+tr Modelleriniz
+it I tuoi modelli
+
+> {0} file · {1}
+zh {0} 个文件 · {1}
+es {0} archivo · {1}
+pt {0} arquivo · {1}
+ru Файлов: {0} · {1}
+de {0} Datei · {1}
+fr {0} fichier · {1}
+ja {0} ファイル · {1}
+ko 파일 {0}개 · {1}
+tr {0} dosya · {1}
+it {0} file · {1}
+
+> {0} files · {1}
+zh {0} 个文件 · {1}
+es {0} archivos · {1}
+pt {0} arquivos · {1}
+ru Файлов: {0} · {1}
+de {0} Dateien · {1}
+fr {0} fichiers · {1}
+ja {0} ファイル · {1}
+ko 파일 {0}개 · {1}
+tr {0} dosya · {1}
+it {0} file · {1}
+
+> Folder
+zh 文件夹
+es Carpeta
+pt Pasta
+ru Папка
+de Ordner
+fr Dossier
+ja フォルダー
+ko 폴더
+tr Klasör
+it Cartella
+
+> {0} GB free
+zh 剩余 {0} GB
+es {0} GB libres
+pt {0} GB livres
+ru свободно {0} ГБ
+de {0} GB frei
+fr {0} Go libres
+ja 空き {0} GB
+ko {0} GB 여유
+tr {0} GB boş
+it {0} GB liberi
+
+> Change folder…
+zh 更改文件夹…
+es Cambiar carpeta…
+pt Alterar pasta…
+ru Сменить папку…
+de Ordner ändern…
+fr Changer de dossier…
+ja フォルダーを変更…
+ko 폴더 변경…
+tr Klasörü değiştir…
+it Cambia cartella…
+
+> Open folder
+zh 打开文件夹
+es Abrir carpeta
+pt Abrir pasta
+ru Открыть папку
+de Ordner öffnen
+fr Ouvrir le dossier
+ja フォルダーを開く
+ko 폴더 열기
+tr Klasörü aç
+it Apri cartella
+
+> Compare your models
+zh 比较你的模型
+es Compara tus modelos
+pt Compare seus modelos
+ru Сравните свои модели
+de Ihre Modelle vergleichen
+fr Comparez vos modèles
+ja あなたのモデルを比較
+ko 내 모델 비교
+tr Modellerinizi karşılaştırın
+it Confronta i tuoi modelli
+
+> Which of your downloaded models is best for this PC.
+zh 你下载的模型中哪个最适合这台电脑。
+es Cuál de tus modelos descargados es el mejor para este PC.
+pt Qual dos seus modelos baixados é o melhor para este PC.
+ru Какая из скачанных моделей лучше всего подходит этому ПК.
+de Welches Ihrer heruntergeladenen Modelle für diesen PC am besten ist.
+fr Lequel de vos modèles téléchargés est le meilleur pour ce PC.
+ja ダウンロード済みのモデルのうち、このPCに最適なのはどれか。
+ko 다운로드한 모델 중 이 PC에 가장 좋은 것은 무엇인지.
+tr İndirdiğiniz modellerden hangisi bu bilgisayar için en iyisi.
+it Quale dei tuoi modelli scaricati è il migliore per questo PC.
+
+> Only one of your models is a chat model: download another to compare.
+zh 你只有一个对话模型：再下载一个才能比较。
+es Solo uno de tus modelos es de chat: descarga otro para comparar.
+pt Só um dos seus modelos é de chat: baixe outro para comparar.
+ru Только одна из ваших моделей — чат-модель: скачайте ещё одну для сравнения.
+de Nur eines Ihrer Modelle ist ein Chat-Modell: Laden Sie ein weiteres zum Vergleichen.
+fr Un seul de vos modèles est un modèle de chat : téléchargez-en un autre pour comparer.
+ja チャットモデルは1つだけです。比較するにはもう1つダウンロードしてください。
+ko 채팅 모델이 하나뿐입니다. 비교하려면 하나 더 다운로드하세요.
+tr Modellerinizden yalnızca biri sohbet modeli: karşılaştırmak için bir tane daha indirin.
+it Solo uno dei tuoi modelli è di chat: scaricane un altro per confrontare.
+
+> Open in Battle
+zh 在对战中打开
+es Abrir en Batalla
+pt Abrir na Batalha
+ru Открыть в битве
+de Im Duell öffnen
+fr Ouvrir dans Duel
+ja バトルで開く
+ko 배틀에서 열기
+tr Düelloda aç
+it Apri in Sfida
+
+> Compare
+zh 比较
+es Comparar
+pt Comparar
+ru Сравнить
+de Vergleichen
+fr Comparer
+ja 比較
+ko 비교
+tr Karşılaştır
+it Confronta
+
+> Compare again
+zh 重新比较
+es Comparar de nuevo
+pt Comparar de novo
+ru Сравнить снова
+de Erneut vergleichen
+fr Comparer à nouveau
+ja もう一度比較
+ko 다시 비교
+tr Yeniden karşılaştır
+it Confronta di nuovo
+
+> Checking each model against this PC.
+zh 正在逐个与这台电脑比对。
+es Comprobando cada modelo en este PC.
+pt Verificando cada modelo neste PC.
+ru Проверка каждой модели для этого ПК.
+de Jedes Modell wird für diesen PC geprüft.
+fr Vérification de chaque modèle sur ce PC.
+ja 各モデルをこのPCでチェックしています。
+ko 각 모델을 이 PC 기준으로 확인하는 중입니다.
+tr Her model bu bilgisayar için kontrol ediliyor.
+it Verifica di ogni modello su questo PC.
+
+> {0} is the best of your models for this PC.
+zh {0} 是你的模型中最适合这台电脑的。
+es {0} es el mejor de tus modelos para este PC.
+pt {0} é o melhor dos seus modelos para este PC.
+ru {0} — лучшая из ваших моделей для этого ПК.
+de {0} ist das beste Ihrer Modelle für diesen PC.
+fr {0} est le meilleur de vos modèles pour ce PC.
+ja {0} が、あなたのモデルの中でこのPCに最適です。
+ko {0}이(가) 내 모델 중 이 PC에 가장 좋습니다.
+tr {0}, modelleriniz arasında bu bilgisayar için en iyisi.
+it {0} è il migliore dei tuoi modelli per questo PC.
+
+> None of your models fits this PC.
+zh 你的模型这台电脑都放不下。
+es Ninguno de tus modelos cabe en este PC.
+pt Nenhum dos seus modelos cabe neste PC.
+ru Ни одна из ваших моделей не помещается на этом ПК.
+de Keines Ihrer Modelle passt auf diesen PC.
+fr Aucun de vos modèles ne tient sur ce PC.
+ja あなたのモデルはどれもこのPCに収まりません。
+ko 내 모델 중 이 PC에 맞는 것이 없습니다.
+tr Modellerinizden hiçbiri bu bilgisayara sığmıyor.
+it Nessuno dei tuoi modelli entra in questo PC.
+
+> {0} model: not a chat model, so it does not fight
+zh {0} 模型：不是对话模型，因此不参战
+es Modelo de {0}: no es de chat, así que no compite
+pt Modelo de {0}: não é de chat, então não disputa
+ru Модель «{0}»: не чат-модель, поэтому не участвует
+de {0}-Modell: kein Chat-Modell, tritt daher nicht an
+fr Modèle {0} : pas un modèle de chat, donc il ne concourt pas
+ja {0} モデル：チャットモデルではないため対象外
+ko {0} 모델: 채팅 모델이 아니라서 겨루지 않습니다
+tr {0} modeli: sohbet modeli değil, bu yüzden yarışmıyor
+it Modello {0}: non è di chat, quindi non gareggia
+
+> {0} model: not a chat model, so it is left out
+zh {0} 模型：不是对话模型，因此不计入
+es Modelo de {0}: no es de chat, así que se deja fuera
+pt Modelo de {0}: não é de chat, então fica de fora
+ru Модель «{0}»: не чат-модель, поэтому не учитывается
+de {0}-Modell: kein Chat-Modell, wird daher ausgelassen
+fr Modèle {0} : pas un modèle de chat, donc il est laissé de côté
+ja {0} モデル：チャットモデルではないため除外
+ko {0} 모델: 채팅 모델이 아니라서 제외됩니다
+tr {0} modeli: sohbet modeli değil, bu yüzden dışarıda bırakıldı
+it Modello {0}: non è di chat, quindi è escluso
+
+> Run
+zh 运行
+es Ejecutar
+pt Rodar
+ru Запустить
+de Starten
+fr Lancer
+ja 実行
+ko 실행
+tr Çalıştır
+it Esegui
+
+> Measure speed
+zh 测量速度
+es Medir velocidad
+pt Medir velocidade
+ru Измерить скорость
+de Tempo messen
+fr Mesurer la vitesse
+ja 速度を計測
+ko 속도 측정
+tr Hızı ölç
+it Misura velocità
+
+> Measure again
+zh 重新测量
+es Medir de nuevo
+pt Medir de novo
+ru Измерить снова
+de Erneut messen
+fr Mesurer à nouveau
+ja もう一度計測
+ko 다시 측정
+tr Yeniden ölç
+it Misura di nuovo
+
+> Test quality
+zh 测试质量
+es Probar calidad
+pt Testar qualidade
+ru Тест качества
+de Qualität testen
+fr Tester la qualité
+ja 品質をテスト
+ko 품질 테스트
+tr Kaliteyi test et
+it Testa qualità
+
+> Test again
+zh 重新测试
+es Probar de nuevo
+pt Testar de novo
+ru Тестировать снова
+de Erneut testen
+fr Tester à nouveau
+ja もう一度テスト
+ko 다시 테스트
+tr Yeniden test et
+it Testa di nuovo
+
+> Delete
+zh 删除
+es Eliminar
+pt Excluir
+ru Удалить
+de Löschen
+fr Supprimer
+ja 削除
+ko 삭제
+tr Sil
+it Elimina
+
+> Running
+zh 运行中
+es En marcha
+pt Rodando
+ru Работает
+de Läuft
+fr En cours
+ja 実行中
+ko 실행 중
+tr Çalışıyor
+it In esecuzione
+
+> Loading…
+zh 加载中…
+es Cargando…
+pt Carregando…
+ru Загрузка…
+de Lädt…
+fr Chargement…
+ja 読み込み中…
+ko 불러오는 중…
+tr Yükleniyor…
+it Caricamento…
+
+> Stop
+zh 停止
+es Detener
+pt Parar
+ru Остановить
+de Stoppen
+fr Arrêter
+ja 停止
+ko 중지
+tr Durdur
+it Ferma
+
+> Open chat
+zh 打开聊天
+es Abrir chat
+pt Abrir chat
+ru Открыть чат
+de Chat öffnen
+fr Ouvrir le chat
+ja チャットを開く
+ko 채팅 열기
+tr Sohbeti aç
+it Apri chat
+
+> quality {0}%
+zh 质量 {0}%
+es calidad {0}%
+pt qualidade {0}%
+ru качество {0}%
+de Qualität {0}%
+fr qualité {0}%
+ja 品質 {0}%
+ko 품질 {0}%
+tr kalite %{0}
+it qualità {0}%
+
+> measured
+zh 实测
+es medido
+pt medido
+ru измерено
+de gemessen
+fr mesuré
+ja 実測
+ko 측정됨
+tr ölçüldü
+it misurato
+
+> Nothing downloaded yet.
+zh 还没有下载任何模型。
+es Aún no hay nada descargado.
+pt Nada baixado ainda.
+ru Пока ничего не скачано.
+de Noch nichts heruntergeladen.
+fr Rien de téléchargé pour l'instant.
+ja まだ何もダウンロードしていません。
+ko 아직 다운로드한 것이 없습니다.
+tr Henüz hiçbir şey indirilmedi.
+it Ancora niente di scaricato.
+
+> Stop the model first
+zh 请先停止模型
+es Primero detén el modelo
+pt Pare o modelo primeiro
+ru Сначала остановите модель
+de Zuerst das Modell stoppen
+fr Arrêtez d'abord le modèle
+ja 先にモデルを停止してください
+ko 먼저 모델을 중지하세요
+tr Önce modeli durdurun
+it Ferma prima il modello
+
+> Delete {0} from disk?
+zh 从磁盘删除 {0}？
+es ¿Eliminar {0} del disco?
+pt Excluir {0} do disco?
+ru Удалить {0} с диска?
+de {0} von der Festplatte löschen?
+fr Supprimer {0} du disque ?
+ja {0} をディスクから削除しますか？
+ko {0}을(를) 디스크에서 삭제할까요?
+tr {0} diskten silinsin mi?
+it Eliminare {0} dal disco?
+
+> Deleted
+zh 已删除
+es Eliminado
+pt Excluído
+ru Удалено
+de Gelöscht
+fr Supprimé
+ja 削除しました
+ko 삭제됨
+tr Silindi
+it Eliminato
+
+> Stopped
+zh 已停止
+es Detenido
+pt Parado
+ru Остановлено
+de Gestoppt
+fr Arrêté
+ja 停止しました
+ko 중지됨
+tr Durduruldu
+it Fermato
+
+> Could not delete it. Something still has the file open.
+zh 无法删除。仍有程序在占用该文件。
+es No se pudo eliminar. Algo sigue usando el archivo.
+pt Não foi possível excluir. Algo ainda está usando o arquivo.
+ru Не удалось удалить. Файл всё ещё кем-то используется.
+de Löschen nicht möglich. Die Datei ist noch geöffnet.
+fr Suppression impossible. Le fichier est encore ouvert quelque part.
+ja 削除できませんでした。ファイルがまだ使用中です。
+ko 삭제하지 못했습니다. 파일이 아직 사용 중입니다.
+tr Silinemedi. Dosya hâlâ bir şey tarafından kullanılıyor.
+it Impossibile eliminarlo. Il file è ancora in uso.
+
+> Library refreshed
+zh 模型库已刷新
+es Biblioteca actualizada
+pt Biblioteca atualizada
+ru Библиотека обновлена
+de Bibliothek aktualisiert
+fr Bibliothèque actualisée
+ja ライブラリを更新しました
+ko 라이브러리를 새로고침했습니다
+tr Kitaplık yenilendi
+it Libreria aggiornata
+
+> Resume all
+zh 全部继续
+es Reanudar todo
+pt Retomar tudo
+ru Возобновить все
+de Alle fortsetzen
+fr Tout reprendre
+ja すべて再開
+ko 모두 이어받기
+tr Tümünü sürdür
+it Riprendi tutto
+
+> Downloading
+zh 下载中
+es Descargando
+pt Baixando
+ru Скачивается
+de Lädt herunter
+fr Téléchargement
+ja ダウンロード中
+ko 다운로드 중
+tr İndiriliyor
+it Download in corso
+
+> Queued
+zh 排队中
+es En cola
+pt Na fila
+ru В очереди
+de In Warteschlange
+fr En file d'attente
+ja 待機中
+ko 대기열
+tr Sırada
+it In coda
+
+> Paused
+zh 已暂停
+es En pausa
+pt Pausado
+ru Пауза
+de Pausiert
+fr En pause
+ja 一時停止
+ko 일시정지
+tr Duraklatıldı
+it In pausa
+
+> Failed
+zh 失败
+es Falló
+pt Falhou
+ru Ошибка
+de Fehlgeschlagen
+fr Échec
+ja 失敗
+ko 실패
+tr Başarısız
+it Non riuscito
+
+> Cancelled
+zh 已取消
+es Cancelado
+pt Cancelado
+ru Отменено
+de Abgebrochen
+fr Annulé
+ja キャンセル済み
+ko 취소됨
+tr İptal edildi
+it Annullato
+
+> Pause
+zh 暂停
+es Pausar
+pt Pausar
+ru Пауза
+de Pausieren
+fr Pause
+ja 一時停止
+ko 일시정지
+tr Duraklat
+it Pausa
+
+> Resume
+zh 继续
+es Reanudar
+pt Retomar
+ru Возобновить
+de Fortsetzen
+fr Reprendre
+ja 再開
+ko 이어받기
+tr Sürdür
+it Riprendi
+
+> Retry
+zh 重试
+es Reintentar
+pt Tentar de novo
+ru Повторить
+de Erneut versuchen
+fr Réessayer
+ja 再試行
+ko 다시 시도
+tr Yeniden dene
+it Riprova
+
+> Discard
+zh 丢弃
+es Descartar
+pt Descartar
+ru Отбросить
+de Verwerfen
+fr Abandonner
+ja 破棄
+ko 버리기
+tr At
+it Scarta
+
+> Dismiss
+zh 关闭
+es Descartar aviso
+pt Dispensar
+ru Скрыть
+de Ausblenden
+fr Ignorer
+ja 閉じる
+ko 닫기
+tr Kapat
+it Chiudi
+
+> Cancel
+zh 取消
+es Cancelar
+pt Cancelar
+ru Отмена
+de Abbrechen
+fr Annuler
+ja キャンセル
+ko 취소
+tr İptal
+it Annulla
+
+> {0} downloaded
+zh {0} 已下载
+es {0} descargado
+pt {0} baixado
+ru {0} скачан
+de {0} heruntergeladen
+fr {0} téléchargé
+ja {0} をダウンロードしました
+ko {0} 다운로드 완료
+tr {0} indirildi
+it {0} scaricato
+
+> Already in your library
+zh 已在你的模型库中
+es Ya está en tu biblioteca
+pt Já está na sua biblioteca
+ru Уже в вашей библиотеке
+de Bereits in Ihrer Bibliothek
+fr Déjà dans votre bibliothèque
+ja すでにライブラリにあります
+ko 이미 라이브러리에 있습니다
+tr Zaten kitaplığınızda
+it Già nella tua libreria

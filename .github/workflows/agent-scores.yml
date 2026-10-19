@@ -1,0 +1,77 @@
+# Adds a "Best for agents" result to community/agents.json when someone posts the issue
+# Models Fit Studio fills in for them (title starting with "[agent-score]"). The app reads that
+# file to show what others measured on the same graphics chip.
+name: Agent scores
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: agent-scores
+  cancel-in-progress: false
+
+jobs:
+  add:
+    if: startsWith(github.event.issue.title, '[agent-score]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the result and add it
+        id: add
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = context.payload.issue.body || '';
+            const say = (text) => github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number, body: text });
+            const m = body.match(/```json\s*([\s\S]*?)```/);
+            if (!m) { await say('Could not add this result: there is no JSON block in the issue.'); return; }
+            let r;
+            try { r = JSON.parse(m[1]); } catch { await say('Could not add this result: its JSON does not parse.'); return; }
+
+            const text = (v, max = 120) => typeof v === 'string' && v.length > 0 && v.length <= max;
+            const num = (v, lo, hi) => typeof v === 'number' && Number.isFinite(v) && v >= lo && v <= hi;
+            const ok = r.v === 1 && text(r.gpu) && text(r.file) && typeof r.repo === 'string' && r.repo.length <= 120 &&
+              num(r.readSeconds, 0.1, 3600) && num(r.writeTps, 0, 2000) && num(r.ramGb, 0, 8192) && num(r.points, 0, 100) &&
+              Number.isInteger(r.correct) && Number.isInteger(r.total) && r.total === 10 && r.correct >= 0 && r.correct <= r.total;
+            if (!ok) { await say('Could not add this result: a value is missing or out of range.'); return; }
+
+            const path = 'community/agents.json';
+            const list = fs.existsSync(path) ? JSON.parse(fs.readFileSync(path, 'utf8')) : [];
+            const entry = {
+              gpu: r.gpu, gpuClass: String(r.gpuClass || '').slice(0, 40), ramGb: r.ramGb,
+              repo: r.repo, file: r.file, sizeGb: Number(r.sizeGb) || 0,
+              readSeconds: r.readSeconds, writeTps: r.writeTps, correct: r.correct, total: r.total, points: r.points,
+              thinking: !!r.thinking, engine: String(r.engine || '').slice(0, 40), app: String(r.app || '').slice(0, 20),
+              issue: context.issue.number, at: new Date().toISOString().slice(0, 10),
+            };
+            // an edited issue replaces its earlier entry
+            const next = list.filter(e => e.issue !== context.issue.number);
+            next.push(entry);
+            fs.writeFileSync(path, JSON.stringify(next, null, 1) + '\n');
+            core.setOutput('added', 'yes');
+
+      - name: Save the list
+        if: steps.add.outputs.added == 'yes'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add community/agents.json
+          git commit -m "Agent score from #${{ github.event.issue.number }}" || exit 0
+          git push
+
+      - name: Thank and close
+        if: steps.add.outputs.added == 'yes'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.addLabels({ ...context.repo, issue_number: context.issue.number, labels: ['agent-score'] });
+            await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number,
+              body: 'Thank you! Your result is in the shared list; Models Fit Studio shows it to people with the same graphics chip.' });
+            await github.rest.issues.update({ ...context.repo, issue_number: context.issue.number, state: 'closed' });
